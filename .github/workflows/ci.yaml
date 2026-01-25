@@ -1,0 +1,29 @@
+﻿name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate Addon Config
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate hamh config
+        uses: home-assistant/actions/helpers/addon-info@master
+        with:
+          addon: hamh
+
+      - name: Validate hamh-beta config
+        uses: home-assistant/actions/helpers/addon-info@master
+        with:
+          addon: hamh-beta
+
+      - name: Validate hamh76 config
+        uses: home-assistant/actions/helpers/addon-info@master
+        with:
+          addon: hamh76

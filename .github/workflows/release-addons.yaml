@@ -1,14 +1,30 @@
-name: Release Home-Assistant-Matter-Hub
+﻿name: Release Home-Assistant-Matter-Hub
+
 on:
   repository_dispatch:
-    event_name: release
-# client_payload:
+    types: [release]
+  workflow_dispatch:
+    inputs:
+      project:
+        description: 'Project to release (hamh, hamh-beta)'
+        required: true
+        default: 'hamh'
+      version:
+        description: 'Version to release'
+        required: true
+      channel:
+        description: 'Release channel'
+        required: true
+        default: 'latest'
+      changelogUrl:
+        description: 'URL to changelog file'
+        required: false
+
+# client_payload from repository_dispatch:
 #   project: "hamh"
-#   channel: "latest" | "beta" | "alpha"
-#   version: "3.0.0-alpha.33"
+#   channel: "latest" | "beta"
+#   version: "3.0.0"
 #   changelogUrl: "https://..."
-
-
 
 jobs:
   release:
@@ -19,40 +35,73 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Get Version
+
+      - name: Parse Event
         id: event_parser
         run: |
-          PROJECT="${{ github.event.client_payload.project }}"
-          CHANNEL="${{ github.event.client_payload.channel }}"
+          # Handle both repository_dispatch and workflow_dispatch
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            PROJECT="${{ github.event.client_payload.project }}"
+            CHANNEL="${{ github.event.client_payload.channel }}"
+            VERSION="${{ github.event.client_payload.version }}"
+            CHANGELOG_URL="${{ github.event.client_payload.changelogUrl }}"
+          else
+            PROJECT="${{ github.event.inputs.project }}"
+            CHANNEL="${{ github.event.inputs.channel }}"
+            VERSION="${{ github.event.inputs.version }}"
+            CHANGELOG_URL="${{ github.event.inputs.changelogUrl }}"
+          fi
+
+          # Append channel to project name if not latest
           if [ "$CHANNEL" != "latest" ]; then
             PROJECT="$PROJECT-$CHANNEL"
           fi
 
           echo "project=$PROJECT" >> "$GITHUB_OUTPUT"
           echo "channel=$CHANNEL" >> "$GITHUB_OUTPUT"
-          echo "version=${{ github.event.client_payload.version }}" >> "$GITHUB_OUTPUT"
-          echo "changelogUrl=${{ github.event.client_payload.changelogUrl }}" >> "$GITHUB_OUTPUT"
-          
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "changelogUrl=$CHANGELOG_URL" >> "$GITHUB_OUTPUT"
+
           if [ ! -d "$PROJECT" ]; then
-            echo "No Project: $PROJECT"
+            echo "Error: Project directory '$PROJECT' does not exist"
             exit 1
           fi
-      - run: |
+
+          echo "Releasing $PROJECT version $VERSION (channel: $CHANNEL)"
+
+      - name: Configure Git
+        run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-      - name: Copy Changelog
+
+      - name: Download and Update Changelog
+        if: steps.event_parser.outputs.changelogUrl != ''
         env:
-          CHANGELOG_FILE: ${{steps.event_parser.outputs.project}}/CHANGELOG.md
+          CHANGELOG_FILE: ${{ steps.event_parser.outputs.project }}/CHANGELOG.md
         run: |
           curl -L "${{ steps.event_parser.outputs.changelogUrl }}" > $CHANGELOG_FILE
           git add $CHANGELOG_FILE
-      - name: Apply release version
+
+      - name: Update Version in config.yaml
         env:
-          CONFIG_FILE: ${{steps.event_parser.outputs.project}}/config.yaml
+          CONFIG_FILE: ${{ steps.event_parser.outputs.project }}/config.yaml
         run: |
           yq -i ".version = \"${{ steps.event_parser.outputs.version }}\"" $CONFIG_FILE
           git add $CONFIG_FILE
-      - name: Publish
+
+      - name: Commit and Push
         run: |
-          git commit -m "bumb(${{steps.event_parser.outputs.project}}): bumb to version ${{ steps.event_parser.outputs.version }}"
+          git commit -m "release(${{ steps.event_parser.outputs.project }}): ${{ steps.event_parser.outputs.version }}"
           git push origin main
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.event_parser.outputs.project }}-${{ steps.event_parser.outputs.version }}
+          name: ${{ steps.event_parser.outputs.project }} ${{ steps.event_parser.outputs.version }}
+          body: |
+            Release of ${{ steps.event_parser.outputs.project }} version ${{ steps.event_parser.outputs.version }}
+            
+            See the main project for detailed changelog:
+            https://github.com/riddix/home-assistant-matter-hub/releases
+          generate_release_notes: false
