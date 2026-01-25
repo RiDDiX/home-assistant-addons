@@ -13,17 +13,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
       - name: Validate hamh config
-        uses: home-assistant/actions/helpers/addon-info@master
-        with:
-          addon: hamh
+        run: |
+          echo "Validating hamh/config.yaml..."
+          yq eval '.' hamh/config.yaml > /dev/null
+          echo " hamh config is valid YAML"
 
       - name: Validate hamh-beta config
-        uses: home-assistant/actions/helpers/addon-info@master
-        with:
-          addon: hamh-beta
+        run: |
+          echo "Validating hamh-beta/config.yaml..."
+          yq eval '.' hamh-beta/config.yaml > /dev/null
+          echo " hamh-beta config is valid YAML"
 
       - name: Validate hamh76 config
-        uses: home-assistant/actions/helpers/addon-info@master
-        with:
-          addon: hamh76
+        run: |
+          echo "Validating hamh76/config.yaml..."
+          yq eval '.' hamh76/config.yaml > /dev/null
+          echo " hamh76 config is valid YAML"
+
+      - name: Validate repository.yaml
+        run: |
+          echo "Validating repository.yaml..."
+          yq eval '.' repository.yaml > /dev/null
+          echo " repository.yaml is valid YAML"
+
+      - name: Check required fields
+        run: |
+          for addon in hamh hamh-beta hamh76; do
+            echo "Checking $addon required fields..."
+            yq eval '.name' $addon/config.yaml > /dev/null || (echo "Missing name in $addon" && exit 1)
+            yq eval '.version' $addon/config.yaml > /dev/null || (echo "Missing version in $addon" && exit 1)
+            yq eval '.slug' $addon/config.yaml > /dev/null || (echo "Missing slug in $addon" && exit 1)
+            yq eval '.arch' $addon/config.yaml > /dev/null || (echo "Missing arch in $addon" && exit 1)
+            echo " $addon has all required fields"
+          done
