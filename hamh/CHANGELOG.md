@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.1.2...v1.1.3) (2026-01-25)
+
+
+### Bug Fixes
+
+* **docker:** add tini for proper signal handling ([244800d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/244800d8d52e80e7760d0f99981b66f20c7a1c13))
+
 ## [1.1.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.1.1...v1.1.2) (2026-01-25)
 
 
