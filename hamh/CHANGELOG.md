@@ -1,3 +1,23 @@
+# [1.3.0](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.2.0...v1.3.0) (2026-01-25)
+
+
+### Bug Fixes
+
+* **docs:** add base_url for GitHub Pages deployment ([d4e589e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d4e589e519b7fb97e5a75a91e0ca15ae477f2c15))
+* pin Node.js to 22.13.1 for armv7 Docker support ([5be5e97](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5be5e9762375b95b9db0f9c1869d3c20f1183c85))
+
+
+### Features
+
+* drop armv7 support, upgrade to Node 24 ([0b53cc6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0b53cc67aaadcc1b375e04cf7ed8ae6df5068108))
+
+# [1.2.0](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.1.3...v1.2.0) (2026-01-25)
+
+
+### Features
+
+* graceful handling of entities with too long IDs ([6580cdd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6580cdd5df4a54557302f26e594f741540a67a72))
+
 ## [1.1.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.1.2...v1.1.3) (2026-01-25)
 
 
