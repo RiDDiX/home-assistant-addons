@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.1...v1.4.2) (2026-01-26)
+
+
+### Bug Fixes
+
+* add environment config for GitHub Pages deployment ([d62d40c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d62d40c1a6b1c6b1fa723c4d1b563da30ec6630c))
+
 ## [1.4.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.0...v1.4.1) (2026-01-26)
 
 
