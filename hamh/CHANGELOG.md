@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.5...v1.4.6) (2026-01-26)
+
+
+### Bug Fixes
+
+* correct unit mismatch in thermostat deadband (0.1°C vs 0.01°C) ([745e913](https://github.com/RiDDiX/home-assistant-matter-hub/commit/745e913614191f255a5ecefd97f9114a2fd225fb))
+
 ## [1.4.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.4...v1.4.5) (2026-01-26)
 
 
