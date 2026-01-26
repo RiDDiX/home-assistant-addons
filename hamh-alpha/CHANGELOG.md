@@ -1,3 +1,10 @@
+# [1.5.0-alpha.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.2...v1.5.0-alpha.3) (2026-01-26)
+
+
+### Features
+
+* complete entity mapping UI integration ([48d0ace](https://github.com/RiDDiX/home-assistant-matter-hub/commit/48d0ace72d6ad63546ec3761ce00babb53614f67))
+
 # [1.5.0-alpha.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.1...v1.5.0-alpha.2) (2026-01-26)
 
 
