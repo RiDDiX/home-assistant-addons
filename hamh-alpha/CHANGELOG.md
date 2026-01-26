@@ -1,3 +1,12 @@
+# [1.5.0-alpha.20](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.19...v1.5.0-alpha.20) (2026-01-26)
+
+
+### Bug Fixes
+
+* **humidity-sensor:** add minMeasuredValue/maxMeasuredValue limits (0-100%) ([30c94de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30c94de))
+* **light:** fix color temperature lights being exposed as ExtendedColorLight - now uses only supported_color_modes ([30c94de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30c94de))
+* **media-player:** add power on/off control (turn_on/turn_off) when supported, fallback to mute control ([30c94de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30c94de))
+
 # [1.5.0-alpha.19](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.18...v1.5.0-alpha.19) (2026-01-26)
 
 
