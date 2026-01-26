@@ -1,3 +1,10 @@
+## [1.7.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.3...v1.7.4) (2026-01-26)
+
+
+### Bug Fixes
+
+* move super.initialize() to beginning in rvc behavior servers ([734461c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/734461caa922dcafde08ad3ea6974d5c5dda3710))
+
 ## [1.7.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.2...v1.7.3) (2026-01-26)
 
 
