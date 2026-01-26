@@ -1,3 +1,10 @@
+# [1.5.0-alpha.11](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.10...v1.5.0-alpha.11) (2026-01-26)
+
+
+### Bug Fixes
+
+* StatusIndicator health API structure mismatch ([5b43fbb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5b43fbb9e3670729e1fff2f853092de54c563442))
+
 # [1.5.0-alpha.10](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.9...v1.5.0-alpha.10) (2026-01-26)
 
 
