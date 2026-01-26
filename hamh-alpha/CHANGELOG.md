@@ -1,3 +1,10 @@
+# [2.0.0-alpha.9](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.8...v2.0.0-alpha.9) (2026-01-26)
+
+
+### Bug Fixes
+
+* return minimum level instead of null for humidifier controller compatibility ([dfb36a7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dfb36a72afdea48e5c89b8d6781fefbe09d7b553))
+
 # [2.0.0-alpha.8](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.7...v2.0.0-alpha.8) (2026-01-26)
 
 
