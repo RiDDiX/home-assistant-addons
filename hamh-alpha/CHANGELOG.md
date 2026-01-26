@@ -1,3 +1,10 @@
+# [1.5.0-alpha.8](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.7...v1.5.0-alpha.8) (2026-01-26)
+
+
+### Bug Fixes
+
+* add null checks in StatusIndicator to prevent crash ([e64b9a6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e64b9a6630b93e70667636b524451ef729abe3b9))
+
 # [1.5.0-alpha.7](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.6...v1.5.0-alpha.7) (2026-01-26)
 
 
