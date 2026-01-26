@@ -1,3 +1,21 @@
+# [1.5.0-alpha.7](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.6...v1.5.0-alpha.7) (2026-01-26)
+
+
+### Bug Fixes
+
+* add smokeCoAlarm to ClusterId enum ([868558c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/868558ce11a5824c0c57c616bc54d99c1a66f736))
+* correct API URLs for Home Assistant ingress support ([8d6a8b5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8d6a8b58d93692918d1cd7b89ed27019fe022001))
+
+
+### Features
+
+* add Smoke/CO Alarm device type and update entity mappings ([5d405e4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5d405e4112740e9c8ffc6104e43f39e2babc31e6))
+
+
+### Performance Improvements
+
+* parallelize state updates for faster Alexa/Google Home response ([dea2e62](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dea2e626d6eb812e5290deadaa03104c867f3190))
+
 # [1.5.0-alpha.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.5...v1.5.0-alpha.6) (2026-01-26)
 
 
