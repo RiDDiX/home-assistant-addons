@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.4...v1.4.5) (2026-01-26)
+
+
+### Bug Fixes
+
+* minSetpointDeadBand int8 overflow (250 -> 25) ([e929dd7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e929dd7da8535ca2321e618efc311617f7044957))
+
 ## [1.4.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.3...v1.4.4) (2026-01-26)
 
 
