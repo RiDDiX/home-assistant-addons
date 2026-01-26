@@ -1,3 +1,10 @@
+# [2.0.0-alpha.12](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.11...v2.0.0-alpha.12) (2026-01-26)
+
+
+### Bug Fixes
+
+* separate Smoke and CO alarm types to prevent duplicate sensors ([#7](https://github.com/RiDDiX/home-assistant-matter-hub/issues/7)) ([53e7d03](https://github.com/RiDDiX/home-assistant-matter-hub/commit/53e7d031630701e730fe45717309e77b6f0607c1))
+
 # [2.0.0-alpha.11](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.10...v2.0.0-alpha.11) (2026-01-26)
 
 
