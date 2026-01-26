@@ -1,11 +1,16 @@
+# [1.5.0-alpha.21](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.20...v1.5.0-alpha.21) (2026-01-26)
+
+
+### Bug Fixes
+
+* cover position comparison, thermostat offline status, valve actions ([4388383](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4388383710f874b1aac9f3f8a7ff3022481c5d81))
+
 # [1.5.0-alpha.20](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.19...v1.5.0-alpha.20) (2026-01-26)
 
 
 ### Bug Fixes
 
-* **humidity-sensor:** add minMeasuredValue/maxMeasuredValue limits (0-100%) ([30c94de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30c94de))
-* **light:** fix color temperature lights being exposed as ExtendedColorLight - now uses only supported_color_modes ([30c94de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30c94de))
-* **media-player:** add power on/off control (turn_on/turn_off) when supported, fallback to mute control ([30c94de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30c94de))
+* improve humidity sensor limits, light type detection, and media player power control ([30c94de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30c94ded8af39c360062ec5fd5293ebb18f0fba7))
 
 # [1.5.0-alpha.19](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.18...v1.5.0-alpha.19) (2026-01-26)
 
@@ -13,10 +18,6 @@
 ### Bug Fixes
 
 * correct unit mismatch in thermostat deadband (0.1°C vs 0.01°C) ([7b88ee3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7b88ee33d51416c7798c94e515471354511f1fe4))
-
-### Thanks
-
-* 🙏 **[@hugo1721](https://github.com/hugo1721)** for reporting the thermostat boot loop issue ([#2](https://github.com/RiDDiX/home-assistant-matter-hub/issues/2))
 
 # [1.5.0-alpha.18](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.17...v1.5.0-alpha.18) (2026-01-26)
 
@@ -449,6 +450,7 @@
 * project setup and complete migration ([51301ac](https://github.com/RiDDiX/home-assistant-matter-hub/commit/51301ac33e023925ab25fbaf994f7bb1e30e5e3a))
 * **sensor:** Add illuminance sensor type ([#758](https://github.com/RiDDiX/home-assistant-matter-hub/issues/758)) ([67ec42b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/67ec42bcd2e2be06d6ced32bbad60e111c147034))
 * show version number in app title ([70bdca8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/70bdca89f98b8ab9afac2da7256f98f7772c9390)), closes [#38](https://github.com/RiDDiX/home-assistant-matter-hub/issues/38)
+* Taking a Holiday Break – See You in the New Year! ([86bea0a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/86bea0ae57c7bcf747dec24046aa947bc37aa925))
 * use custom homeAssistantBehavior for better state management ([6e0f862](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6e0f86246d4393cd77fcb64b3a40dd6af07c79f1))
 * Use device area if available for entities that have no area directly set ([#403](https://github.com/RiDDiX/home-assistant-matter-hub/issues/403)) ([bda867e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bda867e11f53e605d652269af4792f3266b8867e))
 * **vacuum:** add basic support for vacuums (RVC) ([9021b7b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9021b7bc579535cb59f3cc832f2fce438c986f54))
@@ -456,14 +458,15 @@
 
 ### BREAKING CHANGES
 
-* **sensors:** Some sensors like water leak or occupancy may behave differently. Verify your automations in Alexa, Apple Home, Google Home.
-* **basic-information-server:** Controllers may not match existing devices and re-pair them. You may need to reassign devices to rooms and automations.
-* **thermostat:** Auto mode from Home Assistant is no longer supported for climates/thermostats. Heat/Cool from HA is mapped to AutoMode in Matter.
-* **ingress:** The native addon (HAOS) uses Home Assistant ingress. Direct port access is no longer available.
-
----
-
-### Note about this Fork
-
-This is the **RiDDiX fork** of home-assistant-matter-hub, actively maintained with new features and bug fixes. 
-For issues and discussions, please visit: https://github.com/RiDDiX/home-assistant-matter-hub
+* This could affect some sensors like water leak or occupancy. Make sure to verify your automations in Alexa, Apple Home, Google Home and others.
+* MAINTAINER WANTED! This project is currently **looking for a new maintainer**. Due to limited time, I can no longer actively maintain it. If you are interested in taking over or co-maintaining, please reach out via GitHub Discussions (#825).
+* Due to the growing code base and its complexity, I've decided to simplify the application by removing non-compliant workarounds.
+* Almost every aspect of the device implementations were touched. I've tried to test as much as possible locally until everything was back working. But since there are so many edge cases in different devices, I probably couldn't verify everything.
+* **basic-information-server:** It can happen, that your controller (Alexa, Google Home, etc.) doesn't match your existing devices and re-pairs all of them. In that case, you'll need to assign the devices to rooms and automations again.
+* As the holiday season approaches and my main job keeps me busy, I haven’t been able to dedicate as much time to this project as I’d like. Over the holidays, I’ll be taking a well-deserved break to recharge. That said, if an opportunity arises, I’ll try to answer a few questions or review a pull request via my phone. I’m looking forward to returning refreshed and motivated in the new year. Thank you for your understanding and continued support! Happy holidays!
+* **thermostat:** Auto mode from Home Assistant is no longer supported for climates / thermostats. It just doesn't fit into the Matter specification.
+Instead, Heat/Cool from Home Assistant is mapped to AutoMode in Matter.
+I tried to test as much as possible, but since I don't have any physical climate I needed to use GenericThermostat and BetterThermostat to make virtual climates.
+My testings were therefore limited to simple tests with simple climates. This change could break existing behaviors.
+Please provide feedback what is working as expected, and what isn't (https://github.com/t0bst4r/home-assistant-matter-hub/discussions/261).
+* The native addon (HAOS) will use Home Assistant ingress from now on. Direct access via the port will no longer be possible.
