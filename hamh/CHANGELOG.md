@@ -3,9 +3,7 @@
 
 ### Bug Fixes
 
-* **humidity-sensor:** add minMeasuredValue/maxMeasuredValue limits (0-100%) ([ee0c803](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ee0c803))
-* **light:** fix color temperature lights being exposed as ExtendedColorLight - now uses only supported_color_modes ([ee0c803](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ee0c803))
-* **media-player:** add power on/off control (turn_on/turn_off) when supported, fallback to mute control ([ee0c803](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ee0c803))
+* improve humidity sensor limits, light type detection, and media player power control ([ee0c803](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ee0c803b435dc155dffba879459cd6c7131363e4))
 
 ## [1.4.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.5...v1.4.6) (2026-01-26)
 
@@ -13,10 +11,6 @@
 ### Bug Fixes
 
 * correct unit mismatch in thermostat deadband (0.1°C vs 0.01°C) ([745e913](https://github.com/RiDDiX/home-assistant-matter-hub/commit/745e913614191f255a5ecefd97f9114a2fd225fb))
-
-### Thanks
-
-* 🙏 **[@hugo1721](https://github.com/hugo1721)** for reporting the thermostat boot loop issue ([#2](https://github.com/RiDDiX/home-assistant-matter-hub/issues/2))
 
 ## [1.4.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.4...v1.4.5) (2026-01-26)
 
