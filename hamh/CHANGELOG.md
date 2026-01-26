@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.0...v1.7.1) (2026-01-26)
+
+
+### Bug Fixes
+
+* return minimum level instead of null for controller compatibility (lights, humidifier) ([682677a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/682677acee6e49cc4ac3ac43f56bb13b94e938f4))
+
 # [1.7.0](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.6.2...v1.7.0) (2026-01-26)
 
 
