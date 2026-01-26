@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.0...v1.4.1) (2026-01-26)
+
+
+### Bug Fixes
+
+* add explicit docs build step with BASE_URL env for GitHub Pages ([1cd2593](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1cd2593fa7bd611bb8aabe76d41eda830d71d4e3))
+
 # [1.4.0](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.3.1...v1.4.0) (2026-01-26)
 
 
