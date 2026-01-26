@@ -1,3 +1,10 @@
+# [2.0.0-alpha.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.1...v2.0.0-alpha.2) (2026-01-26)
+
+
+### Features
+
+* improve Fan speed control, add Media Player playback ([0de6198](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0de6198ffb1c4922393e1bb8c190ceffeb613c5c))
+
 # [2.0.0-alpha.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.22...v2.0.0-alpha.1) (2026-01-26)
 
 
