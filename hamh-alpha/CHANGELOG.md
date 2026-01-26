@@ -1,3 +1,10 @@
+# [1.5.0-alpha.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.5...v1.5.0-alpha.6) (2026-01-26)
+
+
+### Features
+
+* add WebSocket live updates and status indicator ([227edc8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/227edc804da5e618ccef27a1f2e01796316de437))
+
 # [1.5.0-alpha.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.4...v1.5.0-alpha.5) (2026-01-26)
 
 
