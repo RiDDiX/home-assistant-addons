@@ -1,4 +1,4 @@
-version: "1.5.0-alpha.17"
+version: "1.5.0-alpha.18"
 image: ghcr.io/riddix/home-assistant-matter-hub-addon
 slug: hamh-alpha
 name: Home-Assistant-Matter-Hub (Alpha)
