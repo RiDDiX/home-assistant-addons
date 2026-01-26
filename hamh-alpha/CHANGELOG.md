@@ -1,3 +1,10 @@
+# [1.5.0-alpha.16](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.15...v1.5.0-alpha.16) (2026-01-26)
+
+
+### Bug Fixes
+
+* add .nojekyll file and copy to docs build output for GitHub Pages ([cf96b0c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cf96b0cabee98f9f891fd8b2c0ea63f45e455c8a))
+
 # [1.5.0-alpha.15](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.14...v1.5.0-alpha.15) (2026-01-26)
 
 
