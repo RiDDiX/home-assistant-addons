@@ -1,3 +1,10 @@
+# [2.0.0-alpha.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.4...v2.0.0-alpha.5) (2026-01-26)
+
+
+### Features
+
+* add dark mode toggle, device list sorting, and filter preview ([b4fe7e0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b4fe7e0ad94cc136655a511263f799f915a0542e))
+
 # [2.0.0-alpha.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.3...v2.0.0-alpha.4) (2026-01-26)
 
 
