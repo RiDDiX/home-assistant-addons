@@ -5,6 +5,10 @@
 
 * correct unit mismatch in thermostat deadband (0.1°C vs 0.01°C) ([7b88ee3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7b88ee33d51416c7798c94e515471354511f1fe4))
 
+### Thanks
+
+* 🙏 **[@hugo1721](https://github.com/hugo1721)** for reporting the thermostat boot loop issue ([#2](https://github.com/RiDDiX/home-assistant-matter-hub/issues/2))
+
 # [1.5.0-alpha.18](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.17...v1.5.0-alpha.18) (2026-01-26)
 
 
