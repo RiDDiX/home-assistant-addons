@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.6.2...v1.7.0) (2026-01-26)
+
+
+### Features
+
+* add dark mode toggle and device list sorting ([98e4aaf](https://github.com/RiDDiX/home-assistant-matter-hub/commit/98e4aafd655b985f15d02da950b3485752268c91))
+
 ## [1.6.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.6.1...v1.6.2) (2026-01-26)
 
 
