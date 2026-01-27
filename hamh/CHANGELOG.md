@@ -1,3 +1,10 @@
+## [1.7.15](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.14...v1.7.15) (2026-01-27)
+
+
+### Bug Fixes
+
+* handle Home Assistant action errors to prevent unhandled promise rejections (fixes [#17](https://github.com/RiDDiX/home-assistant-matter-hub/issues/17)) ([d35229b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d35229b25980e2e970220be91c5212d3fa174be8))
+
 ## [1.7.14](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.13...v1.7.14) (2026-01-27)
 
 
