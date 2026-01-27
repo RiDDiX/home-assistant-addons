@@ -1,3 +1,10 @@
+## [1.7.10](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.9...v1.7.10) (2026-01-27)
+
+
+### Bug Fixes
+
+* clamp thermostat setpoints to valid limits to prevent Matter.js validation errors ([0e48566](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0e485668423bdd5b7740e3be4c101f07c8a45529))
+
 ## [1.7.9](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.8...v1.7.9) (2026-01-27)
 
 
