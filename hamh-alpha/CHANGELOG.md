@@ -1,3 +1,10 @@
+# [2.0.0-alpha.39](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.38...v2.0.0-alpha.39) (2026-01-27)
+
+
+### Bug Fixes
+
+* only apply thermostat deadband when currently in Auto mode, not just when feature is supported ([#21](https://github.com/RiDDiX/home-assistant-matter-hub/issues/21)) ([0f0db53](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0f0db539418f77517389744c7dad335735beff57))
+
 # [2.0.0-alpha.38](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.37...v2.0.0-alpha.38) (2026-01-27)
 
 
