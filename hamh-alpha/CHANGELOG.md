@@ -1,3 +1,17 @@
+# [2.0.0-alpha.28](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.27...v2.0.0-alpha.28) (2026-01-27)
+
+
+### Features
+
+* add restart prompt after backup restore and fix error message display ([769edaf](https://github.com/RiDDiX/home-assistant-matter-hub/commit/769edafca2d3732ac063eae6623b830c4a9adeac))
+
+# [2.0.0-alpha.27](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.26...v2.0.0-alpha.27) (2026-01-27)
+
+
+### Bug Fixes
+
+* handle Home Assistant action errors to prevent unhandled promise rejections (fixes [#17](https://github.com/RiDDiX/home-assistant-matter-hub/issues/17)) ([1f35169](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1f3516955cb61588cd3071849fd56f7a4021404e))
+
 # [2.0.0-alpha.26](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.25...v2.0.0-alpha.26) (2026-01-27)
 
 
