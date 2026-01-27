@@ -1,3 +1,10 @@
+## [1.7.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.4...v1.7.5) (2026-01-27)
+
+
+### Bug Fixes
+
+* FanControl step command not calling Home Assistant ([b5527b5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b5527b50dec4291bc4c4347f70d98eddabfcf117))
+
 ## [1.7.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.3...v1.7.4) (2026-01-26)
 
 
