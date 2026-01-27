@@ -1,3 +1,10 @@
+# [2.0.0-alpha.21](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.20...v2.0.0-alpha.21) (2026-01-27)
+
+
+### Bug Fixes
+
+* set initial RVC state before super.initialize() to satisfy Matter.js validation ([23dcd5e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/23dcd5e71b170ca385d3ef92eb4349e2cd2d7f03))
+
 # [2.0.0-alpha.20](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.19...v2.0.0-alpha.20) (2026-01-27)
 
 
