@@ -30,6 +30,12 @@ jobs:
           yq eval '.' hamh-alpha/config.yaml > /dev/null
           echo " hamh-alpha config is valid YAML"
 
+      - name: Validate hamh-testing config
+        run: |
+          echo "Validating hamh-testing/config.yaml..."
+          yq eval '.' hamh-testing/config.yaml > /dev/null
+          echo " hamh-testing config is valid YAML"
+
       - name: Validate repository.yaml
         run: |
           echo "Validating repository.yaml..."
@@ -38,7 +44,7 @@ jobs:
 
       - name: Check required fields
         run: |
-          for addon in hamh hamh-alpha; do
+          for addon in hamh hamh-alpha hamh-testing; do
             echo "Checking $addon required fields..."
             yq eval '.name' $addon/config.yaml > /dev/null || (echo "Missing name in $addon" && exit 1)
             yq eval '.version' $addon/config.yaml > /dev/null || (echo "Missing version in $addon" && exit 1)

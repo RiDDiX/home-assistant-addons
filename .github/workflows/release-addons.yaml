@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       project:
-        description: 'Project to release (hamh, hamh-alpha)'
+        description: 'Project to release (hamh, hamh-alpha, hamh-testing)'
         required: true
         default: 'hamh'
       version:
