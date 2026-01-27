@@ -1,3 +1,10 @@
+# [2.0.0-alpha.36](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.35...v2.0.0-alpha.36) (2026-01-27)
+
+
+### Bug Fixes
+
+* use asLocalActor for attribute change handlers to fix access control issues (per Matter.js team) ([f9334e4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f9334e4504c051a376b2825f45dbeb2f353b19c9))
+
 # [2.0.0-alpha.35](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.34...v2.0.0-alpha.35) (2026-01-27)
 
 
