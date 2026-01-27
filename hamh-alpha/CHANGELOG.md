@@ -1,3 +1,10 @@
+# [2.0.0-alpha.19](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.18...v2.0.0-alpha.19) (2026-01-27)
+
+
+### Bug Fixes
+
+* remove deadband offset from thermostat setpoint limits ([c2a5290](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c2a5290096b4ecfff9d810e896eed6ede298f329))
+
 # [2.0.0-alpha.18](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.17...v2.0.0-alpha.18) (2026-01-27)
 
 
