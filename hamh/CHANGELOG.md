@@ -1,3 +1,10 @@
+## [1.7.13](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.12...v1.7.13) (2026-01-27)
+
+
+### Bug Fixes
+
+* remove broken Pump device (missing mandatory PumpConfigurationAndControl cluster) ([91e7a06](https://github.com/RiDDiX/home-assistant-matter-hub/commit/91e7a0603d4df788e7223329cf61e3b4984a36e3))
+
 ## [1.7.12](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.11...v1.7.12) (2026-01-27)
 
 
