@@ -1,3 +1,10 @@
+# [2.0.0-alpha.24](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.23...v2.0.0-alpha.24) (2026-01-27)
+
+
+### Features
+
+* add AirPurifier and Pump Matter device types (cherry-pick from main) ([1b1346f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1b1346f10dadd2aed5c3c528a758a7d6313e1ae1))
+
 # [2.0.0-alpha.23](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.22...v2.0.0-alpha.23) (2026-01-27)
 
 
