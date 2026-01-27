@@ -1,3 +1,10 @@
+# [2.0.0-alpha.18](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.17...v2.0.0-alpha.18) (2026-01-27)
+
+
+### Bug Fixes
+
+* trigger release for Bun import stub fix ([66818ab](https://github.com/RiDDiX/home-assistant-matter-hub/commit/66818abd16018ca8ba417ff84527e748c5617499))
+
 # [2.0.0-alpha.17](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.16...v2.0.0-alpha.17) (2026-01-27)
 
 
