@@ -1,3 +1,18 @@
+## [1.7.12](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.11...v1.7.12) (2026-01-27)
+
+
+### Bug Fixes
+
+* add smokeCoAlarm to ClusterId enum ([4ddbe59](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4ddbe5904c87759dd4129ad578b16f9b36c8a58d))
+* separate Smoke and CO alarm types (cherry-pick from alpha) ([00b1cbb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/00b1cbbd23d14ed9c91200bc3ea6688853900744))
+
+
+### Features
+
+* add AirPurifier and Pump Matter device types ([71bd320](https://github.com/RiDDiX/home-assistant-matter-hub/commit/71bd32004b5b8617b3e214f258e89213e81781ef))
+* add Pressure, Flow sensors and Valve device type (cherry-pick from alpha) ([a6499e1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a6499e10d6348957f7b60e8d659fff37752c26bb))
+* add Smoke/CO Alarm device type (cherry-pick from alpha) ([ecb148c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ecb148c14e4aacd8dcd1c6404ec55209d8b6318f))
+
 ## [1.7.11](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.10...v1.7.11) (2026-01-27)
 
 
