@@ -1,3 +1,10 @@
+# [2.0.0-alpha.35](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.34...v2.0.0-alpha.35) (2026-01-27)
+
+
+### Features
+
+* graceful error handling for failed entities with frontend display ([521f7f3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/521f7f35650123bc77cd442bd6feb3e9b143e9d2))
+
 # [2.0.0-alpha.34](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2026-01-27)
 
 
