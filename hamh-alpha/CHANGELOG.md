@@ -1,3 +1,11 @@
+# [2.0.0-alpha.34](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.33...v2.0.0-alpha.34) (2026-01-27)
+
+
+### Bug Fixes
+
+* add AirQualityServer to PM2.5/PM10 sensors to satisfy mandatory airQuality attribute ([2d9b3a1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2d9b3a10c3c7d3b1240104df203772982ca4d257))
+* resolve lint errors (parseInt radix, useless switch case) ([20fe6d8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/20fe6d8006ebb62c9a036d10efd0971804496ad2))
+
 # [2.0.0-alpha.33](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.32...v2.0.0-alpha.33) (2026-01-27)
 
 
