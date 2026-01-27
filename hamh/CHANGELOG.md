@@ -1,3 +1,10 @@
+## [1.7.8](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.7...v1.7.8) (2026-01-27)
+
+
+### Bug Fixes
+
+* ensure Bun stub fix is included in stable release ([a7f55ba](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a7f55ba7061ce0f2d1dac216f5cfbe8400c97940))
+
 ## [1.7.7](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.6...v1.7.7) (2026-01-27)
 
 
