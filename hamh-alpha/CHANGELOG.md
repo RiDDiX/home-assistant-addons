@@ -1,3 +1,10 @@
+# [2.0.0-alpha.22](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.21...v2.0.0-alpha.22) (2026-01-27)
+
+
+### Features
+
+* add comprehensive REST API with Home Assistant, Logs, and Metrics endpoints ([128a070](https://github.com/RiDDiX/home-assistant-matter-hub/commit/128a070f5627f59918d72169a2059b74c1620d19))
+
 # [2.0.0-alpha.21](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.20...v2.0.0-alpha.21) (2026-01-27)
 
 
