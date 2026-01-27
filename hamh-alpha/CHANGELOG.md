@@ -1,3 +1,17 @@
+# [2.0.0-alpha.17](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.16...v2.0.0-alpha.17) (2026-01-27)
+
+
+### Bug Fixes
+
+* patch Matter.js FabricAccessControl to grant Operate access when cluster undefined ([ca490e2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ca490e29a3d1c49c52af5b44f67931cb2746c6a6))
+
+# [2.0.0-alpha.16](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.15...v2.0.0-alpha.16) (2026-01-27)
+
+
+### Bug Fixes
+
+* FanControl step command not calling Home Assistant ([91acf08](https://github.com/RiDDiX/home-assistant-matter-hub/commit/91acf089c0b57e1380fb4ec58faf305879021670))
+
 # [2.0.0-alpha.15](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.14...v2.0.0-alpha.15) (2026-01-26)
 
 
