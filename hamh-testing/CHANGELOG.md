@@ -1,352 +1,116 @@
-# [2.0.0-alpha.23](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.22...v2.0.0-alpha.23) (2026-01-27)
+# [2.0.0-testing.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.1...v2.0.0-testing.2) (2026-01-28)
 
 
 ### Bug Fixes
 
-* clamp thermostat setpoints to valid limits to prevent Matter.js validation errors ([2d190b5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2d190b59d2adcf0e166a3a4ca5f296010642e78c))
+* use asLocalActor in thermostat reactors to fix access control issues ([6062219](https://github.com/RiDDiX/home-assistant-matter-hub/commit/606221914b5e7ca9a36effcc01d0f483b6a2f5c9))
 
-# [2.0.0-alpha.22](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.21...v2.0.0-alpha.22) (2026-01-27)
-
-
-### Features
-
-* add comprehensive REST API with Home Assistant, Logs, and Metrics endpoints ([128a070](https://github.com/RiDDiX/home-assistant-matter-hub/commit/128a070f5627f59918d72169a2059b74c1620d19))
-
-# [2.0.0-alpha.21](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.20...v2.0.0-alpha.21) (2026-01-27)
-
-
-### Bug Fixes
-
-* set initial RVC state before super.initialize() to satisfy Matter.js validation ([23dcd5e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/23dcd5e71b170ca385d3ef92eb4349e2cd2d7f03))
-
-# [2.0.0-alpha.20](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.19...v2.0.0-alpha.20) (2026-01-27)
-
-
-### Bug Fixes
-
-* revert thermostat deadband changes - Matter.js enforces constraint on limits ([313e5d6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/313e5d62d3eb11b3401dbe7c7f09ba8a7ec9939c))
-
-# [2.0.0-alpha.19](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.18...v2.0.0-alpha.19) (2026-01-27)
-
-
-### Bug Fixes
-
-* remove deadband offset from thermostat setpoint limits ([c2a5290](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c2a5290096b4ecfff9d810e896eed6ede298f329))
-
-# [2.0.0-alpha.18](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.17...v2.0.0-alpha.18) (2026-01-27)
-
-
-### Bug Fixes
-
-* trigger release for Bun import stub fix ([66818ab](https://github.com/RiDDiX/home-assistant-matter-hub/commit/66818abd16018ca8ba417ff84527e748c5617499))
-
-# [2.0.0-alpha.17](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.16...v2.0.0-alpha.17) (2026-01-27)
-
-
-### Bug Fixes
-
-* bundle Matter.js packages to include access control patch ([2791246](https://github.com/RiDDiX/home-assistant-matter-hub/commit/27912467396382c906b4c3fa5235ad5f9f8eceb4))
-* patch Matter.js FabricAccessControl to grant Operate access when cluster undefined ([ca490e2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ca490e29a3d1c49c52af5b44f67931cb2746c6a6))
-* stub Bun imports to prevent runtime errors in Node.js ([53db982](https://github.com/RiDDiX/home-assistant-matter-hub/commit/53db982d840b2ff5ca31098f858b99353ec126b2))
-
-# [2.0.0-alpha.16](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.15...v2.0.0-alpha.16) (2026-01-27)
-
-
-### Bug Fixes
-
-* FanControl step command not calling Home Assistant ([91acf08](https://github.com/RiDDiX/home-assistant-matter-hub/commit/91acf089c0b57e1380fb4ec58faf305879021670))
-
-# [2.0.0-alpha.15](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.14...v2.0.0-alpha.15) (2026-01-26)
-
-
-### Bug Fixes
-
-* move super.initialize() to beginning in rvc behavior servers ([1fb48f8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1fb48f80904442832f4a00beed8d8a7d316c8795))
-
-# [2.0.0-alpha.14](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.13...v2.0.0-alpha.14) (2026-01-26)
-
-
-### Bug Fixes
-
-* add missing await to super.initialize() in behavior servers ([#8](https://github.com/RiDDiX/home-assistant-matter-hub/issues/8)) ([803dd35](https://github.com/RiDDiX/home-assistant-matter-hub/commit/803dd3517ba86075c190be2c15a63182b3e72607))
-
-# [2.0.0-alpha.13](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.12...v2.0.0-alpha.13) (2026-01-26)
-
-
-### Bug Fixes
-
-* round fan percentage to nearest valid step ([#8](https://github.com/RiDDiX/home-assistant-matter-hub/issues/8)) ([292cc91](https://github.com/RiDDiX/home-assistant-matter-hub/commit/292cc91830ee6130f8bad9e2b4855e281d60a67b))
-
-# [2.0.0-alpha.12](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.11...v2.0.0-alpha.12) (2026-01-26)
-
-
-### Bug Fixes
-
-* separate Smoke and CO alarm types to prevent duplicate sensors ([#7](https://github.com/RiDDiX/home-assistant-matter-hub/issues/7)) ([53e7d03](https://github.com/RiDDiX/home-assistant-matter-hub/commit/53e7d031630701e730fe45717309e77b6f0607c1))
-
-# [2.0.0-alpha.11](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.10...v2.0.0-alpha.11) (2026-01-26)
-
-
-### Features
-
-* add Add Controller button for multi-fabric re-pairing ([a9a6829](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a9a68293ed86ef022434b5c663bc5aa430901a21))
-
-# [2.0.0-alpha.10](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.9...v2.0.0-alpha.10) (2026-01-26)
-
-
-### Features
-
-* add Backup/Restore section to Health page ([b4ea8d5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b4ea8d57a4d9fc33031da792c2a15e908c58c2e6))
-
-# [2.0.0-alpha.9](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.8...v2.0.0-alpha.9) (2026-01-26)
-
-
-### Bug Fixes
-
-* return minimum level instead of null for humidifier controller compatibility ([dfb36a7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dfb36a72afdea48e5c89b8d6781fefbe09d7b553))
-
-# [2.0.0-alpha.8](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.7...v2.0.0-alpha.8) (2026-01-26)
-
-
-### Bug Fixes
-
-* return minimum level instead of null for Apple Home compatibility ([c3cb384](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c3cb384ba0028d8eb28cea82d41222098c9a47df))
-
-# [2.0.0-alpha.7](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.6...v2.0.0-alpha.7) (2026-01-26)
-
-
-### Bug Fixes
-
-* move multer to runtime dependencies ([01e46a1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/01e46a1d784621576a9937c9446eb7f87557f4de))
-
-# [2.0.0-alpha.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.5...v2.0.0-alpha.6) (2026-01-26)
-
-
-### Bug Fixes
-
-* pin archiver and unzipper versions and add to app dependencies ([65fd739](https://github.com/RiDDiX/home-assistant-matter-hub/commit/65fd739f26f586dd3da707302dfb3117dd3628e1))
-
-
-### Features
-
-* add backup/restore system, smoke/CO detector, filter preview, dark mode, sorting, and update docs ([5bcc9a0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5bcc9a0533924e0c0b0dc1a7e7732af548d07878))
-
-# [2.0.0-alpha.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.4...v2.0.0-alpha.5) (2026-01-26)
-
-
-### Features
-
-* add dark mode toggle, device list sorting, and filter preview ([b4fe7e0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b4fe7e0ad94cc136655a511263f799f915a0542e))
-
-# [2.0.0-alpha.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.3...v2.0.0-alpha.4) (2026-01-26)
-
-
-### Bug Fixes
-
-* pass APP_VERSION environment variable to Docker containers ([79bde68](https://github.com/RiDDiX/home-assistant-matter-hub/commit/79bde6896f0f6b90488e09cc960ff254dcf02e76))
-
-# [2.0.0-alpha.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.2...v2.0.0-alpha.3) (2026-01-26)
-
-
-### Bug Fixes
-
-* handle mutex-closed error gracefully during shutdown ([e23bcee](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e23bcee0e97e9a88eac88f2a251fbd0aeafcfe7d))
-
-# [2.0.0-alpha.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.1...v2.0.0-alpha.2) (2026-01-26)
-
-
-### Features
-
-* improve Fan speed control, add Media Player playback ([0de6198](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0de6198ffb1c4922393e1bb8c190ceffeb613c5c))
-
-# [2.0.0-alpha.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.22...v2.0.0-alpha.1) (2026-01-26)
+# [2.0.0-testing.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.3.1...v2.0.0-testing.1) (2026-01-28)
 
 
 * fix!: AirQuality sensor conformance - enable all feature flags ([d037659](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d03765929a61ef38809c5af8573cfcc1ce4d0987))
 
 
-### BREAKING CHANGES
-
-* Alpha version bump to 2.0.0 series. This release includes major new features like Health Monitoring Dashboard, Auto-Recovery, and Bridge Wizard.
-
-# [1.5.0-alpha.22](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.21...v1.5.0-alpha.22) (2026-01-26)
-
-
-### Features
-
-* health monitoring dashboard, auto-recovery, bridge wizard ([3800813](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3800813f6f740d1ee3a9dd032bc350cfcb7c0f90))
-
-# [1.5.0-alpha.21](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.20...v1.5.0-alpha.21) (2026-01-26)
-
-
-### Bug Fixes
-
-* cover position comparison, thermostat offline status, valve actions ([4388383](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4388383710f874b1aac9f3f8a7ff3022481c5d81))
-
-# [1.5.0-alpha.20](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.19...v1.5.0-alpha.20) (2026-01-26)
-
-
-### Bug Fixes
-
-* improve humidity sensor limits, light type detection, and media player power control ([30c94de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30c94ded8af39c360062ec5fd5293ebb18f0fba7))
-
-# [1.5.0-alpha.19](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.18...v1.5.0-alpha.19) (2026-01-26)
-
-
-### Bug Fixes
-
-* correct unit mismatch in thermostat deadband (0.1°C vs 0.01°C) ([7b88ee3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7b88ee33d51416c7798c94e515471354511f1fe4))
-
-# [1.5.0-alpha.18](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.17...v1.5.0-alpha.18) (2026-01-26)
-
-
-### Bug Fixes
-
-* minSetpointDeadBand int8 overflow (250 -> 25) ([3110267](https://github.com/RiDDiX/home-assistant-matter-hub/commit/311026762dfed23ff0df5752ed5b1ede1c26707e))
-
-# [1.5.0-alpha.17](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.16...v1.5.0-alpha.17) (2026-01-26)
-
-
-### Bug Fixes
-
-* thermostat deadband constraint violation causing boot loop with climate entities ([a680be8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a680be8f59c7a2d16475ea93247db9fea9b099c0))
-
-# [1.5.0-alpha.16](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.15...v1.5.0-alpha.16) (2026-01-26)
-
-
 ### Bug Fixes
 
 * add .nojekyll file and copy to docs build output for GitHub Pages ([cf96b0c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cf96b0cabee98f9f891fd8b2c0ea63f45e455c8a))
-
-# [1.5.0-alpha.15](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.14...v1.5.0-alpha.15) (2026-01-26)
-
-
-### Bug Fixes
-
+* add AirQualityServer to PM2.5/PM10 sensors to satisfy mandatory airQuality attribute ([2d9b3a1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2d9b3a10c3c7d3b1240104df203772982ca4d257))
 * add environment config for GitHub Pages deployment ([87101a8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/87101a8e0bf775c1561a15a372a3604d2b63cdce))
-
-# [1.5.0-alpha.14](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.13...v1.5.0-alpha.14) (2026-01-26)
-
-
-### Bug Fixes
-
 * add explicit docs build step with BASE_URL env for GitHub Pages ([259d57b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/259d57bda5fbfea06913d5c5e2bc283d5a253e3a))
-
-# [1.5.0-alpha.13](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.12...v1.5.0-alpha.13) (2026-01-26)
-
-
-### Features
-
-* integrate structured logging with context and retry utilities into backend ([44bcb9f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/44bcb9f741304d7975408d30eae543e7d0675a35))
-
-# [1.5.0-alpha.12](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.11...v1.5.0-alpha.12) (2026-01-26)
-
-
-### Features
-
-* add structured logging, retry utilities, and UI improvements ([a0b21ec](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a0b21ec30b717a9604b7d641d5ca3154060465d2))
-
-# [1.5.0-alpha.11](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.10...v1.5.0-alpha.11) (2026-01-26)
-
-
-### Bug Fixes
-
-* StatusIndicator health API structure mismatch ([5b43fbb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5b43fbb9e3670729e1fff2f853092de54c563442))
-
-# [1.5.0-alpha.10](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.9...v1.5.0-alpha.10) (2026-01-26)
-
-
-### Features
-
-* add Alarm Control Panel device type ([db96ffb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/db96ffb1e66ffdc7792da0286e05d35ce863f2cd))
-
-# [1.5.0-alpha.9](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.8...v1.5.0-alpha.9) (2026-01-26)
-
-
-### Features
-
-* add Pressure, Flow, Air Quality sensors and Water Valve ([330d4e3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/330d4e37015b0c31a413b7e86faaa6cd4b0508e3))
-
-# [1.5.0-alpha.8](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.7...v1.5.0-alpha.8) (2026-01-26)
-
-
-### Bug Fixes
-
+* add minSetpointDeadBand and absolute limits to thermostat defaults ([e925164](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e92516479a5aae08d83f057d4f90bd7031f7f9f9))
+* add missing await to super.initialize() in behavior servers ([#8](https://github.com/RiDDiX/home-assistant-matter-hub/issues/8)) ([803dd35](https://github.com/RiDDiX/home-assistant-matter-hub/commit/803dd3517ba86075c190be2c15a63182b3e72607))
+* add null checks for entity.state in all behavior servers to prevent crashes when entities are deleted ([477da9c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/477da9c6ddbc20415c0d0f34cac19580644ba784))
 * add null checks in StatusIndicator to prevent crash ([e64b9a6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e64b9a6630b93e70667636b524451ef729abe3b9))
-
-# [1.5.0-alpha.7](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.6...v1.5.0-alpha.7) (2026-01-26)
-
-
-### Bug Fixes
-
 * add smokeCoAlarm to ClusterId enum ([868558c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/868558ce11a5824c0c57c616bc54d99c1a66f736))
+* avoid fatal crash when endpoint storage is temporarily inaccessible ([0552e1d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0552e1d0123095abec06bbc871b5b017073b6f51))
+* biome formatting for .releaserc.json ([5ca1c4d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5ca1c4d93cf1ff19b6833d8f3ce105934f9cfdb3))
+* bundle Matter.js packages to include access control patch ([2791246](https://github.com/RiDDiX/home-assistant-matter-hub/commit/27912467396382c906b4c3fa5235ad5f9f8eceb4))
+* call HA action before thermostatRunningMode update to prevent blocking ([#24](https://github.com/RiDDiX/home-assistant-matter-hub/issues/24)) ([1759fb2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1759fb236a2493ff9871648a2a87f06f461521f6))
+* clamp thermostat setpoints to valid limits to prevent Matter.js validation errors ([2d190b5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2d190b59d2adcf0e166a3a4ca5f296010642e78c))
+* climate mode change from Apple Home fails with read-only error ([#24](https://github.com/RiDDiX/home-assistant-matter-hub/issues/24)) ([856e1ea](https://github.com/RiDDiX/home-assistant-matter-hub/commit/856e1eadbe9ac4703a826b27efd6853ff597a3c8))
 * correct API URLs for Home Assistant ingress support ([8d6a8b5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8d6a8b58d93692918d1cd7b89ed27019fe022001))
+* correct unit mismatch in thermostat deadband (0.1°C vs 0.01°C) ([7b88ee3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7b88ee33d51416c7798c94e515471354511f1fe4))
+* cover position comparison, thermostat offline status, valve actions ([4388383](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4388383710f874b1aac9f3f8a7ff3022481c5d81))
+* enable PhysicalContact feature for OccupancySensing cluster (required since revision 5) ([89ff72e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/89ff72e2894d6cc6e09b8fdfe71f522cbb98c739))
+* entity mapping delete using array index instead of entityId ([20b4d46](https://github.com/RiDDiX/home-assistant-matter-hub/commit/20b4d46030423a545f0bef34c97a901847a2cfe3))
+* FanControl step command not calling Home Assistant ([91acf08](https://github.com/RiDDiX/home-assistant-matter-hub/commit/91acf089c0b57e1380fb4ec58faf305879021670))
+* handle Home Assistant action errors to prevent unhandled promise rejections (fixes [#17](https://github.com/RiDDiX/home-assistant-matter-hub/issues/17)) ([1f35169](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1f3516955cb61588cd3071849fd56f7a4021404e))
+* handle Matter.js endpoint storage errors gracefully to prevent crashes ([2a059bc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2a059bcd7bec1dbac43821acfbe8c3fbbcb9d70d))
+* handle missing entity-mappings storage data ([21674ab](https://github.com/RiDDiX/home-assistant-matter-hub/commit/21674ab322306d26f9e6fdcf68bfe27e9229d32e))
+* handle mutex-closed error gracefully during shutdown ([e23bcee](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e23bcee0e97e9a88eac88f2a251fbd0aeafcfe7d))
+* handle transaction conflict in fan control state updates ([91b967f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/91b967fe19085d832a22e0af52c564f95116dfef))
+* improve humidity sensor limits, light type detection, and media player power control ([30c94de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30c94ded8af39c360062ec5fd5293ebb18f0fba7))
+* minSetpointDeadBand int8 overflow (250 -> 25) ([3110267](https://github.com/RiDDiX/home-assistant-matter-hub/commit/311026762dfed23ff0df5752ed5b1ede1c26707e))
+* move multer to runtime dependencies ([01e46a1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/01e46a1d784621576a9937c9446eb7f87557f4de))
+* move super.initialize() to beginning in rvc behavior servers ([1fb48f8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1fb48f80904442832f4a00beed8d8a7d316c8795))
+* only apply thermostat deadband when currently in Auto mode, not just when feature is supported ([#21](https://github.com/RiDDiX/home-assistant-matter-hub/issues/21)) ([0f0db53](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0f0db539418f77517389744c7dad335735beff57))
+* pass APP_VERSION environment variable to Docker containers ([79bde68](https://github.com/RiDDiX/home-assistant-matter-hub/commit/79bde6896f0f6b90488e09cc960ff254dcf02e76))
+* patch Matter.js FabricAccessControl to grant Operate access when cluster undefined ([ca490e2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ca490e29a3d1c49c52af5b44f67931cb2746c6a6))
+* pin archiver and unzipper versions and add to app dependencies ([65fd739](https://github.com/RiDDiX/home-assistant-matter-hub/commit/65fd739f26f586dd3da707302dfb3117dd3628e1))
+* prevent crash when entity is enabled from disabled state (missing state) ([e7901c9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e7901c9fb57ec7b814de5952d659337c77d57e5c))
+* prevent thermostat init crash by setting default deadband and improve version reporting ([1fd5260](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1fd526000c2a5c9599a14cee8f5c7cfea6d878ef))
+* remove broken Pump device (missing mandatory PumpConfigurationAndControl cluster) ([b1bd5b9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b1bd5b9637d6e43b80e58f598fdd64178f15490e))
+* remove deadband offset from thermostat setpoint limits ([c2a5290](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c2a5290096b4ecfff9d810e896eed6ede298f329))
+* remove Matter.js patch workaround - now using asLocalActor per Matter.js team advice ([0b6c6c0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0b6c6c029bda717b0d0049fd122b90749ae01679))
+* resolve lint errors (parseInt radix, useless switch case) ([20fe6d8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/20fe6d8006ebb62c9a036d10efd0971804496ad2))
+* return minimum level instead of null for Apple Home compatibility ([c3cb384](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c3cb384ba0028d8eb28cea82d41222098c9a47df))
+* return minimum level instead of null for humidifier controller compatibility ([dfb36a7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dfb36a72afdea48e5c89b8d6781fefbe09d7b553))
+* revert thermostat deadband changes - Matter.js enforces constraint on limits ([313e5d6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/313e5d62d3eb11b3401dbe7c7f09ba8a7ec9939c))
+* round fan percentage to nearest valid step ([#8](https://github.com/RiDDiX/home-assistant-matter-hub/issues/8)) ([292cc91](https://github.com/RiDDiX/home-assistant-matter-hub/commit/292cc91830ee6130f8bad9e2b4855e281d60a67b))
+* satisfy CI lint (export server bases, organize imports) ([1c06a53](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1c06a53bf5128fa69a51711adfc1821fffd4a245))
+* separate Smoke and CO alarm types to prevent duplicate sensors ([#7](https://github.com/RiDDiX/home-assistant-matter-hub/issues/7)) ([53e7d03](https://github.com/RiDDiX/home-assistant-matter-hub/commit/53e7d031630701e730fe45717309e77b6f0607c1))
+* set controlSequenceOfOperation based on features in initialize() ([#28](https://github.com/RiDDiX/home-assistant-matter-hub/issues/28)) ([627191c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/627191c598e7847ed45497f6eeb9e3e8ccda4a5f))
+* set initial RVC state before super.initialize() to satisfy Matter.js validation ([23dcd5e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/23dcd5e71b170ca385d3ef92eb4349e2cd2d7f03))
+* set thermostat controlSequenceOfOperation before first update ([7a47ff4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7a47ff41e781395318fb3edf7c0537619b039ca4))
+* set thermostat defaults at behavior creation to prevent conformance errors ([a898cb9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a898cb9008cd55b7568d60317e32552bec75c4db))
+* StatusIndicator health API structure mismatch ([5b43fbb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5b43fbb9e3670729e1fff2f853092de54c563442))
+* stub Bun imports to prevent runtime errors in Node.js ([53db982](https://github.com/RiDDiX/home-assistant-matter-hub/commit/53db982d840b2ff5ca31098f858b99353ec126b2))
+* suppress transient endpoint storage errors in applyPatchState during behavior initialization ([4ab6f94](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4ab6f94ebfefb78c95a24ebbe15d367cf5e0a15d))
+* thermostat deadband constraint violation causing boot loop with climate entities ([a680be8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a680be8f59c7a2d16475ea93247db9fea9b099c0))
+* thermostat init deadband ordering and robust filter preview error parsing ([39a7222](https://github.com/RiDDiX/home-assistant-matter-hub/commit/39a72226347d4bc1a491d3037502385926a5927e))
+* trigger release for Bun import stub fix ([66818ab](https://github.com/RiDDiX/home-assistant-matter-hub/commit/66818abd16018ca8ba417ff84527e748c5617499))
+* use asLocalActor for attribute change handlers to fix access control issues (per Matter.js team) ([f9334e4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f9334e4504c051a376b2825f45dbeb2f353b19c9))
+* use setImmediate for thermostat mode changes to bypass transaction conflicts ([#24](https://github.com/RiDDiX/home-assistant-matter-hub/issues/24)) ([cfe325a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cfe325a9ccce4a2186808ba549ba7b3f138be484))
+* use setImmediate for thermostat setpoint changes ([#9](https://github.com/RiDDiX/home-assistant-matter-hub/issues/9)) ([73bef52](https://github.com/RiDDiX/home-assistant-matter-hub/commit/73bef52de37f2a9473d48bfd0cb85baf9c06376f))
 
 
 ### Features
 
+* add Add Controller button for multi-fabric re-pairing ([a9a6829](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a9a68293ed86ef022434b5c663bc5aa430901a21))
+* add AirPurifier and Pump Matter device types (cherry-pick from main) ([1b1346f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1b1346f10dadd2aed5c3c528a758a7d6313e1ae1))
+* add Alarm Control Panel device type ([db96ffb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/db96ffb1e66ffdc7792da0286e05d35ce863f2cd))
+* add Backup/Restore section to Health page ([b4ea8d5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b4ea8d57a4d9fc33031da792c2a15e908c58c2e6))
+* add backup/restore system, smoke/CO detector, filter preview, dark mode, sorting, and update docs ([5bcc9a0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5bcc9a0533924e0c0b0dc1a7e7732af548d07878))
+* add bridge export/import functionality ([fbd42bd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fbd42bddd3558fc9f491ff8ea6df23c4dd2971b5))
+* add comprehensive REST API with Home Assistant, Logs, and Metrics endpoints ([128a070](https://github.com/RiDDiX/home-assistant-matter-hub/commit/128a070f5627f59918d72169a2059b74c1620d19))
+* add dark mode toggle, device list sorting, and filter preview ([b4fe7e0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b4fe7e0ad94cc136655a511263f799f915a0542e))
+* add entity mapping customization ([0e89fd0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0e89fd04245cadacad5007bfc2709623fa850d80))
+* add fan preset mode support and fix script filtering ([#26](https://github.com/RiDDiX/home-assistant-matter-hub/issues/26)) ([f63b715](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f63b71504206fe55964b6eb5c10aa1c728a71e5b))
+* add health check API and WebSocket live updates ([bbbfd18](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bbbfd189c0325c93b98e3a06659961065341ac96))
+* add migration support for importing stable exports into alpha ([331f11d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/331f11dd3dc9b545a5c25d3fb59bdba860d544d2))
+* add PM2.5 and PM10 concentration measurement sensors with numeric values ([b52a4c3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b52a4c3bfa01f6285cbdfca8d72f4fe0da68939d))
+* add Pressure, Flow, Air Quality sensors and Water Valve ([330d4e3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/330d4e37015b0c31a413b7e86faaa6cd4b0508e3))
+* add ProductName filter for Include/Exclude entity filtering ([dccf818](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dccf81829c637e154f6cf807b6b4981a305fdbbd))
+* add Pump device with proper PumpConfigurationAndControl cluster ([ebc989e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ebc989e6ef5f0c52fce90c815b6912d711430c4d))
+* add restart prompt after backup restore and fix error message display ([769edaf](https://github.com/RiDDiX/home-assistant-matter-hub/commit/769edafca2d3732ac063eae6623b830c4a9adeac))
 * add Smoke/CO Alarm device type and update entity mappings ([5d405e4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5d405e4112740e9c8ffc6104e43f39e2babc31e6))
+* add structured logging, retry utilities, and UI improvements ([a0b21ec](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a0b21ec30b717a9604b7d641d5ca3154060465d2))
+* add WebSocket live updates and status indicator ([227edc8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/227edc804da5e618ccef27a1f2e01796316de437))
+* complete entity mapping UI integration ([48d0ace](https://github.com/RiDDiX/home-assistant-matter-hub/commit/48d0ace72d6ad63546ec3761ce00babb53614f67))
+* graceful error handling for failed entities with frontend display ([521f7f3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/521f7f35650123bc77cd442bd6feb3e9b143e9d2))
+* health monitoring dashboard, auto-recovery, bridge wizard ([3800813](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3800813f6f740d1ee3a9dd032bc350cfcb7c0f90))
+* improve Fan speed control, add Media Player playback ([0de6198](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0de6198ffb1c4922393e1bb8c190ceffeb613c5c))
+* integrate structured logging with context and retry utilities into backend ([44bcb9f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/44bcb9f741304d7975408d30eae543e7d0675a35))
 
 
 ### Performance Improvements
 
 * parallelize state updates for faster Alexa/Google Home response ([dea2e62](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dea2e626d6eb812e5290deadaa03104c867f3190))
 
-# [1.5.0-alpha.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.5...v1.5.0-alpha.6) (2026-01-26)
 
+### BREAKING CHANGES
 
-### Features
-
-* add WebSocket live updates and status indicator ([227edc8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/227edc804da5e618ccef27a1f2e01796316de437))
-
-# [1.5.0-alpha.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.4...v1.5.0-alpha.5) (2026-01-26)
-
-
-### Features
-
-* add migration support for importing stable exports into alpha ([331f11d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/331f11dd3dc9b545a5c25d3fb59bdba860d544d2))
-
-# [1.5.0-alpha.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.3...v1.5.0-alpha.4) (2026-01-26)
-
-
-### Bug Fixes
-
-* handle missing entity-mappings storage data ([21674ab](https://github.com/RiDDiX/home-assistant-matter-hub/commit/21674ab322306d26f9e6fdcf68bfe27e9229d32e))
-
-# [1.5.0-alpha.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.2...v1.5.0-alpha.3) (2026-01-26)
-
-
-### Features
-
-* complete entity mapping UI integration ([48d0ace](https://github.com/RiDDiX/home-assistant-matter-hub/commit/48d0ace72d6ad63546ec3761ce00babb53614f67))
-
-# [1.5.0-alpha.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.5.0-alpha.1...v1.5.0-alpha.2) (2026-01-26)
-
-
-### Features
-
-* add bridge export/import functionality ([fbd42bd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fbd42bddd3558fc9f491ff8ea6df23c4dd2971b5))
-
-# [1.5.0-alpha.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.1-alpha.1...v1.5.0-alpha.1) (2026-01-25)
-
-
-### Features
-
-* add entity mapping customization ([0e89fd0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0e89fd04245cadacad5007bfc2709623fa850d80))
-
-## [1.4.1-alpha.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.4.0...v1.4.1-alpha.1) (2026-01-25)
-
-
-### Bug Fixes
-
-* biome formatting for .releaserc.json ([5ca1c4d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5ca1c4d93cf1ff19b6833d8f3ce105934f9cfdb3))
-
-# [1.4.0](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.3.1...v1.4.0) (2026-01-25)
-
-
-### Features
-
-* add health check API and WebSocket live updates ([bbbfd18](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bbbfd189c0325c93b98e3a06659961065341ac96))
+* Alpha version bump to 2.0.0 series. This release includes major new features like Health Monitoring Dashboard, Auto-Recovery, and Bridge Wizard.
 
 ## [1.3.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.3.0...v1.3.1) (2026-01-25)
 
