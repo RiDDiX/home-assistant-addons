@@ -1,3 +1,10 @@
+# [2.0.0-alpha.48](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.47...v2.0.0-alpha.48) (2026-01-28)
+
+
+### Bug Fixes
+
+* climate mode change from Apple Home fails with read-only error ([#24](https://github.com/RiDDiX/home-assistant-matter-hub/issues/24)) ([856e1ea](https://github.com/RiDDiX/home-assistant-matter-hub/commit/856e1eadbe9ac4703a826b27efd6853ff597a3c8))
+
 # [2.0.0-alpha.47](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.46...v2.0.0-alpha.47) (2026-01-28)
 
 
