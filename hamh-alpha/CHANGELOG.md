@@ -1,3 +1,10 @@
+# [2.0.0-alpha.61](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.60...v2.0.0-alpha.61) (2026-01-28)
+
+
+### Features
+
+* comprehensive UI enhancements - logs, system info, device overview, and devices page ([9e21ba7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9e21ba7ec986204bb7ac34e6b4fdcc68b4b68ddd))
+
 # [2.0.0-alpha.60](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.59...v2.0.0-alpha.60) (2026-01-28)
 
 
