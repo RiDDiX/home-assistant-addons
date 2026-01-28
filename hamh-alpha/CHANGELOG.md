@@ -1,3 +1,10 @@
+# [2.0.0-alpha.45](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.44...v2.0.0-alpha.45) (2026-01-28)
+
+
+### Bug Fixes
+
+* set thermostat defaults at behavior creation to prevent conformance errors ([a898cb9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a898cb9008cd55b7568d60317e32552bec75c4db))
+
 # [2.0.0-alpha.44](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.43...v2.0.0-alpha.44) (2026-01-28)
 
 
