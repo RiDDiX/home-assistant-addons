@@ -1,3 +1,10 @@
+# [2.0.0-alpha.52](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.51...v2.0.0-alpha.52) (2026-01-28)
+
+
+### Bug Fixes
+
+* use setImmediate for thermostat mode changes to bypass transaction conflicts ([#24](https://github.com/RiDDiX/home-assistant-matter-hub/issues/24)) ([cfe325a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cfe325a9ccce4a2186808ba549ba7b3f138be484))
+
 # [2.0.0-alpha.51](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.50...v2.0.0-alpha.51) (2026-01-28)
 
 
