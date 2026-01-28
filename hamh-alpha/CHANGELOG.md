@@ -1,3 +1,10 @@
+# [2.0.0-alpha.46](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.45...v2.0.0-alpha.46) (2026-01-28)
+
+
+### Bug Fixes
+
+* add minSetpointDeadBand and absolute limits to thermostat defaults ([e925164](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e92516479a5aae08d83f057d4f90bd7031f7f9f9))
+
 # [2.0.0-alpha.45](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.44...v2.0.0-alpha.45) (2026-01-28)
 
 
