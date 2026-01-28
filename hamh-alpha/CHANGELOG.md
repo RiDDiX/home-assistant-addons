@@ -1,3 +1,10 @@
+# [2.0.0-alpha.41](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.40...v2.0.0-alpha.41) (2026-01-28)
+
+
+### Bug Fixes
+
+* thermostat init deadband ordering and robust filter preview error parsing ([39a7222](https://github.com/RiDDiX/home-assistant-matter-hub/commit/39a72226347d4bc1a491d3037502385926a5927e))
+
 # [2.0.0-alpha.40](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.39...v2.0.0-alpha.40) (2026-01-28)
 
 
