@@ -1,3 +1,10 @@
+## [1.7.25](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.24...v1.7.25) (2026-01-28)
+
+
+### Features
+
+* sort bridges alphabetically in UI ([#30](https://github.com/RiDDiX/home-assistant-matter-hub/issues/30)) ([e26d7c1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e26d7c1afc85a474d343e9e5d4b5e36651968684))
+
 ## [1.7.24](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.23...v1.7.24) (2026-01-28)
 
 
