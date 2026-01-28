@@ -1,9 +1,9 @@
-version: "2.0.0-testing.6"
+version: "4.0.0-testing.1"
 image: ghcr.io/riddix/home-assistant-matter-hub-addon-testing
 slug: hamh-testing
 name: Home-Assistant-Matter-Hub (Testing)
-description: "\U0001F9EA TESTING VERSION - For Matter.js debugging only! Contains debug logging without ACL workaround patch."
-url: https://github.com/riddix/home-assistant-matter-hub/tree/testing-matterjs
+description: "\U0001F9EA TESTING VERSION - Powered by Matter.js Testing Branch! Contains latest Matter.js features and debug logging."
+url: https://github.com/riddix/home-assistant-matter-hub/tree/testing
 panel_icon: mdi:bug
 panel_title: Matter Hub Testing
 homeassistant: 2024.1.0
@@ -21,7 +21,9 @@ options:
   app_log_level: debug
   disable_log_colors: false
   mdns_network_interface: ""
+  matter_js_testing: true
 schema:
   app_log_level: list(silly|debug|info|notice|warn|error|fatal)
   disable_log_colors: bool
   mdns_network_interface: "str?"
+  matter_js_testing: bool
