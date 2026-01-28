@@ -1,3 +1,10 @@
+# [2.0.0-alpha.53](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.52...v2.0.0-alpha.53) (2026-01-28)
+
+
+### Bug Fixes
+
+* use setImmediate for thermostat setpoint changes ([#9](https://github.com/RiDDiX/home-assistant-matter-hub/issues/9)) ([73bef52](https://github.com/RiDDiX/home-assistant-matter-hub/commit/73bef52de37f2a9473d48bfd0cb85baf9c06376f))
+
 # [2.0.0-alpha.52](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.51...v2.0.0-alpha.52) (2026-01-28)
 
 
