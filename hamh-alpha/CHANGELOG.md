@@ -1,3 +1,10 @@
+# [2.0.0-alpha.42](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.41...v2.0.0-alpha.42) (2026-01-28)
+
+
+### Bug Fixes
+
+* avoid fatal crash when endpoint storage is temporarily inaccessible ([0552e1d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0552e1d0123095abec06bbc871b5b017073b6f51))
+
 # [2.0.0-alpha.41](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.40...v2.0.0-alpha.41) (2026-01-28)
 
 
