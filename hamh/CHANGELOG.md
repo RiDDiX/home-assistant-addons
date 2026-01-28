@@ -1,3 +1,10 @@
+## [1.7.21](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.20...v1.7.21) (2026-01-28)
+
+
+### Bug Fixes
+
+* use setImmediate for thermostat setpoint and mode changes ([#9](https://github.com/RiDDiX/home-assistant-matter-hub/issues/9), [#24](https://github.com/RiDDiX/home-assistant-matter-hub/issues/24)) ([baf4475](https://github.com/RiDDiX/home-assistant-matter-hub/commit/baf447525048b209c76fe3c5a6d69a88b9c08015))
+
 ## [1.7.20](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.19...v1.7.20) (2026-01-28)
 
 
