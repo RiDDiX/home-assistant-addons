@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 version: "4.0.0-testing.1"
+=======
+version: "2.0.0-testing.8"
+>>>>>>> d88908e5be9d05f3992d6e91c891c0a04258e897
 image: ghcr.io/riddix/home-assistant-matter-hub-addon-testing
 slug: hamh-testing
 name: Home-Assistant-Matter-Hub (Testing)

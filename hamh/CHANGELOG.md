@@ -1,3 +1,10 @@
+## [1.7.27](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.26...v1.7.27) (2026-01-28)
+
+
+### Bug Fixes
+
+* use pre-commit handlers for thermostat setpoint changes ([#9](https://github.com/RiDDiX/home-assistant-matter-hub/issues/9)) ([0b1c118](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0b1c11827837135b75484210202f4a8c14ccf137))
+
 ## [1.7.26](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.25...v1.7.26) (2026-01-28)
 
 
