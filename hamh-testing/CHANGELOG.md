@@ -1,3 +1,10 @@
+# [2.0.0-testing.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.5...v2.0.0-testing.6) (2026-01-28)
+
+
+### Bug Fixes
+
+* include hidden entities when explicitly matched by filter ([#26](https://github.com/RiDDiX/home-assistant-matter-hub/issues/26)) ([0417c7f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0417c7fc50e653c48ae13d426bc2f611fc6236be))
+
 # [2.0.0-testing.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.4...v2.0.0-testing.5) (2026-01-28)
 
 
