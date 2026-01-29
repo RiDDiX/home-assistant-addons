@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.51...v1.8.0) (2026-01-29)
+
+
+### Features
+
+* add BasicVideoPlayer device type for TV/media player support (fixes [#45](https://github.com/RiDDiX/home-assistant-matter-hub/issues/45)) ([b6a5fcb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b6a5fcb718e612ee7f776affbd8deec097ce6498))
+
 ## [1.7.51](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.50...v1.7.51) (2026-01-29)
 
 
