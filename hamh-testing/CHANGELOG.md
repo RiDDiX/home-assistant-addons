@@ -1,3 +1,15 @@
+# [2.0.0-testing.16](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.15...v2.0.0-testing.16) (2026-01-29)
+
+
+### Bug Fixes
+
+* resolve lint formatting errors in SystemInfo and BackupRestore ([1d032aa](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1d032aa926765335757cacfb6c0cb9fdd0459418))
+
+
+### Features
+
+* enhance System Info with version, environment detection, CPU model ([1376def](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1376def479cf33d132b8a0e0d824b31ccacc7b02))
+
 # [2.0.0-testing.15](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.14...v2.0.0-testing.15) (2026-01-29)
 
 
