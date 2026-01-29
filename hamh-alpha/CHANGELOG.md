@@ -1,3 +1,10 @@
+# [2.0.0-alpha.100](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.99...v2.0.0-alpha.100) (2026-01-29)
+
+
+### Features
+
+* add domain-based bridge icons, entity mapping in card view, and clean up UI (fixes [#44](https://github.com/RiDDiX/home-assistant-matter-hub/issues/44)) ([48f6933](https://github.com/RiDDiX/home-assistant-matter-hub/commit/48f6933ad717b7946f684f9ba5b92b123ec610af))
+
 # [2.0.0-alpha.99](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.98...v2.0.0-alpha.99) (2026-01-29)
 
 
