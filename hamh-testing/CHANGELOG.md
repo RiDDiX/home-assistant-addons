@@ -1,3 +1,10 @@
+# [4.0.0-testing.28](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.27...v4.0.0-testing.28) (2026-01-29)
+
+
+### Bug Fixes
+
+* WebSocket URL includes Ingress path for proper routing ([a42fedd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a42fedd6ce272311547e00bc29e6cfad2446b6eb))
+
 # [4.0.0-testing.27](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.26...v4.0.0-testing.27) (2026-01-29)
 
 
