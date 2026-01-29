@@ -1,3 +1,10 @@
+# [2.0.0-alpha.68](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.67...v2.0.0-alpha.68) (2026-01-29)
+
+
+### Features
+
+* add exponential backoff retry, circuit breaker, and config validation ([1fb6d03](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1fb6d03eddce825bf3a9b120be49d05fc83c8c71))
+
 # [2.0.0-alpha.67](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.66...v2.0.0-alpha.67) (2026-01-29)
 
 
