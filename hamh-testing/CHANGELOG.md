@@ -1,3 +1,11 @@
+# [4.0.0-testing.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.5...v4.0.0-testing.6) (2026-01-29)
+
+
+### Features
+
+* Add Air Purifier as selectable Matter device type (fixes [#43](https://github.com/RiDDiX/home-assistant-matter-hub/issues/43)) ([22e1bed](https://github.com/RiDDiX/home-assistant-matter-hub/commit/22e1bed8452109bde87aaada1ae80f5495f90f7c))
+* Add TVOC sensor with numeric ppb value (related to [#42](https://github.com/RiDDiX/home-assistant-matter-hub/issues/42)) ([66da471](https://github.com/RiDDiX/home-assistant-matter-hub/commit/66da4712704b6f71ab1622e1e0d26f3e7fe74ee1))
+
 # [4.0.0-testing.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.4...v4.0.0-testing.5) (2026-01-29)
 
 
