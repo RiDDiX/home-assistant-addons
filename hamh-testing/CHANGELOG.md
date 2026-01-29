@@ -1,3 +1,10 @@
+# [4.0.0-testing.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.3...v4.0.0-testing.4) (2026-01-29)
+
+
+### Bug Fixes
+
+* **frontend:** show all device endpoints in DevicesPage, not just aggregator ([3594841](https://github.com/RiDDiX/home-assistant-matter-hub/commit/35948419ebab6232451c55668bb00c739c34b981))
+
 # [4.0.0-testing.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.2...v4.0.0-testing.3) (2026-01-29)
 
 
