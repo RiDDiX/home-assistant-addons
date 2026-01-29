@@ -1,3 +1,10 @@
+# [4.0.0-testing.9](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.8...v4.0.0-testing.9) (2026-01-29)
+
+
+### Features
+
+* add Tuya, LG ThinQ, and Aqara vendor IDs to health dashboard ([f162cea](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f162ceadc77858778a82988b712706a62e9d6fb0))
+
 # [4.0.0-testing.8](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.7...v4.0.0-testing.8) (2026-01-29)
 
 
