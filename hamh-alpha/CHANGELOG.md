@@ -1,3 +1,10 @@
+# [2.0.0-alpha.96](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.95...v2.0.0-alpha.96) (2026-01-29)
+
+
+### Bug Fixes
+
+* add uniqueId to BridgedDeviceBasicInformation for Alexa deduplication (fixes [#53](https://github.com/RiDDiX/home-assistant-matter-hub/issues/53)) ([4b7a7e5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4b7a7e54e4ef344d2646db757458669a14701ea3))
+
 # [2.0.0-alpha.95](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.94...v2.0.0-alpha.95) (2026-01-29)
 
 
