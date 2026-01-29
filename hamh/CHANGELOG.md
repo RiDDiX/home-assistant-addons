@@ -1,3 +1,10 @@
+## [1.7.38](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.37...v1.7.38) (2026-01-29)
+
+
+### Bug Fixes
+
+* correct alarm_control_panel action format with domain prefix (fixes [#35](https://github.com/RiDDiX/home-assistant-matter-hub/issues/35)) ([28909e4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/28909e4540ba5f8b398d53df748acf33bcec6f60))
+
 ## [1.7.37](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.36...v1.7.37) (2026-01-29)
 
 
