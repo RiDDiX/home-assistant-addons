@@ -1,3 +1,11 @@
+## [1.7.32](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.31...v1.7.32) (2026-01-29)
+
+
+### Bug Fixes
+
+* add asLocalActor to thermostat setpoint handlers (fixes [#9](https://github.com/RiDDiX/home-assistant-matter-hub/issues/9)) ([61fb48d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/61fb48d066048faecb8d1ad8c2d8185d53a7168b))
+* BridgeWizard sends wrong filter format - use HomeAssistantMatcher (fixes [#33](https://github.com/RiDDiX/home-assistant-matter-hub/issues/33)) ([478b1b8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/478b1b83e15fc5b9d675b36bf40ed9e73ef97cba))
+
 ## [1.7.31](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.30...v1.7.31) (2026-01-29)
 
 
