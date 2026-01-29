@@ -1,3 +1,10 @@
+# [2.0.0-alpha.81](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.80...v2.0.0-alpha.81) (2026-01-29)
+
+
+### Bug Fixes
+
+* improve brightness persistence by checking entity on/off state and add debug logging ([9cc3cf0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9cc3cf049927a505410074f443a372b6bcba23e7))
+
 # [2.0.0-alpha.80](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.79...v2.0.0-alpha.80) (2026-01-29)
 
 
