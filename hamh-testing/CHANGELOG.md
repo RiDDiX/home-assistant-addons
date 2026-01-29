@@ -1,3 +1,10 @@
+# [2.0.0-testing.15](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.14...v2.0.0-testing.15) (2026-01-29)
+
+
+### Features
+
+* capture application logs in buffer for Log Viewer API ([d53faa0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d53faa022b80f1f498d0ecbb8cd3695199a7714e))
+
 # [2.0.0-testing.14](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.13...v2.0.0-testing.14) (2026-01-29)
 
 
