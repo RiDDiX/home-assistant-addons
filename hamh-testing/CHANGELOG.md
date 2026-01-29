@@ -1,3 +1,10 @@
+# [4.0.0-testing.23](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.22...v4.0.0-testing.23) (2026-01-29)
+
+
+### Features
+
+* add configurable icon field to bridge config with dropdown selection ([3906855](https://github.com/RiDDiX/home-assistant-matter-hub/commit/390685581f72465e8e6f956480a261ba8eaa9473))
+
 # [4.0.0-testing.22](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.21...v4.0.0-testing.22) (2026-01-29)
 
 
