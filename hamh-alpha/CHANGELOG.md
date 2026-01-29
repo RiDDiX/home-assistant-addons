@@ -1,3 +1,10 @@
+# [2.0.0-alpha.70](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.69...v2.0.0-alpha.70) (2026-01-29)
+
+
+### Bug Fixes
+
+* BridgeWizard sends wrong filter format - use HomeAssistantMatcher (fixes [#33](https://github.com/RiDDiX/home-assistant-matter-hub/issues/33)) ([5de5221](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5de52216767a7eba3ab1b4a1afd670636895468a))
+
 # [2.0.0-alpha.69](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.68...v2.0.0-alpha.69) (2026-01-29)
 
 
