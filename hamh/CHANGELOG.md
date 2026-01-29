@@ -1,3 +1,10 @@
+## [1.7.45](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.44...v1.7.45) (2026-01-29)
+
+
+### Features
+
+* Add CO2 sensor with numeric ppm value (fixes [#42](https://github.com/RiDDiX/home-assistant-matter-hub/issues/42)) ([fbe4dba](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fbe4dba2663cbf086bc236a311909128082dd324))
+
 ## [1.7.44](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.43...v1.7.44) (2026-01-29)
 
 
