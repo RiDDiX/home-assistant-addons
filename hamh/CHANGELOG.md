@@ -1,3 +1,10 @@
+## [1.7.50](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.49...v1.7.50) (2026-01-29)
+
+
+### Bug Fixes
+
+* handle null transitionTime from Google Home (fixes [#41](https://github.com/RiDDiX/home-assistant-matter-hub/issues/41)) ([8545aab](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8545aabb5fe6683ce3c5bf6a149801081aa45873))
+
 ## [1.7.49](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.48...v1.7.49) (2026-01-29)
 
 
