@@ -1,3 +1,10 @@
+# [4.0.0-testing.7](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.6...v4.0.0-testing.7) (2026-01-29)
+
+
+### Features
+
+* Add entity mapping button to devices overview ([4ea6bc1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4ea6bc183371d1863801fec2fcf9019bbd0e97c4))
+
 # [4.0.0-testing.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.5...v4.0.0-testing.6) (2026-01-29)
 
 
