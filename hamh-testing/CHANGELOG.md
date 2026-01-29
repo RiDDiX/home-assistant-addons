@@ -1,3 +1,17 @@
+# [2.0.0-testing.24](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.23...v2.0.0-testing.24) (2026-01-29)
+
+
+### Features
+
+* redesign DevicesPage with EndpointCards showing device types, status and clusters ([f9273b1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f9273b1118075e214c9f03970c91be9d16ab55b8))
+
+# [2.0.0-testing.23](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.22...v2.0.0-testing.23) (2026-01-29)
+
+
+### Features
+
+* complete Vision 1 LightEndpoint and ThermostatEndpoint implementations ([5d9c7ef](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5d9c7efbc20efb7b86607d33f25c90fd93c70265))
+
 # [2.0.0-testing.22](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.21...v2.0.0-testing.22) (2026-01-29)
 
 
