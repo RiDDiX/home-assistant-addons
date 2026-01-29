@@ -1,3 +1,10 @@
+# [2.0.0-alpha.88](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.87...v2.0.0-alpha.88) (2026-01-29)
+
+
+### Bug Fixes
+
+* sync frontend components from testing (AppTopBar, EndpointList, BridgeDetails) ([f2dded5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f2dded59cedc972dbadfdcf79ba6af7a617dfb8a))
+
 # [2.0.0-alpha.87](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.86...v2.0.0-alpha.87) (2026-01-29)
 
 
