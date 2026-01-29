@@ -1,3 +1,10 @@
+## [1.7.43](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.42...v1.7.43) (2026-01-29)
+
+
+### Bug Fixes
+
+* improve brightness persistence by checking entity on/off state and add debug logging ([fe4be30](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fe4be30fb39286bf6cb1aa31dd982b4860187498))
+
 ## [1.7.42](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.41...v1.7.42) (2026-01-29)
 
 
