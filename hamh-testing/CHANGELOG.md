@@ -1,3 +1,10 @@
+# [4.0.0-testing.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.1...v4.0.0-testing.2) (2026-01-29)
+
+
+### Features
+
+* new EndpointCard UI with device icons, online/offline status and state display ([3247139](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3247139dac612f6adeb48ed6c0fc5d753109b52e))
+
 # [4.0.0-testing.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-testing.25...v4.0.0-testing.1) (2026-01-29)
 
 
