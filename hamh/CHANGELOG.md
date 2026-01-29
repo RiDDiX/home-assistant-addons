@@ -1,3 +1,10 @@
+## [1.7.40](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.39...v1.7.40) (2026-01-29)
+
+
+### Bug Fixes
+
+* add global error handler to suppress async endpoint storage errors during bridge deletion ([edb7efe](https://github.com/RiDDiX/home-assistant-matter-hub/commit/edb7efe32d65a05d0b344c15cbfaed475034c91d))
+
 ## [1.7.39](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.38...v1.7.39) (2026-01-29)
 
 
