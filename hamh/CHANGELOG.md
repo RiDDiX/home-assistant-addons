@@ -1,3 +1,27 @@
+## [1.7.29](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.28...v1.7.29) (2026-01-29)
+
+
+### Bug Fixes
+
+* use relative API paths for Home Assistant ingress compatibility ([7aa2348](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7aa234838c35a87fa446e3b51eb85c7d3e12d322))
+
+## [1.7.28](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.27...v1.7.28) (2026-01-29)
+
+
+### Bug Fixes
+
+* add missing dependencies (archiver, multer, unzipper) to app package.json ([e6057d7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e6057d70cfedd9e8c0342f5b7050c476dbbca763))
+* graceful handling of /api/system/info 404 and restore missing components ([dec4e00](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dec4e00f0cba55ece1030b8817e620538f25f947))
+* sync frontend/backend/common packages from alpha to fix missing components ([c658289](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c658289c64b69e2a707977a78a999b5d8d43eec2))
+* sync pnpm-lock.yaml and backend package.json from alpha to include all dependencies ([5430ea8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5430ea8b95e3ec7be9e00446b8bdc3dfc5b95e4e))
+
+
+### Features
+
+* add Full Backup with Identity option and fix API paths in BackupRestore ([ab6b663](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ab6b663c64d9ad1d4eaac09598e5a844820f1f55))
+* comprehensive UI enhancements - logs, system info, device overview, and devices page ([5e621aa](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5e621aa5d0cf88b0785a4780f6f3d21cd329c522))
+* improve system info API with more parameters (CPU, load, process info) ([fc291a6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fc291a6d0e38d042e4028e7713d481c45bab5a83))
+
 ## [1.7.27](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.26...v1.7.27) (2026-01-28)
 
 
