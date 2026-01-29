@@ -1,3 +1,10 @@
+# [4.0.0-testing.11](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.10...v4.0.0-testing.11) (2026-01-29)
+
+
+### Bug Fixes
+
+* show all leaf endpoints in card view, not just aggregator ([675435d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/675435d119bbfe64e81fd49140975c4a47473007))
+
 # [4.0.0-testing.10](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.9...v4.0.0-testing.10) (2026-01-29)
 
 
