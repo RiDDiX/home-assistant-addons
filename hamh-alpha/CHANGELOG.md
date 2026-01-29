@@ -1,3 +1,10 @@
+# [2.0.0-alpha.69](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.68...v2.0.0-alpha.69) (2026-01-29)
+
+
+### Bug Fixes
+
+* add asLocalActor to thermostat setpoint handlers (fixes [#9](https://github.com/RiDDiX/home-assistant-matter-hub/issues/9)) ([a567cf7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a567cf727f1842613025251759d18125fcf60db9))
+
 # [2.0.0-alpha.68](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.67...v2.0.0-alpha.68) (2026-01-29)
 
 
