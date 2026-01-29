@@ -1,3 +1,10 @@
+## [1.7.42](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.41...v1.7.42) (2026-01-29)
+
+
+### Features
+
+* add coverUseHomeAssistantPercentage flag for Alexa-friendly cover percentage display ([c8f311c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c8f311ca057e5e24c84572ed928c6d98ba8f547a))
+
 ## [1.7.41](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.40...v1.7.41) (2026-01-29)
 
 
