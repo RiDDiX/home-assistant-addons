@@ -1,3 +1,10 @@
+# [4.0.0-testing.27](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.26...v4.0.0-testing.27) (2026-01-29)
+
+
+### Bug Fixes
+
+* use relative API URL for bridge-icons (Ingress compatibility) ([50fb5cc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/50fb5cc33ad3b8139e79daddb04be547af740e23))
+
 # [4.0.0-testing.26](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.25...v4.0.0-testing.26) (2026-01-29)
 
 
