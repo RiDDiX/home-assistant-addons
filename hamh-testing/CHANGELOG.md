@@ -1,3 +1,11 @@
+# [4.0.0-testing.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.2...v4.0.0-testing.3) (2026-01-29)
+
+
+### Features
+
+* add coverUseHomeAssistantPercentage flag for Alexa-friendly cover percentage display ([da0267b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/da0267b93f800f3d1b04a61245cda55c6054ad82))
+* **frontend:** redesign UI with modern card-based layout for bridges and devices ([0a73c40](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0a73c40f6a2dae3fc987ca5fb30c9a129ab5beef))
+
 # [4.0.0-testing.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.1...v4.0.0-testing.2) (2026-01-29)
 
 
