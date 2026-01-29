@@ -1,3 +1,10 @@
+# [2.0.0-alpha.95](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.94...v2.0.0-alpha.95) (2026-01-29)
+
+
+### Reverts
+
+* Revert "feat: add GarageDoorDevice for Apple CarPlay support (fixes [#50](https://github.com/RiDDiX/home-assistant-matter-hub/issues/50))" ([78f4f54](https://github.com/RiDDiX/home-assistant-matter-hub/commit/78f4f54cbcaf33a6ba98c7e25f940c27a5f72677))
+
 # [2.0.0-alpha.94](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.93...v2.0.0-alpha.94) (2026-01-29)
 
 
