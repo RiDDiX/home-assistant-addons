@@ -1,3 +1,10 @@
+# [2.0.0-alpha.86](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.85...v2.0.0-alpha.86) (2026-01-29)
+
+
+### Bug Fixes
+
+* correct vendor ID mapping - 4996 is iCloud Keychain, not Google (fixes [#47](https://github.com/RiDDiX/home-assistant-matter-hub/issues/47)) ([55cfd51](https://github.com/RiDDiX/home-assistant-matter-hub/commit/55cfd51774c26c509ec5cd2671fcbae007bc7d24))
+
 # [2.0.0-alpha.85](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.84...v2.0.0-alpha.85) (2026-01-29)
 
 
