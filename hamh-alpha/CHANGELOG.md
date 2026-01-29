@@ -1,3 +1,10 @@
+# [2.0.0-alpha.74](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.73...v2.0.0-alpha.74) (2026-01-29)
+
+
+### Bug Fixes
+
+* correct thermostat deadband constraint logic with 2.5C margin ([fde0e98](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fde0e980233470880197a5ff5c4708987dba66aa))
+
 # [2.0.0-alpha.73](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.72...v2.0.0-alpha.73) (2026-01-29)
 
 
