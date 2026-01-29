@@ -1,3 +1,10 @@
+## [1.7.39](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.38...v1.7.39) (2026-01-29)
+
+
+### Bug Fixes
+
+* handle endpoint storage errors during bridge deletion ([c52110e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c52110e34f46a47aced941837084feee22769280))
+
 ## [1.7.38](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.7.37...v1.7.38) (2026-01-29)
 
 
