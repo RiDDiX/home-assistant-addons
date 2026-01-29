@@ -1,3 +1,10 @@
+# [2.0.0-alpha.65](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.64...v2.0.0-alpha.65) (2026-01-29)
+
+
+### Bug Fixes
+
+* use relative API paths for Home Assistant ingress compatibility ([a791fd9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a791fd95dda9f9b1c8b1f02967783d6d0358aac3))
+
 # [2.0.0-alpha.64](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.63...v2.0.0-alpha.64) (2026-01-29)
 
 
