@@ -1,3 +1,10 @@
+# [4.0.0-testing.33](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.32...v4.0.0-testing.33) (2026-01-30)
+
+
+### Bug Fixes
+
+* use HA limits directly for single-mode thermostats, wide limits for dual-mode ([#52](https://github.com/RiDDiX/home-assistant-matter-hub/issues/52)) ([96fbb3e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/96fbb3ee6d40628212c32f4812b64e8054d2803c))
+
 # [4.0.0-testing.32](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.31...v4.0.0-testing.32) (2026-01-30)
 
 
