@@ -1,3 +1,10 @@
+# [4.0.0-testing.36](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.35...v4.0.0-testing.36) (2026-01-30)
+
+
+### Bug Fixes
+
+* include icon field in bridge API response ([d798953](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d79895398116814b3bbd677db340145646510c43))
+
 # [4.0.0-testing.35](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.34...v4.0.0-testing.35) (2026-01-30)
 
 
