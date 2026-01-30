@@ -1,4 +1,4 @@
-version: "4.0.0-testing.43"
+version: "4.0.0-testing.44"
 image: ghcr.io/riddix/home-assistant-matter-hub-addon
 slug: hamh-testing
 name: Home-Assistant-Matter-Hub (Testing)
