@@ -1,3 +1,10 @@
+# [2.0.0-alpha.117](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.116...v2.0.0-alpha.117) (2026-01-30)
+
+
+### Bug Fixes
+
+* make coverUseHomeAssistantPercentage consistent for reading and writing ([#34](https://github.com/RiDDiX/home-assistant-matter-hub/issues/34)) ([30b9f53](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30b9f53781c10c75d62fd1a62771703823a19698))
+
 # [2.0.0-alpha.116](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.115...v2.0.0-alpha.116) (2026-01-30)
 
 
