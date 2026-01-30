@@ -1,3 +1,10 @@
+# [2.0.0-alpha.118](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.117...v2.0.0-alpha.118) (2026-01-30)
+
+
+### Features
+
+* add battery status support for vacuum devices (fixes [#59](https://github.com/RiDDiX/home-assistant-matter-hub/issues/59)) ([c15a038](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c15a03866a4826051f80bd6d0f1088ffab09079c))
+
 # [2.0.0-alpha.117](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.116...v2.0.0-alpha.117) (2026-01-30)
 
 
