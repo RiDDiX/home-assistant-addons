@@ -1,3 +1,10 @@
+# [2.0.0-alpha.122](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.121...v2.0.0-alpha.122) (2026-01-30)
+
+
+### Features
+
+* add alexaPreserveBrightnessOnTurnOn feature flag to prevent brightness reset ([#37](https://github.com/RiDDiX/home-assistant-matter-hub/issues/37)) ([4f3c4de](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4f3c4dedb65c9af5e961973cef66e1d0dc6dd086))
+
 # [2.0.0-alpha.121](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.120...v2.0.0-alpha.121) (2026-01-30)
 
 
