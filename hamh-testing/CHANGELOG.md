@@ -1,3 +1,10 @@
+# [4.0.0-testing.40](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.39...v4.0.0-testing.40) (2026-01-30)
+
+
+### Bug Fixes
+
+* add PowerSource for vacuum when battery_level attribute exists (fixes [#59](https://github.com/RiDDiX/home-assistant-matter-hub/issues/59)) ([93c3d79](https://github.com/RiDDiX/home-assistant-matter-hub/commit/93c3d792d77203d450a909320abe0e6fdf84acb1))
+
 # [4.0.0-testing.39](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.38...v4.0.0-testing.39) (2026-01-30)
 
 
