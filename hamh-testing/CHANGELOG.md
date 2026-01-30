@@ -1,3 +1,10 @@
+# [4.0.0-testing.42](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.41...v4.0.0-testing.42) (2026-01-30)
+
+
+### Bug Fixes
+
+* apply customName from entity mapping to Matter nodeLabel ([e7dd624](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e7dd624b13ab162e84fe1e9c46bf6ceb299f31f8))
+
 # [4.0.0-testing.41](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.40...v4.0.0-testing.41) (2026-01-30)
 
 
