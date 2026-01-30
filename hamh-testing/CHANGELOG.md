@@ -1,3 +1,10 @@
+# [4.0.0-testing.41](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.40...v4.0.0-testing.41) (2026-01-30)
+
+
+### Bug Fixes
+
+* add powerSource to ClusterId enum and fix vacuum PowerSource logic ([ef6460a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ef6460a0730837e9fda8e4b51690e56488da6106))
+
 # [4.0.0-testing.40](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.39...v4.0.0-testing.40) (2026-01-30)
 
 
