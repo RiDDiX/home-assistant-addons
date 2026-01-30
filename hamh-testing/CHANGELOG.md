@@ -1,3 +1,10 @@
+# [4.0.0-testing.35](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.34...v4.0.0-testing.35) (2026-01-30)
+
+
+### Bug Fixes
+
+* preserve icon selection when saving bridge config ([dd13522](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dd13522aa93f5611b008403494e48b86dd57f17f))
+
 # [4.0.0-testing.34](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.33...v4.0.0-testing.34) (2026-01-30)
 
 
