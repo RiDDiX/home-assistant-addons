@@ -1,3 +1,10 @@
+# [2.0.0-alpha.111](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.110...v2.0.0-alpha.111) (2026-01-30)
+
+
+### Bug Fixes
+
+* bridge icon selection now applies correctly, remove duplicate status chip, fix button inverted state ([#57](https://github.com/RiDDiX/home-assistant-matter-hub/issues/57)), add remote device support ([#40](https://github.com/RiDDiX/home-assistant-matter-hub/issues/40)) ([98ff47f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/98ff47ff7a7335bfee36854744466c12dfe52807))
+
 # [2.0.0-alpha.110](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.109...v2.0.0-alpha.110) (2026-01-30)
 
 
