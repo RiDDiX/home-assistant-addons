@@ -1,3 +1,10 @@
+# [4.1.0-testing.17](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.16...v4.1.0-testing.17) (2026-01-31)
+
+
+### Bug Fixes
+
+* add  event handlers to FanBehavior and fix LevelControlBehavior state update ([724e971](https://github.com/RiDDiX/home-assistant-matter-hub/commit/724e971883ab2e27a076fa54270756a95b63dda0))
+
 # [4.1.0-testing.16](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.15...v4.1.0-testing.16) (2026-01-31)
 
 
