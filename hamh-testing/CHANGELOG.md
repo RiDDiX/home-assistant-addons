@@ -1,3 +1,10 @@
+# [4.1.0-testing.7](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.6...v4.1.0-testing.7) (2026-01-31)
+
+
+### Features
+
+* implement Vision 1 callback-based behavior architecture for VacuumEndpoint ([ff7475f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ff7475fe8b2300e22c5937ecbb6389ee9937d501))
+
 # [4.1.0-testing.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.5...v4.1.0-testing.6) (2026-01-31)
 
 
