@@ -1,3 +1,10 @@
+# [2.0.0-alpha.128](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.127...v2.0.0-alpha.128) (2026-01-31)
+
+
+### Bug Fixes
+
+* detect humidity from current_humidity attribute, not just TARGET_HUMIDITY feature ([#67](https://github.com/RiDDiX/home-assistant-matter-hub/issues/67)) ([9133491](https://github.com/RiDDiX/home-assistant-matter-hub/commit/913349188c519c12fbd7b359e356e41fd1d33e6b))
+
 # [2.0.0-alpha.127](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.126...v2.0.0-alpha.127) (2026-01-31)
 
 
