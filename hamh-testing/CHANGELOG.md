@@ -1,3 +1,10 @@
+# [4.0.0-testing.51](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.50...v4.0.0-testing.51) (2026-01-31)
+
+
+### Features
+
+* ThermostatEndpoint uses neighbor temperature sensors when current_temperature missing ([f4878f1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f4878f1c8af16e7bcf6726bd1c5a5d1a8f26e7e7))
+
 # [4.0.0-testing.50](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.49...v4.0.0-testing.50) (2026-01-31)
 
 
