@@ -1,3 +1,10 @@
+# [4.1.0-testing.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.3...v4.1.0-testing.4) (2026-01-31)
+
+
+### Features
+
+* add water_heater domain support as thermostat device ([#14](https://github.com/RiDDiX/home-assistant-matter-hub/issues/14)) ([b0c961f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b0c961ff56b90652bd90beb7c83f2ccab8cc9821))
+
 # [4.1.0-testing.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.2...v4.1.0-testing.3) (2026-01-31)
 
 
