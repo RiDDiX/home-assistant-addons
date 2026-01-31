@@ -1,3 +1,10 @@
+# [2.0.0-alpha.125](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.124...v2.0.0-alpha.125) (2026-01-31)
+
+
+### Bug Fixes
+
+* correct inverted cover state-based position fallback ([#72](https://github.com/RiDDiX/home-assistant-matter-hub/issues/72)) ([634a9d0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/634a9d0685fd53ce4fec7b4ea5e00b8e72c03765))
+
 # [2.0.0-alpha.124](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.123...v2.0.0-alpha.124) (2026-01-31)
 
 
