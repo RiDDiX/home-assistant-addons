@@ -1,3 +1,10 @@
+# [4.1.0-testing.10](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.9...v4.1.0-testing.10) (2026-01-31)
+
+
+### Bug Fixes
+
+* correct Vision 1 behavior initialization order and LevelControl constraint ([#75](https://github.com/RiDDiX/home-assistant-matter-hub/issues/75)) ([211db30](https://github.com/RiDDiX/home-assistant-matter-hub/commit/211db302cc53517b6c581326e57a9b024d38f032))
+
 # [4.1.0-testing.9](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.8...v4.1.0-testing.9) (2026-01-31)
 
 
