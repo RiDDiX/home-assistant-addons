@@ -1,3 +1,22 @@
+## [1.10.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.10.4...v1.10.5) (2026-01-31)
+
+
+### Bug Fixes
+
+* add min/max measured values to sensor behaviors to prevent Invalid intervalMs error ([#74](https://github.com/RiDDiX/home-assistant-matter-hub/issues/74)) ([6953cd7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6953cd7f7bdd1c1d5eabd1d072781de9f76a921c))
+* add sensor type factories to enable entity mapping override ([#73](https://github.com/RiDDiX/home-assistant-matter-hub/issues/73)) ([b6c13da](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b6c13da95a00b32aa2a0868e46c0f2181b516357))
+* include bridge icons in full backup export/import ([d06b10a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d06b10adcfb0def875be3b35239dfaf5ae604911))
+* map both setpoints to temperature in auto mode for single-temp thermostats ([#71](https://github.com/RiDDiX/home-assistant-matter-hub/issues/71)) ([42601e1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/42601e13fdde3040f6ec4c8eee4a68d05c3edda6))
+* set minMeasuredValue to 1 for IlluminanceMeasurement (Matter spec requirement) ([4344b53](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4344b5353a1bf175a137487f08035cf62c96b9ea))
+
+
+### Features
+
+* add vacuum room selection support via RvcRunMode ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([bea9068](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bea906809a4542ce8aefe367950163ed39cff607))
+* add water_heater domain support as thermostat device ([#14](https://github.com/RiDDiX/home-assistant-matter-hub/issues/14)) ([4ec0fbc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4ec0fbc218e546dedd9e43253d92989a28c064af))
+* add water_valve and pump to Entity Mapping dropdown ([118e602](https://github.com/RiDDiX/home-assistant-matter-hub/commit/118e6025f575a407889adfda122661788cb7c507))
+* merge alpha fixes and update README for v1.10.5 stable release ([6ea28a3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6ea28a3a2a49712f03e33a0a801d8f53f75439c4))
+
 ## [1.10.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v1.10.3...v1.10.4) (2026-01-31)
 
 
