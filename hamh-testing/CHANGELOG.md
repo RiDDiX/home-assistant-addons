@@ -1,3 +1,10 @@
+# [4.0.0-testing.46](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.45...v4.0.0-testing.46) (2026-01-31)
+
+
+### Features
+
+* add Update device class mapping to binary sensor ([b37a962](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b37a962851dbd8477a2f568f3fdd9876241724c3))
+
 # [4.0.0-testing.45](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.44...v4.0.0-testing.45) (2026-01-31)
 
 
