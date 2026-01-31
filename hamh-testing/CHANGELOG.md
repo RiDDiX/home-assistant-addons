@@ -1,3 +1,18 @@
+# [4.0.0-testing.52](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.51...v4.0.0-testing.52) (2026-01-31)
+
+
+* feat!: Vision 1 architecture with neighbor entity support ([1c046f2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1c046f2c72339edf91b48b6ed5120c3eca12a745))
+
+
+### BREAKING CHANGES
+
+* Major refactoring of endpoint architecture
+- Implemented neighbor entity support for DomainEndpoints
+- ThermostatEndpoint can now use external temperature sensors from neighbor entities
+- Added findNeighborsByDomain/DeviceClass methods
+- Removed unused hasAutoMode function
+- BridgeEndpointManager registers and updates neighbor entities
+
 # [4.0.0-testing.51](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.0.0-testing.50...v4.0.0-testing.51) (2026-01-31)
 
 
