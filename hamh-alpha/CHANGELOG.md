@@ -1,3 +1,10 @@
+# [2.0.0-alpha.133](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.132...v2.0.0-alpha.133) (2026-01-31)
+
+
+### Bug Fixes
+
+* map both setpoints to temperature in auto mode for single-temp thermostats ([#71](https://github.com/RiDDiX/home-assistant-matter-hub/issues/71)) ([42601e1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/42601e13fdde3040f6ec4c8eee4a68d05c3edda6))
+
 # [2.0.0-alpha.132](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.131...v2.0.0-alpha.132) (2026-01-31)
 
 
