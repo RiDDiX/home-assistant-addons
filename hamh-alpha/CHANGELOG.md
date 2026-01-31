@@ -1,3 +1,10 @@
+# [2.0.0-alpha.123](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.122...v2.0.0-alpha.123) (2026-01-31)
+
+
+### Features
+
+* add WaterValveDevice for valve domain and RoomAirConditioner for climate with fan_mode ([0505cf8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0505cf8a246f9478d14eeb47b4bf10130a30aaf2))
+
 # [2.0.0-alpha.122](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.121...v2.0.0-alpha.122) (2026-01-30)
 
 
