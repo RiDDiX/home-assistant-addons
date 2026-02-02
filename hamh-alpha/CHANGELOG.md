@@ -1,3 +1,10 @@
+# [2.0.0-alpha.181](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.180...v2.0.0-alpha.181) (2026-02-02)
+
+
+### Bug Fixes
+
+* **frontend:** load icon and priority when editing bridge ([#81](https://github.com/RiDDiX/home-assistant-matter-hub/issues/81)) ([1e3eb8b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1e3eb8bf03dec843617e7af2e517f1d4747296ac))
+
 # [2.0.0-alpha.180](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.179...v2.0.0-alpha.180) (2026-02-02)
 
 
