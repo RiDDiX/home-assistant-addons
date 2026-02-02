@@ -1,3 +1,10 @@
+# [2.0.0-alpha.153](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.152...v2.0.0-alpha.153) (2026-02-02)
+
+
+### Bug Fixes
+
+* define default setpoints in State class to fix NaN validation ([#82](https://github.com/RiDDiX/home-assistant-matter-hub/issues/82)) ([87e5e2a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/87e5e2a49758a31305caee31f9ed7f02f7927915))
+
 # [2.0.0-alpha.152](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.151...v2.0.0-alpha.152) (2026-02-02)
 
 
