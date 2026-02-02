@@ -1,3 +1,15 @@
+# [2.0.0-alpha.182](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.181...v2.0.0-alpha.182) (2026-02-02)
+
+
+### Bug Fixes
+
+* **speaker:** use 0-100 range for volume in Google Home ([#79](https://github.com/RiDDiX/home-assistant-matter-hub/issues/79)) ([01e6b75](https://github.com/RiDDiX/home-assistant-matter-hub/commit/01e6b75c5d5f76ac2df9e1b612b525f8fe29941e))
+
+
+### Features
+
+* **frontend:** add drag-and-drop startup order dashboard ([#81](https://github.com/RiDDiX/home-assistant-matter-hub/issues/81)) ([6b6c98a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6b6c98a76e7ae4564f668b5925fbbcaab4b356c6))
+
 # [2.0.0-alpha.181](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.180...v2.0.0-alpha.181) (2026-02-02)
 
 
