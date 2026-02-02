@@ -1,3 +1,10 @@
+# [2.0.0-alpha.178](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.177...v2.0.0-alpha.178) (2026-02-02)
+
+
+### Bug Fixes
+
+* round currentLevel to integer for correct volume display ([#79](https://github.com/RiDDiX/home-assistant-matter-hub/issues/79)) ([eaff2d1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/eaff2d1d708692b02519f0b0b4efe7b29f3dc310))
+
 # [2.0.0-alpha.177](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.176...v2.0.0-alpha.177) (2026-02-02)
 
 
