@@ -1,3 +1,10 @@
+# [2.0.0-alpha.157](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.156...v2.0.0-alpha.157) (2026-02-02)
+
+
+### Bug Fixes
+
+* remove .with() calls on ClimateThermostatServer to prevent NaN validation errors ([c4cad88](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c4cad885d54110b5d8537963529fa6136663c37e))
+
 # [2.0.0-alpha.156](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.155...v2.0.0-alpha.156) (2026-02-02)
 
 
