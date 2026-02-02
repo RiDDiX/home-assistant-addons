@@ -1,3 +1,10 @@
+# [2.0.0-alpha.186](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.185...v2.0.0-alpha.186) (2026-02-02)
+
+
+### Features
+
+* **ui:** redesign Backup & Restore with separate boxes and descriptions ([e3fc1a4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e3fc1a4dbe418d0a4c8325a2759ac9c196522b85))
+
 # [2.0.0-alpha.185](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.184...v2.0.0-alpha.185) (2026-02-02)
 
 
