@@ -1,3 +1,10 @@
+# [2.0.0-alpha.144](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.143...v2.0.0-alpha.144) (2026-02-02)
+
+
+### Features
+
+* add filter life sensor mapping for Air Purifiers in Entity Mapping UI ([c083411](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c083411e34e51b19c9a38da42e25fd27798c8d42))
+
 # [2.0.0-alpha.143](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.142...v2.0.0-alpha.143) (2026-02-02)
 
 
