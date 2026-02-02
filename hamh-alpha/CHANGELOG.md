@@ -1,3 +1,10 @@
+# [2.0.0-alpha.156](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.155...v2.0.0-alpha.156) (2026-02-02)
+
+
+### Bug Fixes
+
+* re-apply thermostat defaults after .with() to prevent NaN validation errors ([8d7683c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8d7683cf584dc82de1494eaf57b90520104c3673))
+
 # [2.0.0-alpha.155](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.154...v2.0.0-alpha.155) (2026-02-02)
 
 
