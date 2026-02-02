@@ -1,3 +1,10 @@
+# [2.0.0-alpha.183](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.182...v2.0.0-alpha.183) (2026-02-02)
+
+
+### Features
+
+* **frontend:** add Startup Order button to header navigation ([#81](https://github.com/RiDDiX/home-assistant-matter-hub/issues/81)) ([69f2352](https://github.com/RiDDiX/home-assistant-matter-hub/commit/69f2352ec287ebdcf9bd858d9591a74d8a6935b8))
+
 # [2.0.0-alpha.182](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.181...v2.0.0-alpha.182) (2026-02-02)
 
 
