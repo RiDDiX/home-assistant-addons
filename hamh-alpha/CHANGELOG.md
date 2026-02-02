@@ -1,3 +1,10 @@
+# [2.0.0-alpha.142](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.141...v2.0.0-alpha.142) (2026-02-02)
+
+
+### Bug Fixes
+
+* support nested Dreame room format and fallback to segments ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([f7ec6b2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f7ec6b2f8a451788cc1f1c5e6316b3a4855bb61d))
+
 # [2.0.0-alpha.141](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.140...v2.0.0-alpha.141) (2026-02-02)
 
 
