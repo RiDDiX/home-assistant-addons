@@ -1,3 +1,10 @@
+# [2.0.0-alpha.155](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.154...v2.0.0-alpha.155) (2026-02-02)
+
+
+### Bug Fixes
+
+* capture entityId and actions before setTimeout to prevent expired context ([#76](https://github.com/RiDDiX/home-assistant-matter-hub/issues/76)) ([8bd6f71](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8bd6f7103251e3b653b3d9cacc3235f939632f1c))
+
 # [2.0.0-alpha.154](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.153...v2.0.0-alpha.154) (2026-02-02)
 
 
