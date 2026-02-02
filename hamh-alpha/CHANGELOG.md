@@ -1,3 +1,10 @@
+# [2.0.0-alpha.172](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.171...v2.0.0-alpha.172) (2026-02-02)
+
+
+### Features
+
+* add debug logging for vacuum room parsing ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([f9e996b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f9e996b9195d88a85d98e458cb2d123298b43f5d))
+
 # [2.0.0-alpha.171](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.170...v2.0.0-alpha.171) (2026-02-02)
 
 
