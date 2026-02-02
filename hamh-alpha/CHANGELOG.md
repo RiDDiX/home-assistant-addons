@@ -1,3 +1,16 @@
+# [2.0.0-alpha.175](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.174...v2.0.0-alpha.175) (2026-02-02)
+
+
+### Bug Fixes
+
+* add detailed debug logging for ServiceArea cluster initialization ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([e9cb371](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e9cb37157b16bfd17790f1f9557167aa7f744817))
+* update Matter.js to 0.16.8 in apps package.json ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([a69a55d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a69a55db7ed218296e76aecc07c95dd95f9e089a))
+
+
+### Features
+
+* update Matter.js to 0.16.8 for ServiceArea cluster fix ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([fe6b0e1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fe6b0e1daf2b3e85da65f7ded4c7cc22bd17fa37))
+
 # [2.0.0-alpha.174](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.173...v2.0.0-alpha.174) (2026-02-02)
 
 
