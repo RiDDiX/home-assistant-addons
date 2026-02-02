@@ -1,3 +1,10 @@
+# [2.0.0-alpha.159](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.158...v2.0.0-alpha.159) (2026-02-02)
+
+
+### Bug Fixes
+
+* ensure valid thermostat setpoints before super.initialize() - check for NaN ([6d7a735](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6d7a7355395f2f853d0deb848835d8e4ee3a27c4))
+
 # [2.0.0-alpha.158](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.157...v2.0.0-alpha.158) (2026-02-02)
 
 
