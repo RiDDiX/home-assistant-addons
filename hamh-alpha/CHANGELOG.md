@@ -1,3 +1,10 @@
+# [2.0.0-alpha.174](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.173...v2.0.0-alpha.174) (2026-02-02)
+
+
+### Features
+
+* add debug logging for ServiceArea cluster initialization ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([02580bb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/02580bb2c7ec0588b5dcf27f46ea2b1fa9f7b0ba))
+
 # [2.0.0-alpha.173](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.172...v2.0.0-alpha.173) (2026-02-02)
 
 
