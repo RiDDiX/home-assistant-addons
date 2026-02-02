@@ -1,3 +1,10 @@
+# [2.0.0-alpha.151](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.150...v2.0.0-alpha.151) (2026-02-02)
+
+
+### Features
+
+* add Matter 1.4 Service Area cluster for Apple Home room selection ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([709bc8e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/709bc8e5bc45aa9b3c0345db4f3d97aa96a4e67f))
+
 # [2.0.0-alpha.150](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.149...v2.0.0-alpha.150) (2026-02-02)
 
 
