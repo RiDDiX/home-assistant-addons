@@ -1,3 +1,10 @@
+# [2.0.0-alpha.171](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.170...v2.0.0-alpha.171) (2026-02-02)
+
+
+### Features
+
+* add debug logging for cover state updates ([#88](https://github.com/RiDDiX/home-assistant-matter-hub/issues/88)) ([437c017](https://github.com/RiDDiX/home-assistant-matter-hub/commit/437c017e08fb6e2e3616a7d0f9bf6163c09a7add))
+
 # [2.0.0-alpha.170](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.169...v2.0.0-alpha.170) (2026-02-02)
 
 
