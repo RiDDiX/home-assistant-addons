@@ -1,3 +1,10 @@
+# [2.0.0-alpha.176](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.175...v2.0.0-alpha.176) (2026-02-02)
+
+
+### Bug Fixes
+
+* remove Overkiz/Somfy from Matter semantics platforms - use standard HA inversion ([#90](https://github.com/RiDDiX/home-assistant-matter-hub/issues/90)) ([5bd011c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5bd011cea909352393b15214430dfb41fa9f3339))
+
 # [2.0.0-alpha.175](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.174...v2.0.0-alpha.175) (2026-02-02)
 
 
