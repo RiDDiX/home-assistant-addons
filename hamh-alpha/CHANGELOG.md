@@ -1,3 +1,10 @@
+# [2.0.0-alpha.139](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.138...v2.0.0-alpha.139) (2026-02-02)
+
+
+### Features
+
+* add EntityIsolationService to isolate problematic entities at runtime ([1f53a24](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1f53a247c47d022f714e4f8758bc61c8f0bad421))
+
 # [2.0.0-alpha.138](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.137...v2.0.0-alpha.138) (2026-02-02)
 
 
