@@ -1,3 +1,10 @@
+# [2.0.0-alpha.170](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.169...v2.0.0-alpha.170) (2026-02-02)
+
+
+### Bug Fixes
+
+* refactor RvcRunModeServer to pass supportedModes at creation time ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([9ba2819](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9ba2819c372ad5d30736764825c8ed5accf300c9))
+
 # [2.0.0-alpha.169](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.168...v2.0.0-alpha.169) (2026-02-02)
 
 
