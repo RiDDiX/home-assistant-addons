@@ -1,3 +1,10 @@
+# [2.0.0-alpha.146](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.145...v2.0.0-alpha.146) (2026-02-02)
+
+
+### Bug Fixes
+
+* debounce WindowCovering position commands to handle rapid Google Home updates ([#76](https://github.com/RiDDiX/home-assistant-matter-hub/issues/76)) ([e28b763](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e28b763ef3760098bd9c84ab5bf0786526948a9d))
+
 # [2.0.0-alpha.145](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.144...v2.0.0-alpha.145) (2026-02-02)
 
 
