@@ -1,3 +1,10 @@
+# [2.0.0-alpha.189](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.188...v2.0.0-alpha.189) (2026-02-02)
+
+
+### Features
+
+* **vacuum:** add RvcCleanModeServer for Dreame cleaning modes (Sweeping, Mopping, etc.) ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([70f1b7b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/70f1b7b444fc22e8d8db240334c6245b63951233))
+
 # [2.0.0-alpha.188](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.187...v2.0.0-alpha.188) (2026-02-02)
 
 
