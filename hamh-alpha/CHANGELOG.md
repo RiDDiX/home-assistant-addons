@@ -1,3 +1,10 @@
+# [2.0.0-alpha.167](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.166...v2.0.0-alpha.167) (2026-02-02)
+
+
+### Bug Fixes
+
+* temporarily disable ServiceArea cluster to debug vacuum issue ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([240df88](https://github.com/RiDDiX/home-assistant-matter-hub/commit/240df888e9fb66a53d17db7ff21eac06ec087db3))
+
 # [2.0.0-alpha.166](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.165...v2.0.0-alpha.166) (2026-02-02)
 
 
