@@ -1,3 +1,10 @@
+# [2.0.0-alpha.166](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.165...v2.0.0-alpha.166) (2026-02-02)
+
+
+### Features
+
+* add configurable bridge startup priority ([#81](https://github.com/RiDDiX/home-assistant-matter-hub/issues/81)) ([4c3b6ff](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4c3b6ff683736bf6d0a69428d369a1a136844ede))
+
 # [2.0.0-alpha.165](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.164...v2.0.0-alpha.165) (2026-02-02)
 
 
