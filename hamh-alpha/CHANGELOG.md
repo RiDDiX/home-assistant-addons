@@ -1,3 +1,10 @@
+# [2.0.0-alpha.154](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.153...v2.0.0-alpha.154) (2026-02-02)
+
+
+### Bug Fixes
+
+* set thermostat defaults on featured base class before extension ([#82](https://github.com/RiDDiX/home-assistant-matter-hub/issues/82)) ([1ac3dd6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1ac3dd650183e68cb0325ca3e0168b7da82b889c))
+
 # [2.0.0-alpha.153](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.152...v2.0.0-alpha.153) (2026-02-02)
 
 
