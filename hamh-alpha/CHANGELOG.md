@@ -1,3 +1,10 @@
+# [2.0.0-alpha.184](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.183...v2.0.0-alpha.184) (2026-02-02)
+
+
+### Bug Fixes
+
+* **vacuum:** filter out unnamed rooms like 'Room 7' by default ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([515c3ac](https://github.com/RiDDiX/home-assistant-matter-hub/commit/515c3acd759b4add4366419fb412a8fde80a15bd))
+
 # [2.0.0-alpha.183](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.182...v2.0.0-alpha.183) (2026-02-02)
 
 
