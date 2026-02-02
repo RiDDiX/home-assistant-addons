@@ -1,3 +1,10 @@
+# [2.0.0-alpha.179](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.178...v2.0.0-alpha.179) (2026-02-02)
+
+
+### Bug Fixes
+
+* use dreame_vacuum.vacuum_clean_segment for Dreame vacuums ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([44e78aa](https://github.com/RiDDiX/home-assistant-matter-hub/commit/44e78aa8e2aeacb4e2e26c4340315f534600d397))
+
 # [2.0.0-alpha.178](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.177...v2.0.0-alpha.178) (2026-02-02)
 
 
