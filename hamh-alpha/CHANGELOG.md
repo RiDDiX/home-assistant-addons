@@ -1,3 +1,10 @@
+# [2.0.0-alpha.188](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.187...v2.0.0-alpha.188) (2026-02-02)
+
+
+### Bug Fixes
+
+* **vacuum:** handle segment_cleaning and other cleaning states for proper status display ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([95a84e0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/95a84e09575d4d52085383ba3a4cca445678f02f))
+
 # [2.0.0-alpha.187](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.186...v2.0.0-alpha.187) (2026-02-02)
 
 
