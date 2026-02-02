@@ -1,3 +1,10 @@
+# [2.0.0-alpha.145](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.144...v2.0.0-alpha.145) (2026-02-02)
+
+
+### Bug Fixes
+
+* save filterLifeEntity in entity mapping API and storage ([914e136](https://github.com/RiDDiX/home-assistant-matter-hub/commit/914e136bbca51b8d43902ef3bbae1bc8542fff7d))
+
 # [2.0.0-alpha.144](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.143...v2.0.0-alpha.144) (2026-02-02)
 
 
