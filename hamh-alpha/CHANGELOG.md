@@ -1,3 +1,10 @@
+# [2.0.0-alpha.168](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.167...v2.0.0-alpha.168) (2026-02-02)
+
+
+### Bug Fixes
+
+* pass initial supportedAreas to ServiceArea cluster at creation time ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([47bc74c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/47bc74c01c687c8b79a2a28ca94c308d791b6cd3))
+
 # [2.0.0-alpha.167](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.166...v2.0.0-alpha.167) (2026-02-02)
 
 
