@@ -1,3 +1,10 @@
+# [2.0.0-alpha.205](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.204...v2.0.0-alpha.205) (2026-02-03)
+
+
+### Bug Fixes
+
+* **#49:** improve room selection logging and use consistent mode matching ([a1067b5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a1067b5e2366853ef50d79247fedbec2046d82f7)), closes [#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)
+
 # [2.0.0-alpha.204](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.203...v2.0.0-alpha.204) (2026-02-03)
 
 
