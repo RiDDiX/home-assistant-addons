@@ -1,3 +1,10 @@
+# [2.0.0-alpha.201](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.200...v2.0.0-alpha.201) (2026-02-03)
+
+
+### Bug Fixes
+
+* **#49:** preserve original error in retry utility to fix [object Object] logging ([57a6d7f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/57a6d7f30896da0e63469568dc326d5b5ba61dd5))
+
 # [2.0.0-alpha.200](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.199...v2.0.0-alpha.200) (2026-02-03)
 
 
