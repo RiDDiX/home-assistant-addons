@@ -1,3 +1,10 @@
+# [2.0.0-alpha.209](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.208...v2.0.0-alpha.209) (2026-02-03)
+
+
+### Bug Fixes
+
+* restore exact alpha.194 behavior server code to diagnose ColorTemperatureLight issue ([49f1327](https://github.com/RiDDiX/home-assistant-matter-hub/commit/49f1327308026a55d20b43044b88cf8a19c9127b))
+
 # [2.0.0-alpha.208](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.207...v2.0.0-alpha.208) (2026-02-03)
 
 
