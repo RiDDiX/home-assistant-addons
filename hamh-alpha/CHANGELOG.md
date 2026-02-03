@@ -1,3 +1,10 @@
+# [2.0.0-alpha.206](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.205...v2.0.0-alpha.206) (2026-02-03)
+
+
+### Bug Fixes
+
+* add debug logging to behavior servers to diagnose initialization errors ([602f121](https://github.com/RiDDiX/home-assistant-matter-hub/commit/602f121140eff4a77c34d8288f78b124c5699169))
+
 # [2.0.0-alpha.205](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.204...v2.0.0-alpha.205) (2026-02-03)
 
 
