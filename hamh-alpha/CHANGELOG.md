@@ -1,3 +1,10 @@
+# [2.0.0-alpha.190](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.189...v2.0.0-alpha.190) (2026-02-03)
+
+
+### Bug Fixes
+
+* **vacuum:** target correct select entity for Dreame cleaning modes ([#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)) ([77ef1b8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/77ef1b8249627df557e5c5b8df33e9bd76da462e))
+
 # [2.0.0-alpha.189](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.188...v2.0.0-alpha.189) (2026-02-02)
 
 
