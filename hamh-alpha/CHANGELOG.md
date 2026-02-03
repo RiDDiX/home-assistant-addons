@@ -1,3 +1,11 @@
+# [2.0.0-alpha.202](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.201...v2.0.0-alpha.202) (2026-02-03)
+
+
+### Bug Fixes
+
+* **#49:** dynamic cleaning mode option matching for Dreame vacuums ([179ee92](https://github.com/RiDDiX/home-assistant-matter-hub/commit/179ee9294f2b357552f9ded1ba73fbebb97af84a)), closes [#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)
+* restore required defaults before super.initialize() in behavior servers ([3f9a5b2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3f9a5b2570fc0f43d642b061ff88f80ea8e02bcc))
+
 # [2.0.0-alpha.201](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.200...v2.0.0-alpha.201) (2026-02-03)
 
 
