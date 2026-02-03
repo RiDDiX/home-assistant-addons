@@ -1,3 +1,10 @@
+# [2.0.0-alpha.212](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.211...v2.0.0-alpha.212) (2026-02-03)
+
+
+### Bug Fixes
+
+* ExtendedColorLightType now only adds features the light actually supports ([25e204b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/25e204b1e0353ee49fc9f9c962b663167b9551b7))
+
 # [2.0.0-alpha.211](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.210...v2.0.0-alpha.211) (2026-02-03)
 
 
