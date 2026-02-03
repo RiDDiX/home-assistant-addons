@@ -1,3 +1,10 @@
+# [2.0.0-alpha.207](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.206...v2.0.0-alpha.207) (2026-02-03)
+
+
+### Bug Fixes
+
+* revert to alpha.194 defaults - remove onLevel, colorMode, enhancedColorMode, onOff defaults ([e797541](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e7975413869691e9acb90fd037ede81e69c221a4))
+
 # [2.0.0-alpha.206](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.205...v2.0.0-alpha.206) (2026-02-03)
 
 
