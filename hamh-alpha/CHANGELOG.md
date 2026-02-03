@@ -1,3 +1,10 @@
+# [2.0.0-alpha.199](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.198...v2.0.0-alpha.199) (2026-02-03)
+
+
+### Bug Fixes
+
+* **#49:** improve error logging for HA action failures - show actual error instead of [object Object] ([9068fb8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9068fb8ef59e3a1e008eaf2296cb7d31b93e7411)), closes [#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)
+
 # [2.0.0-alpha.198](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.197...v2.0.0-alpha.198) (2026-02-03)
 
 
