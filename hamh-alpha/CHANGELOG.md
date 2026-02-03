@@ -1,3 +1,10 @@
+# [2.0.0-alpha.210](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.209...v2.0.0-alpha.210) (2026-02-03)
+
+
+### Bug Fixes
+
+* **#49:** remove room-specific modes from RvcRunMode - use ServiceArea only for room selection ([8afdaf3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8afdaf33ea4c222566fedd2079b41850a66a5674)), closes [#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)
+
 # [2.0.0-alpha.209](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.208...v2.0.0-alpha.209) (2026-02-03)
 
 
