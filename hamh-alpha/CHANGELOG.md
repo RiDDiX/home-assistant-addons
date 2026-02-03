@@ -1,3 +1,10 @@
+# [2.0.0-alpha.203](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.202...v2.0.0-alpha.203) (2026-02-03)
+
+
+### Bug Fixes
+
+* add missing defaults for AirQuality and ColorControl before super.initialize() ([8cfbd81](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8cfbd81427116037bb5d058ff872535d5715d13a))
+
 # [2.0.0-alpha.202](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.201...v2.0.0-alpha.202) (2026-02-03)
 
 
