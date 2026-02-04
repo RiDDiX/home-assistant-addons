@@ -1,3 +1,10 @@
+# [2.0.0-alpha.216](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.215...v2.0.0-alpha.216) (2026-02-04)
+
+
+### Bug Fixes
+
+* revert LevelControlServer and ColorControlServer to alpha.194 behavior ([a27c09c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a27c09c2e2b4054da77450ed6e4f46a974af2b6d))
+
 # [2.0.0-alpha.215](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.214...v2.0.0-alpha.215) (2026-02-04)
 
 
