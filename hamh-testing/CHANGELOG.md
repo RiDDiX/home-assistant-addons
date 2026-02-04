@@ -1,3 +1,15 @@
+# [4.1.0-testing.19](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.18...v4.1.0-testing.19) (2026-02-04)
+
+
+### Bug Fixes
+
+* revert to LegacyEndpoint architecture for stability ([5d60c7e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5d60c7ed34cefda371ac8e7184a1d82878d963ab))
+
+
+### Features
+
+* enable Vision 1 architecture, add battery sensor support, add EntityIsolationService ([b2d8e23](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b2d8e2331b35ce5260c0f6083d2af4f464b7d47b))
+
 # [4.1.0-testing.18](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v4.1.0-testing.17...v4.1.0-testing.18) (2026-01-31)
 
 
