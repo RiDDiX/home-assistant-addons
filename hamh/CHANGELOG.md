@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.3...v2.0.4) (2026-02-04)
+
+
+### Bug Fixes
+
+* **#49:** add mopping_after_sweeping alias for Dreame lowercase format ([af2e0f2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/af2e0f264a0f388ca168e5badf1b364d3cb6c274)), closes [#49](https://github.com/RiDDiX/home-assistant-matter-hub/issues/49)
+
 ## [2.0.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.2...v2.0.3) (2026-02-04)
 
 
