@@ -103,20 +103,20 @@
 <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/notifications-subscriptions-menu.df1da1278307b37a.module.css" />
 
 
-  <title>Release v2.1.0-alpha.1 · RiDDiX/home-assistant-matter-hub · GitHub</title>
+  <title>Release v2.1.0-alpha.2 · RiDDiX/home-assistant-matter-hub · GitHub</title>
 
 
 
   <meta name="route-pattern" content="/:user_id/:repository/releases/tag/*name" data-turbo-transient>
   <meta name="route-controller" content="releases" data-turbo-transient>
   <meta name="route-action" content="show" data-turbo-transient>
-  <meta name="fetch-nonce" content="v2:e901fabe-6686-f353-b6d3-117927c756bc">
+  <meta name="fetch-nonce" content="v2:6d5126c2-93e8-982c-9adc-6d6743c1a6d1">
 
     
   <meta name="current-catalog-service-hash" content="6f13f31f798a93a6b08d3be0727120e9af35851fac7b9c620d6cf9a70068c136">
 
 
-  <meta name="request-id" content="0401:397B6D:A6C988:E896AA:69835E48" data-pjax-transient="true"/><meta name="html-safe-nonce" content="1afe914e8d34b80bf8a41fcc4e2199443bc002e75601b1dd084a0c2eda9e46be" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNDAxOjM5N0I2RDpBNkM5ODg6RTg5NkFBOjY5ODM1RTQ4IiwidmlzaXRvcl9pZCI6Ijg0MDYxNTg0MzY0Mzc1NDg2MTYiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="a0786a6f32004e282bd6f71c8fc685f96e0fd70b2e722112922f610976f44cf7" data-pjax-transient="true"/>
+  <meta name="request-id" content="1C01:3BB7E1:5778CA:7B09E7:69835FE5" data-pjax-transient="true"/><meta name="html-safe-nonce" content="d972685244f7f8f88393f944a1b2efb9627e39d6d8c5120416a4a89ccd4748a4" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIxQzAxOjNCQjdFMTo1Nzc4Q0E6N0IwOUU3OjY5ODM1RkU1IiwidmlzaXRvcl9pZCI6IjMwNTYyNjY1MzAyMzM5OTkzMzMiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="d2e9a5dc168798ac840baa568adda47f8da096546ee8155fef131404ee74483b" data-pjax-transient="true"/>
 
 
     <meta name="hovercard-subject-tag" content="repository:1142022609" data-turbo-transient>
@@ -147,29 +147,20 @@
 
     
 
-      <meta name="description" content="Publish your Home-Assistant Instance using Matter. - Release v2.1.0-alpha.1 · RiDDiX/home-assistant-matter-hub">
+      <meta name="description" content="Publish your Home-Assistant Instance using Matter. - Release v2.1.0-alpha.2 · RiDDiX/home-assistant-matter-hub">
 
       <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
 
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
-    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1" />
+    <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2" />
 
-      <meta name="twitter:image" content="https://opengraph.githubassets.com/934d0cfbf392196a7943b4d700ff655fbe6b8cf91ebb84e5eed7d3035fb3b393/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Release v2.1.0-alpha.1 · RiDDiX/home-assistant-matter-hub" /><meta name="twitter:description" content="Alpha Release v2.1.0-alpha.1
-
-feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
-
+      <meta name="twitter:image" content="https://opengraph.githubassets.com/85b76f66c88924019b57d058bb141e1431b6156f34ee6cc65a1a28f023b38498/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Release v2.1.0-alpha.2 · RiDDiX/home-assistant-matter-hub" /><meta name="twitter:description" content="Alpha Release v2.1.0-alpha.2
 
 ⚠️ This is an alpha release - use at your own risk!" />
-  <meta property="og:image" content="https://opengraph.githubassets.com/934d0cfbf392196a7943b4d700ff655fbe6b8cf91ebb84e5eed7d3035fb3b393/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1" /><meta property="og:image:alt" content="Alpha Release v2.1.0-alpha.1
+  <meta property="og:image" content="https://opengraph.githubassets.com/85b76f66c88924019b57d058bb141e1431b6156f34ee6cc65a1a28f023b38498/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2" /><meta property="og:image:alt" content="Alpha Release v2.1.0-alpha.2
 
-feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
-
-
-⚠️ This is an alpha release - use at your own risk!" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Release v2.1.0-alpha.1 · RiDDiX/home-assistant-matter-hub" /><meta property="og:url" content="/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1" /><meta property="og:description" content="Alpha Release v2.1.0-alpha.1
-
-feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
-
+⚠️ This is an alpha release - use at your own risk!" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Release v2.1.0-alpha.2 · RiDDiX/home-assistant-matter-hub" /><meta property="og:url" content="/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2" /><meta property="og:description" content="Alpha Release v2.1.0-alpha.2
 
 ⚠️ This is an alpha release - use at your own risk!" />
   
@@ -298,19 +289,19 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 
       <div class="d-flex flex-1 flex-order-2 text-right d-lg-none gap-2 flex-justify-end">
           <a
-            href="/login?return_to=https%3A%2F%2Fgithub.com%2FRiDDiX%2Fhome-assistant-matter-hub%2Freleases%2Ftag%2Fv2.1.0-alpha.1"
+            href="/login?return_to=https%3A%2F%2Fgithub.com%2FRiDDiX%2Fhome-assistant-matter-hub%2Freleases%2Ftag%2Fv2.1.0-alpha.2"
             class="HeaderMenu-link HeaderMenu-button d-inline-flex f5 no-underline border color-border-default rounded-2 px-2 py-1 color-fg-inherit js-prevent-focus-on-mobile-nav"
-            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0c306b8e13d721a80734470ded614cb4ddb5440cf33af315dacf9430d002df89"
+            data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="eede0d39ac71e49b0e75030d16e01503150840461ca86aaff584b396bbadfad9"
             data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to Sign in&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
           >
             Sign in
           </a>
               <div class="AppHeader-appearanceSettings">
     <react-partial-anchor>
-      <button data-target="react-partial-anchor.anchor" id="icon-button-ac5ecdf6-1aa2-4eae-ab26-c6a6a92e836b" aria-labelledby="tooltip-993f1691-7500-4a71-859f-7e19c82a9fb6" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+      <button data-target="react-partial-anchor.anchor" id="icon-button-4e214bb7-4d6c-40c1-a230-e8310c3df5c3" aria-labelledby="tooltip-68798f01-d308-4d17-bc7b-5d32ebb0550b" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
     <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
 </svg>
-</button><tool-tip id="tooltip-993f1691-7500-4a71-859f-7e19c82a9fb6" for="icon-button-ac5ecdf6-1aa2-4eae-ab26-c6a6a92e836b" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+</button><tool-tip id="tooltip-68798f01-d308-4d17-bc7b-5d32ebb0550b" for="icon-button-4e214bb7-4d6c-40c1-a230-e8310c3df5c3" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
 
       <template data-target="react-partial-anchor.template">
         <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.53ab500a9aa7cb0e.module.css" />
@@ -358,7 +349,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
                 
 
 
-<qbsearch-input class="search-input" data-scope="repo:RiDDiX/home-assistant-matter-hub" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="plUtvDBd___1WIlWjHFf-6NSxmQlSeaakW0fBimsujpNJutWVElcppO6M35OVWnmefQLr3Ch5MY0MntxDdOh8A" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="RiDDiX/home-assistant-matter-hub" data-current-org="" data-current-owner="RiDDiX" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
+<qbsearch-input class="search-input" data-scope="repo:RiDDiX/home-assistant-matter-hub" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="awwEjZYlhntnJwedlO4i_ryDur5iPty7oYN_-O30dUWAd6XXpBLIQlPWl1nboO9mb-WkwZY8Lmqhsb8Qrcyg2w" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="RiDDiX/home-assistant-matter-hub" data-current-org="" data-current-owner="RiDDiX" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
   <div
     class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center mr-4 rounded"
     data-action="click:qbsearch-input#searchInputContainerClicked"
@@ -422,7 +413,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
           ></div>
           <div class="QueryBuilder-InputWrapper">
             <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
-            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-dee4cddf-f2e2-411b-8fc1-22c200961bc0" data-target="query-builder.input" data-action="
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-dc3964ff-5cb2-42c3-8b3d-b74434c26fab" data-target="query-builder.input" data-action="
           input:query-builder#inputChange
           blur:query-builder#inputBlur
           keydown:query-builder#inputKeydown
@@ -661,7 +652,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
             ></ul>
 
         </div>
-      <div class="FormControl-inlineValidation" id="validation-dee4cddf-f2e2-411b-8fc1-22c200961bc0" hidden="hidden">
+      <div class="FormControl-inlineValidation" id="validation-dc3964ff-5cb2-42c3-8b3d-b74434c26fab" hidden="hidden">
         <span class="FormControl-inlineValidation--visual">
           <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
     <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
@@ -702,7 +693,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
   
 </div>
       <scrollable-region data-labelled-by="feedback-dialog-title">
-        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="fUvloiro22pK5a4a+qKscl/AKPeUyednnQZbLqCDpoB113HmIBftqHQqXyYMewSF32LaD/PwMyxr4ijOP8g1ag==" />
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="bEHh+VQUjW/qUyWw+DVjd3sktZLxSQcB3MQj+fOx8s/yTvCrrF8d4nyVhCNtdQ4334xMo1HZFOvUyriM3tc3mA==" />
           <p>We read every piece of feedback, and take your input very seriously.</p>
           <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
           <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
@@ -740,7 +731,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
         <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="ZJpbpszT9ulbh/f1HCHWpiA++QkUDZfxQ65Dzux+yiwb4lcicpvV+3ISJgVwUkPU1iSJM9U0g7GuqN1Wv6HyUA==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="eQ7JRHPffhbT2oAYawHLqjQh1gl7RneXVCclPaeOZ5wv9qB2RA445i5o4kXxi1rkdA+uB6krOztz8IHQmJZ0kw==" />
           <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
           <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
@@ -758,7 +749,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
                 placeholder="github-ruby"
                 required
                 maxlength="50">
-              <input type="hidden" data-csrf="true" value="MiHjlYfoI0vhct2L2Qx0MhMcOkY2PcCDogNyuD505dMHDsOGyoKigRrkR1rboJs2iSdodef4FpHidbHSyiUOMA==" />
+              <input type="hidden" data-csrf="true" value="SkfH/hd8eCiU0TeAPSEfNpcYQJfT90GYHSyj+n2V183WAX+BSCfTw2yNvSdJT8JIKyNxKuvBMNxa0OQ2FMfMzQ==" />
             </auto-check>
           </div>
 
@@ -800,10 +791,10 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 
             <div class="position-relative HeaderMenu-link-wrap d-lg-inline-block">
               <a
-                href="/login?return_to=https%3A%2F%2Fgithub.com%2FRiDDiX%2Fhome-assistant-matter-hub%2Freleases%2Ftag%2Fv2.1.0-alpha.1"
+                href="/login?return_to=https%3A%2F%2Fgithub.com%2FRiDDiX%2Fhome-assistant-matter-hub%2Freleases%2Ftag%2Fv2.1.0-alpha.2"
                 class="HeaderMenu-link HeaderMenu-link--sign-in HeaderMenu-button flex-shrink-0 no-underline d-none d-lg-inline-flex border border-lg-0 rounded px-2 py-1"
                 style="margin-left: 12px;"
-                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0c306b8e13d721a80734470ded614cb4ddb5440cf33af315dacf9430d002df89"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="eede0d39ac71e49b0e75030d16e01503150840461ca86aaff584b396bbadfad9"
                 data-analytics-event="{&quot;category&quot;:&quot;Marketing nav&quot;,&quot;action&quot;:&quot;click to go to homepage&quot;,&quot;label&quot;:&quot;ref_page:Marketing;ref_cta:Sign in;ref_loc:Header&quot;}"
               >
                 Sign in
@@ -812,7 +803,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 
               <a href="/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Freleases%2Fshow&amp;source=header-repo&amp;source_repo=RiDDiX%2Fhome-assistant-matter-hub"
                 class="HeaderMenu-link HeaderMenu-link--sign-up HeaderMenu-button flex-shrink-0 d-flex d-lg-inline-flex no-underline border color-border-default rounded px-2 py-1"
-                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="0c306b8e13d721a80734470ded614cb4ddb5440cf33af315dacf9430d002df89"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="eede0d39ac71e49b0e75030d16e01503150840461ca86aaff584b396bbadfad9"
                 data-analytics-event="{&quot;category&quot;:&quot;Sign up&quot;,&quot;action&quot;:&quot;click to sign up for account&quot;,&quot;label&quot;:&quot;ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/releases/show;ref_cta:Sign up;ref_loc:header logged out&quot;}"
               >
                 Sign up
@@ -820,10 +811,10 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 
                 <div class="AppHeader-appearanceSettings">
     <react-partial-anchor>
-      <button data-target="react-partial-anchor.anchor" id="icon-button-903190c6-a2d3-4d7c-874b-fa3d9bf0e401" aria-labelledby="tooltip-f4306433-f362-45fc-a5b8-f5d2bb5b2862" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
+      <button data-target="react-partial-anchor.anchor" id="icon-button-e759515d-da66-4e24-9221-4488a4a1be33" aria-labelledby="tooltip-a5ea7d9f-e8b0-4287-bbcc-28d6aa2ae2bb" type="button" disabled="disabled" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium AppHeader-button HeaderMenu-link border cursor-wait">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sliders Button-visual">
     <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm-8.5.75v1.25a.75.75 0 0 0 1.5 0v-4a.75.75 0 0 0-1.5 0V2H1.75a.75.75 0 0 0 0 1.5H6.5Zm1.25 5.25a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5h6ZM15 8a.75.75 0 0 1-.75.75H11.5V10a.75.75 0 1 1-1.5 0V6a.75.75 0 0 1 1.5 0v1.25h2.75A.75.75 0 0 1 15 8Zm-9 5.25v-2a.75.75 0 0 0-1.5 0v1.25H1.75a.75.75 0 0 0 0 1.5H4.5v1.25a.75.75 0 0 0 1.5 0v-2Zm9 0a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 .75.75Z"></path>
 </svg>
-</button><tool-tip id="tooltip-f4306433-f362-45fc-a5b8-f5d2bb5b2862" for="icon-button-903190c6-a2d3-4d7c-874b-fa3d9bf0e401" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
+</button><tool-tip id="tooltip-a5ea7d9f-e8b0-4287-bbcc-28d6aa2ae2bb" for="icon-button-e759515d-da66-4e24-9221-4488a4a1be33" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Appearance settings</tool-tip>
 
       <template data-target="react-partial-anchor.template">
         <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-react.53ab500a9aa7cb0e.module.css" />
@@ -861,10 +852,10 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
         <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
 
-    <button id="icon-button-2d807740-c8a5-4f6b-a313-2b5176c35b8b" aria-labelledby="tooltip-daa5dde9-5ff2-4a03-afe7-5fc6dc20f0a0" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <button id="icon-button-f47bba06-bda5-4f7c-81f1-23ad5a075dda" aria-labelledby="tooltip-e3881668-3f24-4619-a4d7-0a87abbe9847" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
-</button><tool-tip id="tooltip-daa5dde9-5ff2-4a03-afe7-5fc6dc20f0a0" for="icon-button-2d807740-c8a5-4f6b-a313-2b5176c35b8b" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+</button><tool-tip id="tooltip-e3881668-3f24-4619-a4d7-0a87abbe9847" for="icon-button-f47bba06-bda5-4f7c-81f1-23ad5a075dda" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
 
 
   
@@ -967,15 +958,15 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
       
 
   <li>
-            <a href="/login?return_to=%2FRiDDiX%2Fhome-assistant-matter-hub" rel="nofollow" id="repository-details-watch-button" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="22fdd56404ab5c981ca6e82e62e9c647462f9eee95d97757fdef70ee1d17f4b0" aria-label="You must be signed in to change notification settings" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
+            <a href="/login?return_to=%2FRiDDiX%2Fhome-assistant-matter-hub" rel="nofollow" id="repository-details-watch-button" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="1f5a075b0aad370ee41d4f55f079a7b366cc998153085a2637bc43e1683999cf" aria-label="You must be signed in to change notification settings" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
     <path d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z"></path>
 </svg>Notifications
-</a>    <tool-tip id="tooltip-1c39a636-8d53-4555-a0dd-767b2ed72013" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
+</a>    <tool-tip id="tooltip-d97e27aa-8233-46d3-aee1-965410e77a4a" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
 
   </li>
 
   <li>
-          <a icon="repo-forked" id="fork-button" href="/login?return_to=%2FRiDDiX%2Fhome-assistant-matter-hub" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:1142022609,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="303b4334d2fca76aacd84f6345d8710bf03553eb2bef79d8f7979cb2da50244d" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+          <a icon="repo-forked" id="fork-button" href="/login?return_to=%2FRiDDiX%2Fhome-assistant-matter-hub" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:1142022609,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c1a085f92b09c3eb1110dcd571b0a34b48029e479a98376caa370854f0bd8b73" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>
 </svg>Fork
     <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="6" data-view-component="true" class="Counter">6</span>
@@ -984,7 +975,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 
   <li>
         <div data-view-component="true" class="BtnGroup d-flex">
-        <a href="/login?return_to=%2FRiDDiX%2Fhome-assistant-matter-hub" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1142022609,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7ffa8af520f67e65c759451c2ec4a6f7d556aea9dae5dbf26d3ced97cf7c490b" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-sw btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
+        <a href="/login?return_to=%2FRiDDiX%2Fhome-assistant-matter-hub" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:1142022609,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="7dfb7e338eb0c949ac0a436d4f45a188e64d9d07a098e3083d0f39351ead0516" aria-label="You must be signed in to star a repository" data-view-component="true" class="tooltipped tooltipped-sw btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star v-align-text-bottom d-inline-block mr-2">
     <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"></path>
 </svg><span data-view-component="true" class="d-inline">
           Star
@@ -1005,7 +996,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 
   <ul data-view-component="true" class="UnderlineNav-body list-style-none">
       <li data-view-component="true" class="d-inline-flex">
-  <a id="code-tab" href="/RiDDiX/home-assistant-matter-hub/tree/v2.1.0-alpha.1" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments repo_attestations /RiDDiX/home-assistant-matter-hub/tree/v2.1.0-alpha.1" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-react-nav="code-view" data-react-nav-anchor="code-view-repo-link" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+  <a id="code-tab" href="/RiDDiX/home-assistant-matter-hub/tree/v2.1.0-alpha.2" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments repo_attestations /RiDDiX/home-assistant-matter-hub/tree/v2.1.0-alpha.2" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-react-nav="code-view" data-react-nav-anchor="code-view-repo-link" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
     <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
@@ -1103,22 +1094,22 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 </ul>
     <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <action-menu data-select-variant="none" data-view-component="true">
   <focus-group direction="vertical" mnemonics retain>
-    <button id="action-menu-a9ca1e18-103a-4e6a-94ab-b8fbde492882-button" popovertarget="action-menu-a9ca1e18-103a-4e6a-94ab-b8fbde492882-overlay" aria-controls="action-menu-a9ca1e18-103a-4e6a-94ab-b8fbde492882-list" aria-haspopup="true" aria-labelledby="tooltip-9d9bc39d-69c3-4fac-8b84-c6bdc87f2f27" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
+    <button id="action-menu-665695b6-d09e-4410-be2b-91c4130c41ad-button" popovertarget="action-menu-665695b6-d09e-4410-be2b-91c4130c41ad-overlay" aria-controls="action-menu-665695b6-d09e-4410-be2b-91c4130c41ad-list" aria-haspopup="true" aria-labelledby="tooltip-a8aa91ac-cf53-46f6-9fcd-3112eaf6a617" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
     <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
 </svg>
-</button><tool-tip id="tooltip-9d9bc39d-69c3-4fac-8b84-c6bdc87f2f27" for="action-menu-a9ca1e18-103a-4e6a-94ab-b8fbde492882-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
+</button><tool-tip id="tooltip-a8aa91ac-cf53-46f6-9fcd-3112eaf6a617" for="action-menu-665695b6-d09e-4410-be2b-91c4130c41ad-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
 
 
-<anchored-position data-target="action-menu.overlay" id="action-menu-a9ca1e18-103a-4e6a-94ab-b8fbde492882-overlay" anchor="action-menu-a9ca1e18-103a-4e6a-94ab-b8fbde492882-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
+<anchored-position data-target="action-menu.overlay" id="action-menu-665695b6-d09e-4410-be2b-91c4130c41ad-overlay" anchor="action-menu-665695b6-d09e-4410-be2b-91c4130c41ad-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
   <div data-view-component="true" class="Overlay Overlay--size-auto">
     
       <div data-view-component="true" class="Overlay-body Overlay-body--paddingNone">          <action-list>
   <div data-view-component="true">
-    <ul aria-labelledby="action-menu-a9ca1e18-103a-4e6a-94ab-b8fbde492882-button" id="action-menu-a9ca1e18-103a-4e6a-94ab-b8fbde492882-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+    <ul aria-labelledby="action-menu-665695b6-d09e-4410-be2b-91c4130c41ad-button" id="action-menu-665695b6-d09e-4410-be2b-91c4130c41ad-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
         <li hidden="hidden" data-menu-item="i0code-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-6fc5bc6f-9573-4807-bcde-e48efdca3cea" href="/RiDDiX/home-assistant-matter-hub/tree/v2.1.0-alpha.1" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-1cb00e66-7387-401a-af3a-a7774c1f3f5c" href="/RiDDiX/home-assistant-matter-hub/tree/v2.1.0-alpha.2" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
@@ -1134,7 +1125,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <li hidden="hidden" data-menu-item="i1issues-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-03949e6c-04cd-4968-ab93-6bd0cbf66bfc" href="/RiDDiX/home-assistant-matter-hub/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-14952405-f7ab-49f6-8b95-88bfaddd2dd4" href="/RiDDiX/home-assistant-matter-hub/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
@@ -1150,7 +1141,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <li hidden="hidden" data-menu-item="i2pull-requests-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-75e3eff7-c75d-422a-b10e-1154d84596e1" href="/RiDDiX/home-assistant-matter-hub/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-25afec94-433e-4458-a1c6-b9399b88bb29" href="/RiDDiX/home-assistant-matter-hub/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request">
     <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
@@ -1166,7 +1157,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <li hidden="hidden" data-menu-item="i3discussions-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-1556aba5-5673-4801-90f4-3df51c75252b" href="/RiDDiX/home-assistant-matter-hub/discussions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-bb68fe51-1bd7-4ace-be86-e7eff1512c12" href="/RiDDiX/home-assistant-matter-hub/discussions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-comment-discussion">
     <path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z"></path>
@@ -1182,7 +1173,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <li hidden="hidden" data-menu-item="i4actions-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-c3da81fe-b5f0-4fb0-84bd-214fc32c8333" href="/RiDDiX/home-assistant-matter-hub/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-b8af599a-63db-4438-a722-eb20e8d0f42c" href="/RiDDiX/home-assistant-matter-hub/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
@@ -1198,7 +1189,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <li hidden="hidden" data-menu-item="i5projects-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-e50c26ed-52e5-4f70-b519-ccdd5dc58868" href="/RiDDiX/home-assistant-matter-hub/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-56f95d8a-3e33-4c97-8e1d-a124dc233681" href="/RiDDiX/home-assistant-matter-hub/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table">
     <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
@@ -1214,7 +1205,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <li hidden="hidden" data-menu-item="i6security-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-8f7c1f2e-ff08-4cfb-a123-4970ec97dac4" href="/RiDDiX/home-assistant-matter-hub/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-edac97dd-d06b-4333-8a78-944acd1c7a3f" href="/RiDDiX/home-assistant-matter-hub/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield">
     <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
@@ -1230,7 +1221,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <li hidden="hidden" data-menu-item="i7insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-63c8d2a1-0f68-4406-966f-d29b6d2ddc98" href="/RiDDiX/home-assistant-matter-hub/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-155f76f8-a77d-442e-90b4-4f835d1894f7" href="/RiDDiX/home-assistant-matter-hub/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph">
     <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
@@ -1270,7 +1261,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
   <nav data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" aria-label="Breadcrumb" data-view-component="true" class="mb-5">
   <ol>
       <li data-view-component="true" class="breadcrumb-item "><a target="_self" href="/RiDDiX/home-assistant-matter-hub/releases" data-view-component="true" class="Link">Releases</a></li>
-      <li data-view-component="true" class="breadcrumb-item  breadcrumb-item-selected"><a target="_self" aria-current="page" href="/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.1" data-view-component="true" class="Link">v2.1.0-alpha.1</a></li>
+      <li data-view-component="true" class="breadcrumb-item  breadcrumb-item-selected"><a target="_self" aria-current="page" href="/RiDDiX/home-assistant-matter-hub/releases/tag/v2.1.0-alpha.2" data-view-component="true" class="Link">v2.1.0-alpha.2</a></li>
   </ol>
 </nav>
 <div class=""   data-hpc>
@@ -1279,7 +1270,7 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
   <div data-view-component="true" class="Box-body">      <div class="d-flex flex-md-row flex-column">
   <div class="d-flex flex-row flex-1 mb-3 wb-break-word">
     <div class="flex-1" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame">
-        <h1 data-view-component="true" class="d-inline mr-3">v2.1.0-alpha.1</h1>
+        <h1 data-view-component="true" class="d-inline mr-3">v2.1.0-alpha.2</h1>
       <span>
         <span data-view-component="true" class="Label Label--warning Label--large v-align-text-bottom d-none d-md-inline-block">Pre-release</span>
           <div class="ml-2 d-none d-md-inline">
@@ -1298,9 +1289,9 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         </div>
   </div>
   <div class="d-flex mb-3" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame">
-                    <select-panel id="select-panel-7d71be41-41f4-415e-96f8-c04371c57577" anchor-align="start" anchor-side="outside-bottom" data-select-variant="single" data-fetch-strategy="eventually_local" data-open-on-load="false" data-view-component="true">
+                    <select-panel id="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a" anchor-align="start" anchor-side="outside-bottom" data-select-variant="single" data-fetch-strategy="eventually_local" data-open-on-load="false" data-view-component="true">
   <dialog-helper>
-    <button id="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-button" aria-controls="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-dialog" aria-haspopup="dialog" aria-expanded="false" type="button" data-view-component="true" class="Button--secondary Button--small Button">  <span class="Button-content">
+    <button id="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-button" aria-controls="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-dialog" aria-haspopup="dialog" aria-expanded="false" type="button" data-view-component="true" class="Button--secondary Button--small Button">  <span class="Button-content">
     <span class="Button-label">Compare</span>
       <span class="Button-visual Button-trailingVisual">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
@@ -1310,17 +1301,17 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
   </span>
 </button>
 
-    <dialog id="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-dialog" aria-labelledby="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-dialog-title" data-target="select-panel.dialog" style="position: absolute;" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-small-portrait">
+    <dialog id="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-dialog" aria-labelledby="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-dialog-title" data-target="select-panel.dialog" style="position: absolute;" data-view-component="true" class="Overlay Overlay-whenNarrow Overlay--size-small-portrait">
       <div data-view-component="true" class="Overlay-header Overlay-header--divided">
   <div class="Overlay-headerContentWrap">
     <div class="Overlay-titleWrap">
-      <h1 class="Overlay-title " id="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-dialog-title">
+      <h1 class="Overlay-title " id="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-dialog-title">
         Choose a tag to compare
       </h1>
         
     </div>
     <div class="Overlay-actionWrap">
-      <button data-close-dialog-id="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-dialog" aria-label="Close" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+      <button data-close-dialog-id="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-dialog" aria-label="Close" aria-label="Close" type="button" data-view-component="true" class="close-button Overlay-closeButton"><svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg></button>
     </div>
@@ -1338,9 +1329,9 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
                   <h2 class="f6 text-normal">Sorry, something went wrong.</h2>
 </p>
 </div></div></x-banner>            </div>
-            <remote-input aria-owns="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-body" data-target="select-panel.remoteInput" data-view-component="true">
+            <remote-input aria-owns="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-body" data-target="select-panel.remoteInput" data-view-component="true">
                 <primer-text-field class="FormControl width-full FormControl--fullWidth">
-      <label for="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-filter" class="sr-only FormControl-label position-absolute sr-only FormControl-label">
+      <label for="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-filter" class="sr-only FormControl-label position-absolute sr-only FormControl-label">
         Filter
 </label>    
   <div class="FormControl-input-wrap FormControl-input-wrap--leadingVisual">
@@ -1356,9 +1347,9 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 </span>
       </span>
     
-      <input id="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-filter" type="search" autofocus="autofocus" data-target="primer-text-field.inputElement select-panel.filterInputTextField" aria-describedby="validation-1b1eb982-c1b9-4c1f-a3c6-dbf5b769f19a" class="form-control FormControl-input FormControl-medium" name="filter" />
+      <input id="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-filter" type="search" autofocus="autofocus" data-target="primer-text-field.inputElement select-panel.filterInputTextField" aria-describedby="validation-b19ebdc6-d104-411d-b25b-f9b9dbf821c5" class="form-control FormControl-input FormControl-medium" name="filter" />
 </div>
-      <div class="FormControl-inlineValidation" id="validation-1b1eb982-c1b9-4c1f-a3c6-dbf5b769f19a" hidden="hidden">
+      <div class="FormControl-inlineValidation" id="validation-b19ebdc6-d104-411d-b25b-f9b9dbf821c5" hidden="hidden">
   <span class="FormControl-inlineValidation--visual" data-target="primer-text-field.validationSuccessIcon" hidden><svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-check-circle-fill">
     <path d="M6 0a6 6 0 1 1 0 12A6 6 0 0 1 6 0Zm-.705 8.737L9.63 4.403 8.392 3.166 5.295 6.263l-1.7-1.702L2.356 5.8l2.938 2.938Z"></path>
 </svg></span>
@@ -1374,10 +1365,10 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
         <focus-group direction="vertical" mnemonics retain>
           <live-region data-target="select-panel.liveRegion"></live-region>
           <div data-fetch-strategy="eventually_local" data-target="select-panel.list" data-view-component="true">
-            <div id="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-body">
-                <include-fragment data-target="select-panel.includeFragment" loading="lazy" src="/RiDDiX/home-assistant-matter-hub/refs?tag_name=v2.1.0-alpha.1&amp;experimental=1" accept="text/fragment+html" data-nonce="v2:e901fabe-6686-f353-b6d3-117927c756bc" data-view-component="true">
+            <div id="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-body">
+                <include-fragment data-target="select-panel.includeFragment" loading="lazy" src="/RiDDiX/home-assistant-matter-hub/refs?tag_name=v2.1.0-alpha.2&amp;experimental=1" accept="text/fragment+html" data-nonce="v2:6d5126c2-93e8-982c-9adc-6d6743c1a6d1" data-view-component="true">
   
-                  <div id="select-panel-7d71be41-41f4-415e-96f8-c04371c57577-list" aria-disabled="true" aria-busy="true" data-view-component="true" class="SelectPanel-loadingPanel mt-2 mb-2 d-flex flex-items-start flex-justify-center text-center">
+                  <div id="select-panel-7534fbe3-b54f-4b40-a353-3884d806b41a-list" aria-disabled="true" aria-busy="true" data-view-component="true" class="SelectPanel-loadingPanel mt-2 mb-2 d-flex flex-items-start flex-justify-center text-center">
                     <div data-hide-on-error class="pt-2">
                       <span data-target="select-panel.bodySpinner" data-view-component="true">
   <svg aria-label="Loading content..." style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" role="img" data-view-component="true" class="anim-rotate">
@@ -1430,15 +1421,15 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 
     released this
 
-      <relative-time class="no-wrap" prefix="" datetime="2026-02-04T14:53:57Z">
-        04 Feb 14:53
+      <relative-time class="no-wrap" prefix="" datetime="2026-02-04T15:00:31Z">
+        04 Feb 15:00
       </relative-time>
   </div>
 
   
         <div class="mr-4 mb-2">
           &middot;
-          <a href="/RiDDiX/home-assistant-matter-hub/compare/v2.1.0-alpha.1...main">
+          <a href="/RiDDiX/home-assistant-matter-hub/compare/v2.1.0-alpha.2...main">
             0 commits
           </a>
           to main
@@ -1447,28 +1438,25 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 
 
         <div class="mr-4 mb-2">
-          <a href="/RiDDiX/home-assistant-matter-hub/tree/v2.1.0-alpha.1" data-view-component="true" class="Link Link--muted"><span data-view-component="true" class="css-truncate css-truncate-target">
+          <a href="/RiDDiX/home-assistant-matter-hub/tree/v2.1.0-alpha.2" data-view-component="true" class="Link Link--muted"><span data-view-component="true" class="css-truncate css-truncate-target">
               <svg aria-label="Tag" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-tag">
     <path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"></path>
 </svg>
               <span class="ml-1">
-                v2.1.0-alpha.1
+                v2.1.0-alpha.2
               </span>
 </span></a>          
         </div>
         <div class="mr-4 mb-2" style="position: relative; top: 1px;">
-          <a data-hovercard-type="commit" data-hovercard-url="/RiDDiX/home-assistant-matter-hub/commit/550201bbf7486be80f2349967747ffc57d013afb/hovercard" href="/RiDDiX/home-assistant-matter-hub/commit/550201bbf7486be80f2349967747ffc57d013afb" data-view-component="true" class="Link Link--muted"><svg aria-label="Commit" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-commit">
+          <a data-hovercard-type="commit" data-hovercard-url="/RiDDiX/home-assistant-matter-hub/commit/837613cd89f9e0cbe7d6f63ec8b53a46b2f81b41/hovercard" href="/RiDDiX/home-assistant-matter-hub/commit/837613cd89f9e0cbe7d6f63ec8b53a46b2f81b41" data-view-component="true" class="Link Link--muted"><svg aria-label="Commit" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-commit">
     <path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"></path>
 </svg>
-              <code class="f5 ml-1">550201b</code></a>          
+              <code class="f5 ml-1">837613c</code></a>          
         </div>
 
 </div>
   </div>
-        <div data-pjax="true" data-test-selector="body-content" data-view-component="true" class="markdown-body my-3"><h2>Alpha Release v2.1.0-alpha.1</h2>
-<ul>
-<li>feat(<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3872353578" data-permission-text="Title is private" data-url="https://github.com/RiDDiX/home-assistant-matter-hub/issues/49" data-hovercard-type="issue" data-hovercard-url="/RiDDiX/home-assistant-matter-hub/issues/49/hovercard" href="https://github.com/RiDDiX/home-assistant-matter-hub/issues/49">#49</a>): improve Dreame vacuum cleaning mode aliases (<a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/RiDDiX/home-assistant-matter-hub/commit/cb285ea2c16340a7882b61cfc37beed11e25f252/hovercard" href="https://github.com/RiDDiX/home-assistant-matter-hub/commit/cb285ea2c16340a7882b61cfc37beed11e25f252"><tt>cb285ea</tt></a>)</li>
-</ul>
+        <div data-pjax="true" data-test-selector="body-content" data-view-component="true" class="markdown-body my-3"><h2>Alpha Release v2.1.0-alpha.2</h2>
 <hr>
 <p><g-emoji class="g-emoji" alias="warning">⚠️</g-emoji> <strong>This is an alpha release</strong> - use at your own risk!</p></div>
 </div>
@@ -1478,10 +1466,10 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
     <details open="open" data-target="details-toggle.detailsTarget" data-view-component="true">
       <summary role="button" data-target="details-toggle.summaryTarget" data-action="click:details-toggle#toggle" aria-expanded="true" data-view-component="true">    <span class="d-inline-flex flex-items-center">
       <span data-view-component="true" class="f3 text-bold ml-2 mr-2">Assets</span>
-      <span title="2" data-view-component="true" class="Counter">2</span>
+      <span title="4" data-view-component="true" class="Counter">4</span>
     </span>
 </summary>
-      <div data-view-component="true">      <include-fragment loading="lazy" src="https://github.com/RiDDiX/home-assistant-matter-hub/releases/expanded_assets/v2.1.0-alpha.1" data-nonce="v2:e901fabe-6686-f353-b6d3-117927c756bc" data-view-component="true">
+      <div data-view-component="true">      <include-fragment loading="lazy" src="https://github.com/RiDDiX/home-assistant-matter-hub/releases/expanded_assets/v2.1.0-alpha.2" data-nonce="v2:6d5126c2-93e8-982c-9adc-6d6743c1a6d1" data-view-component="true">
   
         <span data-view-component="true">
   <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" aria-hidden="true" data-view-component="true" class="anim-rotate">
@@ -1511,8 +1499,8 @@ feat(#49): improve Dreame vacuum cleaning mode aliases (cb285ea)
 
           <div class="d-flex flex-row flex-wrap flex-justify-between js-comment">
               <div data-view-component="true" class="comment-reactions js-reactions-container js-reaction-buttons-container social-reactions reactions-container d-flex">
-  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-pick-reaction" data-turbo="false" action="/RiDDiX/home-assistant-matter-hub/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="dScSMQpXawvAB8c_rwUQvSRXQA9iFKPmN9IUc1YORdXzUE8Ml6mDPeoRYE_25aifdp_gDkFvyJOrbDM6uaTCoQ" autocomplete="off" />
-    <input type="hidden" name="input[subjectId]" value="RE_kwDORBHh0c4Q3jjo">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-pick-reaction" data-turbo="false" action="/RiDDiX/home-assistant-matter-hub/reactions" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" autocomplete="off" /><input type="hidden" name="authenticity_token" value="JJQt04SQLFtqpJ9z-2BKOsK4VkbjSVBsYnOnGw4Ms7rMLqSdEs_PdThxMddTOMREsRKC6z7J6s0dThAiwteTZg" autocomplete="off" />
+    <input type="hidden" name="input[subjectId]" value="RE_kwDORBHh0c4Q3kTl">
     <div  class="js-comment-reactions-options d-flex flex-items-center flex-row flex-wrap">
       <div class="js-reactions-container">
         <details class="dropdown details-reset details-overlay d-inline-block js-all-reactions-popover" hidden>
