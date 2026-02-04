@@ -1,3 +1,10 @@
+# [2.0.0-alpha.213](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.212...v2.0.0-alpha.213) (2026-02-04)
+
+
+### Bug Fixes
+
+* set colorMode default for ColorTemperature-only lights to prevent validation errors ([a19f281](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a19f2811d005a3b799585888ebfe8ecb58ef861d))
+
 # [2.0.0-alpha.212](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.211...v2.0.0-alpha.212) (2026-02-03)
 
 
