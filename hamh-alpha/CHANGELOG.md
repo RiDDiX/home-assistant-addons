@@ -1,3 +1,10 @@
+# [2.0.0-alpha.217](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.216...v2.0.0-alpha.217) (2026-02-04)
+
+
+### Bug Fixes
+
+* prevent undefined colorTemperatureMireds from overwriting defaults ([34bc40a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/34bc40ae9eae3feae912f5a311102900da0cf62b))
+
 # [2.0.0-alpha.216](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.215...v2.0.0-alpha.216) (2026-02-04)
 
 
