@@ -1,3 +1,10 @@
+## [2.0.1-alpha.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.1-alpha.3...v2.0.1-alpha.4) (2026-02-04)
+
+
+### Features
+
+* add PowerSource cluster to Switch, BinarySensor, Light, Fan, Climate devices with battery ([8b5e977](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8b5e9771c4700872937a80ae7ac2e889305c23b0))
+
 ## [2.0.1-alpha.3](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.1-alpha.2...v2.0.1-alpha.3) (2026-02-04)
 
 
