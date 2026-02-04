@@ -1,4 +1,11 @@
-## [2.0.2-alpha.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.1...v2.0.2-alpha.1) (2026-02-04)
+## [2.0.3-alpha.1](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.2...v2.0.3-alpha.1) (2026-02-04)
+
+
+### Bug Fixes
+
+* **#49:** fix cleaning mode partial match selecting wrong option ([97f6743](https://github.com/RiDDiX/home-assistant-matter-hub/commit/97f67437135cca648e029da95d587523e951c63d))
+
+## [2.0.2](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.1...v2.0.2) (2026-02-04)
 
 
 * feat!: start v2.1.0-alpha development cycle ([d47b804](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d47b8049379b08cc4b8d5662d96beedce2209b1b))
