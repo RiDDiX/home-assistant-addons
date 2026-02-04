@@ -3,7 +3,7 @@
 
 ### Bug Fixes
 
-* align ColorControl and PM25 sensors with matterbridge implementation ([e3185a6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e3185a6db09acc97190a05c0d54166ed627fdef4))
+* align ColorControl with Matter.js requirements for ExtendedColorLight ([1d7806c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1d7806c7c4f34763211d7803974d5a129cece4d9))
 
 # [2.0.0-alpha.214](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.0-alpha.213...v2.0.0-alpha.214) (2026-02-04)
 
