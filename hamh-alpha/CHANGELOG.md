@@ -1,3 +1,10 @@
+## [2.0.1-alpha.5](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.1-alpha.4...v2.0.1-alpha.5) (2026-02-04)
+
+
+### Features
+
+* add combined Temperature+Humidity sensor support with humidityEntity and batteryEntity mapping ([2a8e651](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2a8e6514954b9ee613c05cd91d50ee872a50c757))
+
 ## [2.0.1-alpha.4](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.1-alpha.3...v2.0.1-alpha.4) (2026-02-04)
 
 
