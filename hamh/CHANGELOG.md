@@ -1,3 +1,49 @@
+## [2.0.7](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.6...v2.0.7) (2026-02-05)
+
+
+### Bug Fixes
+
+* **#93:** make forceSync actually push device states to controllers ([255e0b0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/255e0b01f73b5b8654d92b566864fb6b32d8599e)), closes [#93](https://github.com/RiDDiX/home-assistant-matter-hub/issues/93)
+* allow SystemMode.Auto to be displayed without AutoMode feature ([#71](https://github.com/RiDDiX/home-assistant-matter-hub/issues/71)) ([22a3d3f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/22a3d3f57f96cb9576bfbde6a7d58dbcc372307f))
+* dehumidifier now correctly shows target humidity instead of scaled value ([#96](https://github.com/RiDDiX/home-assistant-matter-hub/issues/96)) ([ecf6ed8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ecf6ed81bdda3f87e506ddcdfb9fc2075ecb168e))
+* ensure humidity is assigned before battery for correct T+H+B grouping ([e2e616c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e2e616c90c2c6b90d00ed843c0d6d5a61162eeca))
+* factory reset API call uses POST instead of GET ([c793bbd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c793bbdacdfd5bdb39db09a1987b665ea3fff67a))
+* force-set thermostat values unconditionally before super.initialize() ([de672e9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/de672e94d7f15f914e587885bd7c83f4ab2e1252))
+* **frontend:** reorder Sort By dropdown options to match filter order ([#100](https://github.com/RiDDiX/home-assistant-matter-hub/issues/100)) ([340f30c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/340f30c3d868ae3dd48ab726f2023d61a095c45e))
+* move env() to command builder for proper environment variable parsing ([b39ba29](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b39ba29f7178940ea61cf7856993d42b07074ac9))
+* pre-calculate auto-assignments to ensure correct entity skipping order ([bac1562](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bac1562aa95e573786b37ff97f3f7b4e732fec1b))
+* prioritize explicit direction over target position for cover open/close commands ([b5ed651](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b5ed651259e1e342013d5b7235a2594d39f0e8b4))
+* remove State class override properties - rely only on .set() for defaults ([74d9935](https://github.com/RiDDiX/home-assistant-matter-hub/commit/74d9935a2fbb3cb2e5dc12f13404b64bc560ef57))
+* set APP_VERSION env var during alpha build ([f754a15](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f754a155d5129b728a7db3c78bbf054f63969da0))
+* set minSetpointDeadBand to 0 for heat_cool thermostats with single setpoint ([2b3e5af](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2b3e5afcaa22d57d9e3ef718f61084cd93b6f55a))
+* set thermostat state at endpoint level with AutoMode feature for minSetpointDeadBand ([0889a8a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0889a8ac8d81a8fe8a76cf5cfce775de21d8f1cb))
+* sync cover target position with current when stopped ([#93](https://github.com/RiDDiX/home-assistant-matter-hub/issues/93)) ([95f66c5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/95f66c5c87401e0134f2b6c0fb8243deaf768293))
+* use ThermostatBehavior instead of ThermostatServer to bypass validation issues ([7693058](https://github.com/RiDDiX/home-assistant-matter-hub/commit/76930584fac9272ba71d00fa395d97ecee08f63b))
+* water heater support for high temperatures (kettles/boilers 70-100°C) ([acd3c63](https://github.com/RiDDiX/home-assistant-matter-hub/commit/acd3c63fb81e4bb96589a914993fa274dec827f8))
+* **water-heater:** remove .with() call that was losing initial state values ([#97](https://github.com/RiDDiX/home-assistant-matter-hub/issues/97)) ([edd709a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/edd709a707a73941def44a56f89b725f9b67244a))
+
+
+### Features
+
+* **#93:** add Auto Force Sync option for Google Home workaround ([d002eec](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d002eec9afa9b5b4f6318f682038bf165338b753)), closes [#93](https://github.com/RiDDiX/home-assistant-matter-hub/issues/93)
+* **#95:** add RequirePINforRemoteOperation for Matter locks ([f008ceb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f008ceb6d03e2c5df73bb35d0b6222e52900af4a)), closes [#95](https://github.com/RiDDiX/home-assistant-matter-hub/issues/95)
+* **#95:** hash PIN codes with PBKDF2 for secure storage ([2b48d01](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2b48d01f7512dd8605daaeed8ea627bd75fb5e59)), closes [#95](https://github.com/RiDDiX/home-assistant-matter-hub/issues/95)
+* add /api/matter/labels endpoint and improve label filter documentation ([ed7e249](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ed7e249d17fbca023c2cce100bebeec4f9aeb1f3))
+* add auto battery mapping feature flag for bridges ([1024c29](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1024c29ebd43e544ce9550fa126f9f1f31122deb))
+* add auto humidity mapping to temperature sensors ([5fb8ed5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5fb8ed56972734982945b4c2a7e39a13295151fd))
+* add Force Sync button to push device states to controllers ([2c45e79](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2c45e796a4e4fca868fc1aa17f5b35e855863bbc))
+* add Roborock room selection support via button entities mapping ([8faf111](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8faf1117d1749b4d1cf20fd2d52ec06961f07b8f))
+* add roomEntities UI with auto-discovery for Roborock vacuum room selection ([00c2879](https://github.com/RiDDiX/home-assistant-matter-hub/commit/00c28795518cc99c3643db45681e8a2baa85aabc))
+* add separate autoHumidityMapping feature flag (default: enabled) ([cd07654](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cd076541e4e1dfc5613d858afa3dc65788a7fb6b))
+* add sorting with direction toggle to All Devices view ([#100](https://github.com/RiDDiX/home-assistant-matter-hub/issues/100)) ([eb48e10](https://github.com/RiDDiX/home-assistant-matter-hub/commit/eb48e101149a830dd48f18c392544ebc495463ab))
+* sort bridge list alphabetically in All Devices view ([06c2618](https://github.com/RiDDiX/home-assistant-matter-hub/commit/06c2618cb79648803069d97e00b935bba92ae6d3))
+* **ui:** add Force Sync button to bridge menu ([949748f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/949748f524d748312fc64e5c9640c131dd3686af)), closes [#93](https://github.com/RiDDiX/home-assistant-matter-hub/issues/93)
+
+
+### Reverts
+
+* use ThermostatServer instead of ThermostatBehavior (fixes atomicRequest) ([bc7abad](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bc7abadf94f8be6c57df01dd6e34b3af022e56b9))
+
 ## [2.0.6](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.5...v2.0.6) (2026-02-04)
 
 
