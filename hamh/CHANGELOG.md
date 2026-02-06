@@ -1,3 +1,38 @@
+## [2.0.9](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.8...v2.0.9) (2026-02-06)
+
+
+### Bug Fixes
+
+* **#105:** update Auto Force Sync to include Alexa workaround ([8b010c5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8b010c5822a87624371e794086bda7c2340a1f0a)), closes [#105](https://github.com/RiDDiX/home-assistant-matter-hub/issues/105)
+* **#110:** enable RvcCleanMode for vacuums with cleaningModeEntity mapping ([40ebe9d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/40ebe9d9d6ce7521095ca8993203992f3f6aeb13)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#110:** read cleaning mode from select entity instead of vacuum entity ([8357949](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8357949cd6b1d7e48ed60f45ec68c112dee31130)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#114:** correct storage detection and add IPv6 network interfaces ([11ab9f8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/11ab9f8efff2e262f8b7ed1f98a448de7c704e8d)), closes [#114](https://github.com/RiDDiX/home-assistant-matter-hub/issues/114)
+* **#115:** add forceSync method to ServerModeBridge ([b476c2a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b476c2a54baf7afdfbf40455c3eaddb511e55fa9)), closes [#115](https://github.com/RiDDiX/home-assistant-matter-hub/issues/115)
+* **#117:** add debug logging for cover open/close commands ([79b5947](https://github.com/RiDDiX/home-assistant-matter-hub/commit/79b5947021bcbb427bd65eb1be9361bee3722a46))
+* **#117:** coverSwapOpenClose now also inverts position commands ([90a3876](https://github.com/RiDDiX/home-assistant-matter-hub/commit/90a3876aa899f7a56cf33b901a3352bd6aa274a3))
+* **#123:** reduce vacuum log spam by changing repeated state logs to DEBUG level ([d791470](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d791470348e1c102f3252dbab2b27b138d4341f4)), closes [#123](https://github.com/RiDDiX/home-assistant-matter-hub/issues/123)
+* **#95:** add debug logging for lock/unlock PIN operations ([fe0eb5a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fe0eb5a8bac7ce470900dde92a086cab5425b6d0)), closes [#95](https://github.com/RiDDiX/home-assistant-matter-hub/issues/95)
+* **#95:** add required defaults for lock PinCredential feature ([b90fda0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b90fda01b092489d076be2ade346b49a1abcff1e)), closes [#95](https://github.com/RiDDiX/home-assistant-matter-hub/issues/95)
+* **#95:** add required PinCredential defaults before initialize to prevent Behaviors have errors ([a9e7a0b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a9e7a0b64398d5e597329c596007662469830afd)), closes [#95](https://github.com/RiDDiX/home-assistant-matter-hub/issues/95)
+* **#99,#112:** add batteryEntity mapping support for fan, climate, and temperature sensors ([bf69f81](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bf69f81768e550481b338632e6e9ebac71db41f3)), closes [#99](https://github.com/RiDDiX/home-assistant-matter-hub/issues/99) [#112](https://github.com/RiDDiX/home-assistant-matter-hub/issues/112)
+* **#99:** add battery support for Smoke and CO alarm devices ([a7e7ae2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a7e7ae298b1fec6b8d73ea2ba6c4e06277b2a9cd)), closes [#99](https://github.com/RiDDiX/home-assistant-matter-hub/issues/99)
+* **#99:** initialize endpointList in PowerSource cluster for Google Home compatibility ([cdefd96](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cdefd9670ee83a490f8c99c3d35690e8d233a8ef)), closes [#99](https://github.com/RiDDiX/home-assistant-matter-hub/issues/99)
+* auto-reset scenes and buttons to OFF after activation ([b5096e8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b5096e895ace07f41f9b221e14149eda1c8fc61a))
+* format the files ([2173e08](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2173e08399907168abaef624ba386d6260778287))
+* use lodash for formatting ([851a9c0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/851a9c0c44e944101321a2958ba94f06372b5e66))
+* use notes-file for GitHub release to avoid shell syntax errors ([4d17e3b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4d17e3b6ab087d52d358412b46a40fea8e91a0b7))
+
+
+### Features
+
+* **#108:** add oscillation (Rocking) and wind mode support for fans ([867fe55](https://github.com/RiDDiX/home-assistant-matter-hub/commit/867fe558a2b1034f9172cb64c70da31cbee85c05)), closes [#108](https://github.com/RiDDiX/home-assistant-matter-hub/issues/108)
+* **#112:** add batteryEntity mapping support for vacuums ([990f3ea](https://github.com/RiDDiX/home-assistant-matter-hub/commit/990f3ea1519f3b412cc5aa9d16c7d9c4f025e107)), closes [#112](https://github.com/RiDDiX/home-assistant-matter-hub/issues/112)
+* **#117:** add coverSwapOpenClose feature flag for Alexa ([d45142e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d45142e64337735787941b1c1f70328d8e0f70ec))
+* **#121:** add copy endpoint data to clipboard button ([3f7cbe0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3f7cbe030fdaa6fbf007f695f0a8a76ef9a3f3dd)), closes [#121](https://github.com/RiDDiX/home-assistant-matter-hub/issues/121)
+* **#95:** add per-lock PIN disable option in entity mapping UI ([4e818f9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4e818f912a97a0193a8269b9b9932d223972d21c)), closes [#95](https://github.com/RiDDiX/home-assistant-matter-hub/issues/95)
+* **#95:** allow lock without PIN, only unlock requires PIN ([401f2d3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/401f2d396d9097a7ae27894550dcd37e7ddabf2f)), closes [#95](https://github.com/RiDDiX/home-assistant-matter-hub/issues/95)
+* implement ecovacs room handling ([0cb733b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0cb733b47279c29d7f8f942a09456f0bb7a31069))
+
 ## [2.0.8](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.7...v2.0.8) (2026-02-06)
 
 
