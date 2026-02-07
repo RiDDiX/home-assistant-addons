@@ -1,3 +1,10 @@
+## [2.0.12](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.11...v2.0.12) (2026-02-07)
+
+
+### Bug Fixes
+
+* **tvoc:** use correct measurement unit and thresholds per device_class ([ff1d706](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ff1d7067fb31648679d45d60611bcc52504165af))
+
 ## [2.0.11](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.10...v2.0.11) (2026-02-07)
 
 
