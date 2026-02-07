@@ -1,3 +1,10 @@
+## [2.0.14](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.13...v2.0.14) (2026-02-07)
+
+
+### Bug Fixes
+
+* **#130:** support ventilation-only climate devices (fan_only/dry) ([18d9a31](https://github.com/RiDDiX/home-assistant-matter-hub/commit/18d9a31d1c1340d67a4b336cd8025435e5cdb99e)), closes [#130](https://github.com/RiDDiX/home-assistant-matter-hub/issues/130) [#130](https://github.com/RiDDiX/home-assistant-matter-hub/issues/130)
+
 ## [2.0.13](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.12...v2.0.13) (2026-02-07)
 
 
