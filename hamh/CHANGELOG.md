@@ -1,3 +1,22 @@
+## [2.0.15](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.14...v2.0.15) (2026-02-07)
+
+
+### Bug Fixes
+
+* **#110:** restore reactive cleaning mode sync from vacuum entity ([f64ad8e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f64ad8eccb1fc24d10c7a419e10f759b14ae016a)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#124:** auto-reset momentary devices (scenes/automations) after activation in Alexa ([a60e66b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a60e66b335e8487552002ec61a419253732ed935)), closes [#124](https://github.com/RiDDiX/home-assistant-matter-hub/issues/124)
+* **#41:** patch LevelControl TLV schema to accept omitted transitionTime from Google Home ([733135b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/733135b4106d7f33f3c54598b901cd04ca32ce88)), closes [#41](https://github.com/RiDDiX/home-assistant-matter-hub/issues/41)
+* add missing autoForceSync to ServerModeBridge ([4b92464](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4b924640dd6b06e2f012f140849d2f41ff430cfb)), closes [#103](https://github.com/RiDDiX/home-assistant-matter-hub/issues/103)
+* add missing disableLockPin to entity-mapping API handler ([ba288ca](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ba288caa91085d909ba8e983828ed50cf04e5524))
+* add missing Math.round() to humidity measurement ([ab2d196](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ab2d1965e0daa570528ab998a3ee953f76f0af8c))
+* detect Matter controllers by rootVendorId instead of fabric label ([db84672](https://github.com/RiDDiX/home-assistant-matter-hub/commit/db846720c19e8505a4a457aa58334f3cccf62c8a))
+* route ordering for bridge priorities endpoint ([812ffd9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/812ffd9cd383b5542c3d81ec4b0e1126b76fc237))
+
+
+### Features
+
+* **ui:** add device limit warning for Matter controllers ([b73fc8b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b73fc8bdcda353c3e3512aeb73f92ce2805681d3)), closes [#129](https://github.com/RiDDiX/home-assistant-matter-hub/issues/129)
+
 ## [2.0.14](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.13...v2.0.14) (2026-02-07)
 
 
