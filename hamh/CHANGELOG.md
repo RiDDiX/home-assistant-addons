@@ -1,3 +1,11 @@
+## [2.0.10](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.9...v2.0.10) (2026-02-07)
+
+
+### Bug Fixes
+
+* **#124:** scenes always showing as on - use same pattern as automation ([563536c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/563536c9cd885d8f100ff090d647a8f20319c647)), closes [#124](https://github.com/RiDDiX/home-assistant-matter-hub/issues/124)
+* **#78:** add PositionAwareLift back for all covers - Apple Home requires it ([ad347eb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ad347ebf4319d27dffb3d6d990109b9b5c7df72f)), closes [#78](https://github.com/RiDDiX/home-assistant-matter-hub/issues/78)
+
 ## [2.0.9](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.8...v2.0.9) (2026-02-06)
 
 
