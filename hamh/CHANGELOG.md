@@ -1,3 +1,38 @@
+## [2.0.20](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.19...v2.0.20) (2026-02-18)
+
+
+### Bug Fixes
+
+* **#105:** enable orphan detection for commissioned bridges without active sessions ([dfd2c6e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dfd2c6eb018c08cb9900bb9770992a8baf271d3b)), closes [#105](https://github.com/RiDDiX/home-assistant-matter-hub/issues/105)
+* **#105:** faster session recovery and bridge restart escalation for Alexa ([c4f9613](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c4f96131710ba3d4a1e4ed41d43460b397ca6a6b)), closes [#105](https://github.com/RiDDiX/home-assistant-matter-hub/issues/105)
+* **#105:** session stability improvements — reduce MRP traffic and clean shutdown ([085e723](https://github.com/RiDDiX/home-assistant-matter-hub/commit/085e723d8a5f430708dbfa0cbab9be49c6e69f1b)), closes [#105](https://github.com/RiDDiX/home-assistant-matter-hub/issues/105)
+* **#106:** resolve Roborock room names showing entity IDs instead of friendly names ([c3035a2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c3035a2e5068f02b0073955d00260a06c8408e6e))
+* **#112:** add diagnostic logging for battery auto-mapping in server mode ([5126b13](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5126b13dfdd94bf0e76bedc86825b49ddd17f2ac)), closes [#112](https://github.com/RiDDiX/home-assistant-matter-hub/issues/112)
+* **#117:** restore coverSwapOpenClose to force inversion (regression from b88d9a1) ([0d46309](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0d46309c9b8bd8ebdc10a65b090aa183070d144e))
+* **#162:** auto-detect TV device_class for media_player on/off support ([e977a74](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e977a746bf4aa66ddf32e1fa3765c38c5faa9ab6)), closes [#162](https://github.com/RiDDiX/home-assistant-matter-hub/issues/162)
+* **#166:** add unit conversion for auto-mapped pressure entities and validate pressure range ([6af3cc7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6af3cc77772b4990ea0520d07d9b74629bbee0c7)), closes [#166](https://github.com/RiDDiX/home-assistant-matter-hub/issues/166)
+* **#174:** add debug logging for cover position flags ([efbd592](https://github.com/RiDDiX/home-assistant-matter-hub/commit/efbd5924bc82dbcdb8c696a083cb1180fa823d81)), closes [#174](https://github.com/RiDDiX/home-assistant-matter-hub/issues/174)
+* add native Ecovacs/Deebot room cleaning support via spot_area ([#165](https://github.com/RiDDiX/home-assistant-matter-hub/issues/165)) ([97a890f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/97a890f8e765526b1a25f0754dc8c78aa2a2950a))
+* add subscription keepalive for ALL bridged devices to prevent Offline/Updating ([38f2ed3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/38f2ed32e67c1e568b56ce8102680d92c11334e0))
+* add subscription keepalive to prevent Apple Home 'Updating' for vacuums ([#103](https://github.com/RiDDiX/home-assistant-matter-hub/issues/103)) ([8b66fcd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8b66fcd0b45f70cec64297439c1ea4767ec0d531))
+* delete subscription persistence before start to prevent premature re-establishment ([3b55c49](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3b55c499c6425e52c3b05778dce9da8469eefa5e)), closes [CommissioningServer.#enterOnlineMode](https://github.com/CommissioningServer./issues/enterOnlineMode)
+* disable AutoMode for climate devices without heat_cool (dual setpoint) ([9376165](https://github.com/RiDDiX/home-assistant-matter-hub/commit/93761655c950c3ce5193f1942f35ad25f3f2519e))
+* disable subscription persistence to prevent stale re-establishment causing Updating/Offline ([#103](https://github.com/RiDDiX/home-assistant-matter-hub/issues/103)) ([8174d34](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8174d34a95d2f195bb8bf09529c16141baab2625))
+* increase bridge restart delay and handle port-in-use errors ([e2225ea](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e2225ea490988ffe9b9929c43f108b058e7ff038))
+* make subscription keepalive + health checks unconditional (not gated by autoForceSync) ([c95d694](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c95d694ec34e198899a6ee5db337ed27ef252f31))
+* stop health check from sabotaging controller reconnection ([f40f010](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f40f0103ce9181f89f0fb031e4befd5a8a4a2494))
+* stop sabotaging matter.js subscription recovery (the REAL offline/updating fix) ([a68d7be](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a68d7be9a91cd2ea6db486fb01401e1444ebfdec))
+
+
+### Features
+
+* **#163:** add Server Mode recommendation for vacuum bridges in Apple Home ([2722d8a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2722d8a0c205209f74a346820a47c81ae91aca3f)), closes [#163](https://github.com/RiDDiX/home-assistant-matter-hub/issues/163)
+* **#165:** auto-detect Ecovacs cleaning mode support (vacuum/mop/both) ([b729565](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b7295652b67466bc468959234f497b3c7144e085)), closes [#165](https://github.com/RiDDiX/home-assistant-matter-hub/issues/165)
+* add diagnostic export API and graceful entity unavailability guards ([be00eed](https://github.com/RiDDiX/home-assistant-matter-hub/commit/be00eedf765a66a959fab7f76a6870bac729279a))
+* add entity health indicators with unavailable filter in endpoint list ([bbe1ea8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bbe1ea8f03c2c43f7e73fcff10dfc8a12cf806e4))
+* add session/subscription connectivity info to health dashboard ([ac948fb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ac948fbe5ac12dfdd5ad35249a407dfa4b1deb6a))
+* bridge templates, live filter preview, entity diagnostics, wizard enhancement, bulk operations ([68a301c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/68a301c37dbc985e2f5e2b4001db526fe0e59ecc))
+
 ## [2.0.19](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.18...v2.0.19) (2026-02-14)
 
 

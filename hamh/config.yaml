@@ -1,4 +1,4 @@
-version: "2.0.19"
+version: "2.0.20"
 image: ghcr.io/riddix/home-assistant-matter-hub-addon
 slug: hamh
 name: Home-Assistant-Matter-Hub
