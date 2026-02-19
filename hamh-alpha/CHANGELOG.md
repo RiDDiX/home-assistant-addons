@@ -1,8 +1,8 @@
-# v2.1.0-alpha.264
+# v2.1.0-alpha.265
 
 ## Changes
 
-- fix(#176): auto-resume climate on same-value setpoint write via class setters (a66e77c)
+- style: make Live Diagnostics bridge cards self-adjusting and uniformly sized (1f062ea)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
