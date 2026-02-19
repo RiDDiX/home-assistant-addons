@@ -1,9 +1,8 @@
-# v2.1.0-alpha.256
+# v2.1.0-alpha.257
 
 ## Changes
 
-- feat(frontend): improve Dashboard UX - alphabetically sort bridges, add navigation guide, remove duplicate buttons, mobile responsiveness (96964d3)
-- fix(#176): auto-resume climate even when setpoint value unchanged (ee80dfc)
+- fix(thermostat): add defensive checks to setpoint interceptor to prevent initialization errors (2c7a9b9)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
