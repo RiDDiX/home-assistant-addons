@@ -1,9 +1,8 @@
-# v2.1.0-alpha.251
+# v2.1.0-alpha.252
 
 ## Changes
 
-- dashboard: refresh data after bridge wizard completes (dea2fc3)
-- docs: update dashboard description with create bridge buttons and quick navigation (2e24c84)
+- dashboard: equal height stat cards (1ace835)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
