@@ -1,8 +1,8 @@
-# v2.1.0-alpha.257
+# v2.1.0-alpha.258
 
 ## Changes
 
-- fix(thermostat): add defensive checks to setpoint interceptor to prevent initialization errors (2c7a9b9)
+- fix(thermostat): make setpoint interceptor idempotent to prevent redefine error (40c1946)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
