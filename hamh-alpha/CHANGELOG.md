@@ -1,9 +1,8 @@
-# v2.1.0-alpha.253
+# v2.1.0-alpha.254
 
 ## Changes
 
-- docs: add bridge wizard feature flags documentation (f24af4a)
-- wizard: add feature flags step (autoComposedDevices, autoForceSync, coverSwapOpenClose, includeHiddenEntities) (e04110e)
+- fix(#110): prevent cleaning mode revert by tracking pending mode from controller commands (036c4d8)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
