@@ -1,8 +1,8 @@
-# v2.1.0-alpha.273
+# v2.1.0-alpha.274
 
 ## Changes
 
-- fix: use negative minMeasuredValue to allow 0 readings in measurement clusters (4cb07d4)
+- revert: downgrade matter.js to 0.16.8 due to constraint parsing bug in 0.16.9 (35acfad)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
