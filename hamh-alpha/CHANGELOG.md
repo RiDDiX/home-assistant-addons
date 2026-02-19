@@ -1,8 +1,8 @@
-# v2.1.0-alpha.274
+# v2.1.0-alpha.275
 
 ## Changes
 
-- revert: downgrade matter.js to 0.16.8 due to constraint parsing bug in 0.16.9 (35acfad)
+- fix: set humidity minMeasuredValue to 0 (uint16 cannot be negative) (4fbc9d8)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
