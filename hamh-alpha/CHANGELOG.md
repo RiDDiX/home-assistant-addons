@@ -1,8 +1,8 @@
-# v2.1.0-alpha.258
+# v2.1.0-alpha.259
 
 ## Changes
 
-- fix(thermostat): make setpoint interceptor idempotent to prevent redefine error (40c1946)
+- fix(thermostat): use Proxy instead of property override for setpoint interception (aa753f9)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
