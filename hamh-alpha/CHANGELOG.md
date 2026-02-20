@@ -1,8 +1,8 @@
-# v2.1.0-alpha.290
+# v2.1.0-alpha.291
 
 ## Changes
 
-- feat: show fabric icons with vendor names in bridge details and health dashboard (3205bd1)
+- fix: update label filter descriptions and value hint in bridge config schema (53c2c31)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
