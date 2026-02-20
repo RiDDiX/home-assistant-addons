@@ -1,8 +1,8 @@
-# v2.1.0-alpha.287
+# v2.1.0-alpha.288
 
 ## Changes
 
-- feat(#188): show decoded vendor name next to fabric icons in FabricList (86f8aff)
+- fix(#110): restructure RvcCleanMode to flat modes for Apple Home extra features (905bf24)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
