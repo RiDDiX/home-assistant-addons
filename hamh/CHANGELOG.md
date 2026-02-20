@@ -1,3 +1,56 @@
+## [2.0.24](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.23...v2.0.24) (2026-02-20)
+
+
+### Bug Fixes
+
+* **#110:** add Vacuum+Mop tags to combination clean modes for Apple Home ([b21b8ef](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b21b8ef3c4319c9a7375337750529411d22d9421)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#110:** prevent cleaning mode revert by tracking pending mode from controller commands ([036c4d8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/036c4d851772c8eed1591ef7801ba2bdc317b33d)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#176:** auto-resume climate even when setpoint value unchanged ([ee80dfc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ee80dfc77d25c75d6418e679b852fbdcb53237c0)), closes [#176](https://github.com/RiDDiX/home-assistant-matter-hub/issues/176)
+* **#176:** auto-resume climate on same-value setpoint write via class setters ([a66e77c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a66e77c37e3e5921a35d8db43c222f443cf86169)), closes [#176](https://github.com/RiDDiX/home-assistant-matter-hub/issues/176)
+* **#176:** nudge setpoint when off to defeat matter.js same-value dedup ([d4e1a60](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d4e1a6036697204e9939ccc94873dfcb113b80f9)), closes [#176](https://github.com/RiDDiX/home-assistant-matter-hub/issues/176)
+* **#176:** safe auto-resume respecting controlSequenceOfOperation and preventing dual-fire ([aabb6ac](https://github.com/RiDDiX/home-assistant-matter-hub/commit/aabb6ac36fe66010d3278e1791e61ec03f6a9ea9)), closes [#176](https://github.com/RiDDiX/home-assistant-matter-hub/issues/176)
+* **#176:** skip setpoint nudge during Off transition to fix Google voice confirmation ([93cc045](https://github.com/RiDDiX/home-assistant-matter-hub/commit/93cc04553e54fce7e9c6af388f494476244e87fc))
+* **#182:** remove Lighting feature from OnOff for non-light device types ([09b341c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/09b341c431dac1b666600aa42b9d6e31d9787c7d)), closes [#182](https://github.com/RiDDiX/home-assistant-matter-hub/issues/182)
+* add warm-start state push and diagnostic events to ServerModeBridge ([#165](https://github.com/RiDDiX/home-assistant-matter-hub/issues/165)) ([9294b39](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9294b3966c6064ac8cb06cd683375b68f01dfb7e))
+* additional minMeasuredValue fixes for humidity and flow measurement clusters ([8f501d8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8f501d8eeb6c2a8cdb5782b01fd98858411c8303))
+* alpha changelog empty due to HEAD^ excluding latest commit ([4190ecc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4190ecc3b9899e38e03943176ff8dcaed561b3a4))
+* always include PowerSource and ServiceArea on vacuum endpoints ([#183](https://github.com/RiDDiX/home-assistant-matter-hub/issues/183)) ([052dd08](https://github.com/RiDDiX/home-assistant-matter-hub/commit/052dd088376964033668c458f922521dbbec723a))
+* always include RvcCleanMode on vacuum endpoints ([#183](https://github.com/RiDDiX/home-assistant-matter-hub/issues/183)) ([7510001](https://github.com/RiDDiX/home-assistant-matter-hub/commit/751000182e7c03ec0b1f96c9cfec405ea34e08b6))
+* automation turnOff now disables instead of being null ([cd67a2e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cd67a2ed2edfbf4e124c7e651a86f51885462927))
+* change minMeasuredValue from 0 to 1 in electrical measurement clusters ([3bb26fb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3bb26fb19527f54ed8d584c231313771aae62321))
+* correct Config Backup icon in Health Dashboard (cloud arrow up) ([0f5f762](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0f5f76252f80651dc0810d3f3a097e3d4244e168))
+* correct DoorLock supportedOperatingModes inverted semantics, add ElectricalEnergyMeasurement event emission, fix thermostat setpointRaiseLower divisor ([0da15a4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0da15a4f9cbf901111f6b8f6c48e89d128b8741e))
+* handle HA WebSocket connection-lost errors gracefully ([#180](https://github.com/RiDDiX/home-assistant-matter-hub/issues/180)) ([d0cb755](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d0cb7559231ec9d1b2c15d72d38c82eee159c66b))
+* **logging:** add cache to battery lookup and remove spam ([b07cc92](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b07cc9287e73ddc53c319ad305c79165260e2e01))
+* **logging:** reduce bridge-registry battery warning spam ([6dec983](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6dec983ddcc962cb5fcc063ed3fd52d4c8511fcc))
+* **oom:** delete endpoints in dispose() to prevent memory leak ([#180](https://github.com/RiDDiX/home-assistant-matter-hub/issues/180)) ([765e185](https://github.com/RiDDiX/home-assistant-matter-hub/commit/765e185b41b9e2889c39e2ef102978c770d3768d))
+* remove custom subscription monitoring, use matter.js defaults ([d044fa2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d044fa2da27c341f65889056559f30481eaed373))
+* revert flow minMeasuredValue to 0 (0 is a valid uint16 value, not null) ([debf759](https://github.com/RiDDiX/home-assistant-matter-hub/commit/debf759403f7b7e6384d8cbdd1d5d950b56702b7))
+* set humidity minMeasuredValue to 0 (uint16 cannot be negative) ([4fbc9d8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4fbc9d85a81431fe66ac6723763284312758cd4b))
+* swap import/export icons in bridge overview ([c73bfe9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c73bfe9e125d0eb9add035ff076e53427c14ad68))
+* **thermostat:** add defensive checks to setpoint interceptor to prevent initialization errors ([2c7a9b9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2c7a9b9cada3426b4cf80765a23d122909569448))
+* **thermostat:** make setpoint interceptor idempotent to prevent redefine error ([40c1946](https://github.com/RiDDiX/home-assistant-matter-hub/commit/40c1946d7ae38237bc6aae598c4e01f4c78a4647))
+* **thermostat:** remove broken proxy code causing initialization errors ([2ce4f78](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2ce4f782c91cefe085890222a83c232e0beabaa9))
+* **thermostat:** use Proxy instead of property override for setpoint interception ([aa753f9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/aa753f99d4f11ea4ccbac494c8f10eb3cfc5edcc))
+* use negative minMeasuredValue to allow 0 readings in measurement clusters ([4cb07d4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4cb07d4bd7f9bb5d546705fadd29f2417b6cdf19))
+* **vacuum:** show docked instead of paused when idle and charging ([#165](https://github.com/RiDDiX/home-assistant-matter-hub/issues/165)) ([91ae4fc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/91ae4fca32b33b162b661fb3ad899889e1bd5c3a))
+
+
+### Features
+
+* add tooltips to filter type dropdown with descriptions for each option ([9627843](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9627843cf0b54eed97b7977828cfa00ab5776ca0))
+* add WaterFreezeDetector device type for binary_sensor.cold ([e075de9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e075de95474087ec577da5dce587421f28ae4ec3))
+* **frontend:** improve Dashboard UX - alphabetically sort bridges, add navigation guide, remove duplicate buttons, mobile responsiveness ([96964d3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/96964d3be8ed5bfcf87efbcc149e1a269489378f))
+* implement real Matter Composed Devices for sensor endpoints ([#179](https://github.com/RiDDiX/home-assistant-matter-hub/issues/179)) ([bca0b28](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bca0b28610b548086c3305ad4e861198d94685be))
+* live diagnostics dashboard with WebSocket event streaming ([aed990e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/aed990ed212e9925b0e86371bd400cbbbbcdd80b))
+* **vacuum:** add suction level entity mapping for Apple Home extra features ([c70c2c2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c70c2c251354cac8928598accd246c2f87accd42)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* wire autoComposedDevices master flag to enable all auto-mapping sub-flags ([ffc4487](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ffc4487ea96d1cfe0d680abe35c5d40c17a80bf5))
+
+
+### Reverts
+
+* downgrade matter.js to 0.16.8 due to constraint parsing bug in 0.16.9 ([35acfad](https://github.com/RiDDiX/home-assistant-matter-hub/commit/35acfad24aafcae9cea78aa49cc8c2a51175da84))
+
 ## [2.0.23](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.22...v2.0.23) (2026-02-19)
 
 
