@@ -1,8 +1,8 @@
-# v2.1.0-alpha.279
+# v2.1.0-alpha.280
 
 ## Changes
 
-- fix(#110): add Vacuum+Mop tags to combination clean modes for Apple Home (b21b8ef)
+- ui: remove duplicate version from dashboard, move uptime to HA Connection card (bdfaf8f)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
