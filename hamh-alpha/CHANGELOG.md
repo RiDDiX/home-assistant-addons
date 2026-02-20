@@ -1,8 +1,8 @@
-# v2.1.0-alpha.280
+# v2.1.0-alpha.281
 
 ## Changes
 
-- ui: remove duplicate version from dashboard, move uptime to HA Connection card (bdfaf8f)
+- fix: always include PowerSource and ServiceArea on vacuum endpoints (#183) (052dd08)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
