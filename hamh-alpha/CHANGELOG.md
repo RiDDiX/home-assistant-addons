@@ -1,8 +1,8 @@
-# v2.1.0-alpha.293
+# v2.1.0-alpha.294
 
 ## Changes
 
-- feat: open commissioning window for multi-fabric pairing (ec808b7)
+- fix(vacuum): use exact match for fan speed tags to prevent deduplication (77be697)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
