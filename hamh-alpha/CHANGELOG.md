@@ -1,8 +1,8 @@
-# v2.1.0-alpha.294
+# v2.1.0-alpha.295
 
 ## Changes
 
-- fix(vacuum): use exact match for fan speed tags to prevent deduplication (77be697)
+- refactor(vacuum): regex-based fan speed tag patterns for multi-manufacturer support (4c13050)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
