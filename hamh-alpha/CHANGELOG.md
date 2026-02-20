@@ -1,8 +1,8 @@
-# v2.1.0-alpha.278
+# v2.1.0-alpha.279
 
 ## Changes
 
-- fix(#176): nudge setpoint when off to defeat matter.js same-value dedup (d4e1a60)
+- fix(#110): add Vacuum+Mop tags to combination clean modes for Apple Home (b21b8ef)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
