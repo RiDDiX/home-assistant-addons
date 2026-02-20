@@ -1,8 +1,8 @@
-# v2.1.0-alpha.295
+# v2.1.0-alpha.296
 
 ## Changes
 
-- refactor(vacuum): regex-based fan speed tag patterns for multi-manufacturer support (4c13050)
+- feat(vacuum): add mop intensity modes for Apple Home extra features (0f5948d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
