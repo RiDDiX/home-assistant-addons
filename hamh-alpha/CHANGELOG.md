@@ -1,8 +1,8 @@
-# v2.1.0-alpha.305
+# v2.1.0-alpha.306
 
 ## Changes
 
-- fix(#192): recreate endpoints when entity mapping changes (a9c23d1)
+- docs: update documentation for v2.1.0 release (be3b797)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
