@@ -1,8 +1,8 @@
-# v2.1.0-alpha.311
+# v2.1.0-alpha.312
 
 ## Changes
 
-- fix(#190): cgroup-aware heap sizing for Docker/HA OS containers (0dc84c7)
+- fix(#176): preserve setpoint nudge while device is Off (d95b37c)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
