@@ -1,8 +1,8 @@
-# v2.1.0-alpha.307
+# v2.1.0-alpha.308
 
 ## Changes
 
-- docs: fix version references v2.1.0 to v2.0.25 (7bcd121)
+- fix(#110): add diagnostic logging for vacuum clean mode changes (d4990b7)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
