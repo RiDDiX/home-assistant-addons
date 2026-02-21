@@ -1,8 +1,8 @@
-# v2.1.0-alpha.310
+# v2.1.0-alpha.311
 
 ## Changes
 
-- fix: live diagnostics text overflow and sync sorting with bridge status (44837ac)
+- fix(#190): cgroup-aware heap sizing for Docker/HA OS containers (0dc84c7)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
