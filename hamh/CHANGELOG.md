@@ -1,3 +1,32 @@
+## [2.0.25](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.24...v2.0.25) (2026-02-21)
+
+
+### Bug Fixes
+
+* **#110:** restructure RvcCleanMode to flat modes for Apple Home extra features ([905bf24](https://github.com/RiDDiX/home-assistant-matter-hub/commit/905bf24076a5b866af262b3f974e88837f1d6ebb)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#176:** deferred setpoint nudge for reliable auto-resume ([5ab4fe6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5ab4fe6a8aae4eca8a5fbd90db707a028573e033)), closes [#176](https://github.com/RiDDiX/home-assistant-matter-hub/issues/176)
+* **#189:** unwrap response.response from roborock.get_maps service call ([075df6a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/075df6a35fec9a96e51f95fd0a160eda75d2ebc1)), closes [#189](https://github.com/RiDDiX/home-assistant-matter-hub/issues/189)
+* **#190:** dynamic Node.js heap sizing based on available system RAM ([a619c0d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a619c0dbec01fecfa87bdb72e14a5483b6bdb566)), closes [#190](https://github.com/RiDDiX/home-assistant-matter-hub/issues/190)
+* **#192:** recreate endpoints when entity mapping changes ([a9c23d1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a9c23d1694c77f710ce9e6dd587eb786d5a29d24)), closes [#192](https://github.com/RiDDiX/home-assistant-matter-hub/issues/192)
+* limit RvcOperationalState to well-known states and update OOM FAQ ([130460d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/130460d90da16a94fed340719a775428aedb14ef))
+* **oom:** increase heap limit to 768MB, add memory pressure guard and startup logging ([#180](https://github.com/RiDDiX/home-assistant-matter-hub/issues/180)) ([1cd4201](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1cd4201b0578b9908ae14a61a0398051e60dad54))
+* prevent Apple Home from renaming fan speed 'normal' to 'Automatic' ([8a5bba9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8a5bba9ca0a0db5973a80f65d2a99618ee8f5c8a))
+* responsive mobile layout for dashboard stat cards ([157d9c4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/157d9c481b4148ea76e5b67a61824c54eb182f51))
+* update label filter descriptions and value hint in bridge config schema ([53c2c31](https://github.com/RiDDiX/home-assistant-matter-hub/commit/53c2c314cf98cec495e2d468e5a929930798278e))
+* **vacuum:** expose fan speed modes for Roborock without cleaning mode entity ([7ed5a78](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7ed5a788e5c9b594a765581719031b9cede1fd34))
+* **vacuum:** use exact match for fan speed tags to prevent deduplication ([77be697](https://github.com/RiDDiX/home-assistant-matter-hub/commit/77be697e8a112fbcc9683f0b6e5dbaaefef754ad))
+
+
+### Features
+
+* **#188:** show decoded vendor name next to fabric icons in FabricList ([86f8aff](https://github.com/RiDDiX/home-assistant-matter-hub/commit/86f8aff0ab0cb7b33a2728f32c7b0da12d8c37a3)), closes [#188](https://github.com/RiDDiX/home-assistant-matter-hub/issues/188)
+* dynamic vacuum fan speed modes + vacuumOnOff feature flag ([6cfff16](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6cfff16307c4c8fcbf000a00fda4e8b7ee4a6d91))
+* open commissioning window for multi-fabric pairing ([ec808b7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ec808b781e18028146ae2ee7ea218e9785dab0b7))
+* show fabric icons with vendor names in bridge details and health dashboard ([3205bd1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3205bd12cb0d8e6c9b65b0743981eadfe874bb5c))
+* **vacuum:** add mop intensity modes for Apple Home extra features ([0f5948d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0f5948dac752910969bf2db84d97dee7910dd5af))
+* **vacuum:** auto-detect cleaning mode, suction level and mop intensity entities ([d83f83c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d83f83c892ea7cd9a5490ffb38825b29478de527))
+* **vacuum:** auto-detect Roborock rooms via roborock.get_maps service ([9679bc1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9679bc185626a83e41b9743108fedd1013772252))
+
 ## [2.0.24](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.23...v2.0.24) (2026-02-20)
 
 
