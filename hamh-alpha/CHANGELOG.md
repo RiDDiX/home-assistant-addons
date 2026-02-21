@@ -1,8 +1,8 @@
-# v2.1.0-alpha.309
+# v2.1.0-alpha.310
 
 ## Changes
 
-- fix: reduce WindowCoveringServer log noise by moving position updates to DEBUG (8b0381b)
+- fix: live diagnostics text overflow and sync sorting with bridge status (44837ac)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
