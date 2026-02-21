@@ -1,8 +1,8 @@
-# v2.1.0-alpha.314
+# v2.1.0-alpha.315
 
 ## Changes
 
-- fix(#191): restore subscription persistence disabled to prevent Apple Home Updating status (f9588df)
+- fix(#148): coverUseHomeAssistantPercentage takes precedence over coverSwapOpenClose for position (8bb457b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
