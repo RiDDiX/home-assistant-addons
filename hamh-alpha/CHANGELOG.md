@@ -1,8 +1,8 @@
-# v2.1.0-alpha.304
+# v2.1.0-alpha.305
 
 ## Changes
 
-- fix(#190): dynamic Node.js heap sizing based on available system RAM (a619c0d)
+- fix(#192): recreate endpoints when entity mapping changes (a9c23d1)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
