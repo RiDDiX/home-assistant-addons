@@ -1,8 +1,8 @@
-# v2.1.0-alpha.299
+# v2.1.0-alpha.300
 
 ## Changes
 
-- feat(vacuum): auto-detect Roborock rooms via roborock.get_maps service (9679bc1)
+- fix: limit RvcOperationalState to well-known states and update OOM FAQ (130460d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
