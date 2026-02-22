@@ -1,8 +1,8 @@
-# v2.1.0-alpha.327
+# v2.1.0-alpha.328
 
 ## Changes
 
-- feat(#197): add authentication configuration from UI (c84cf89)
+- fix: implement KeypadInputServer for BasicVideoPlayer media endpoint (dc0c8ca)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
