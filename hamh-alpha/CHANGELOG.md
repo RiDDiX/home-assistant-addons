@@ -1,8 +1,8 @@
-# v2.1.0-alpha.331
+# v2.1.0-alpha.332
 
 ## Changes
 
-- fix: remove thermostat setpoint write interceptor causing 'Cannot redefine property' crash (93d7ce6)
+- fix: add setpoint nudge for same-value auto-resume while thermostat is Off (5fafd17)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
