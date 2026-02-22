@@ -1,8 +1,8 @@
-# v2.1.0-alpha.328
+# v2.1.0-alpha.329
 
 ## Changes
 
-- fix: implement KeypadInputServer for BasicVideoPlayer media endpoint (dc0c8ca)
+- fix: coverSwapOpenClose now also inverts position reporting (b5653ff)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
