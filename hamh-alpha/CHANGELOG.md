@@ -1,8 +1,8 @@
-# v2.1.0-alpha.322
+# v2.1.0-alpha.323
 
 ## Changes
 
-- fix: clarify that Alexa requires OnOff cluster for robotic vacuums (#183) (a50314b)
+- fix(#165): restore Auto tag for mid-range fan speeds, add tag dedup logic (b5f5d72)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
