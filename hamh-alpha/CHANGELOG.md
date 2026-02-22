@@ -1,8 +1,8 @@
-# v2.1.0-alpha.323
+# v2.1.0-alpha.324
 
 ## Changes
 
-- fix(#165): restore Auto tag for mid-range fan speeds, add tag dedup logic (b5f5d72)
+- fix(#110): use target entity for action debounce key (4ca1590)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
