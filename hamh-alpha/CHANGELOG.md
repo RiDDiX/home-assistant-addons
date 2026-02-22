@@ -1,8 +1,8 @@
-# v2.1.0-alpha.326
+# v2.1.0-alpha.327
 
 ## Changes
 
-- fix(#198): dispatch all button presses for multi-room ServiceArea selection (91a8c44)
+- feat(#197): add authentication configuration from UI (c84cf89)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
