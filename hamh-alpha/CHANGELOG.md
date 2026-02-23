@@ -1,8 +1,8 @@
-# v2.1.0-alpha.334
+# v2.1.0-alpha.335
 
 ## Changes
 
-- fix: vacuum OnOff turnOff sends return_to_base instead of stop (046d6cf)
+- fix: assign intensity tags to all matching fan speeds for Apple Home visibility (e8d2378)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
