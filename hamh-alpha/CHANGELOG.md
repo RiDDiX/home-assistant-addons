@@ -1,8 +1,8 @@
-# v2.1.0-alpha.332
+# v2.1.0-alpha.333
 
 ## Changes
 
-- fix: add setpoint nudge for same-value auto-resume while thermostat is Off (5fafd17)
+- fix(#200): pin Docker runtime to Node 22 to fix ERR_INVALID_PACKAGE_CONFIG (49fa22c)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
