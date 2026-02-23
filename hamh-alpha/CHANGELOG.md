@@ -1,8 +1,8 @@
-# v2.1.0-alpha.344
+# v2.1.0-alpha.345
 
 ## Changes
 
-- fix(#203): show start/stop/restart buttons with single bridge (f5abfff)
+- fix: restore PowerSource device type on vacuum endpoint to match Matterbridge (#183) (1789c73)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
