@@ -1,3 +1,55 @@
+## [2.0.26](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.25...v2.0.26) (2026-02-23)
+
+
+### Bug Fixes
+
+* **#105:** add non-destructive session lifecycle logging for diagnostic visibility ([3044f89](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3044f893ef65809cec02b97bbacfc28216fe17d0)), closes [#105](https://github.com/RiDDiX/home-assistant-matter-hub/issues/105)
+* **#110:** add diagnostic logging for vacuum clean mode changes ([d4990b7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d4990b7de03525fb54095d2e8767f962b0ba7df5)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#110:** dispatch cleaning mode before intensity and remove stale state check ([c56b9c7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c56b9c757693157daa657c4ab1aa60118b0c295a)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#110:** positional fallback for vacuum suction/mop intensity matching ([f93626d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f93626de97c1e1e9e216ce532bb06689284b3916)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#110:** switch cleaning mode entity when Apple Home sends intensity mode ([a393aa1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a393aa18bb5fcd21dac5e6a01d1ff96a9d5a37b5)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#110:** use target entity for action debounce key ([4ca1590](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4ca15905df9a28128d5aa0ba691f9f374209e6db)), closes [#110](https://github.com/RiDDiX/home-assistant-matter-hub/issues/110)
+* **#148:** coverUseHomeAssistantPercentage takes precedence over coverSwapOpenClose for position ([8bb457b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8bb457b166da88fdf8fd6fea0d7d0c98de19379f))
+* **#165:** restore Auto tag for mid-range fan speeds, add tag dedup logic ([b5f5d72](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b5f5d72506b5df1c52adf3c1fc68112cd1b991b3)), closes [#165](https://github.com/RiDDiX/home-assistant-matter-hub/issues/165)
+* **#176:** preserve setpoint nudge while device is Off ([d95b37c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d95b37c51f53cd83bf26b7ed83b85bf04abf0926)), closes [#176](https://github.com/RiDDiX/home-assistant-matter-hub/issues/176)
+* **#176:** replace unreliable setpoint nudge with property setter interceptor ([b5d01e7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b5d01e7f767a91568c1087dfad11623dca84fc52)), closes [#176](https://github.com/RiDDiX/home-assistant-matter-hub/issues/176)
+* **#189:** fallback 'Vacuum Then Mop' to 'Vacuum & Mop' when entity lacks dedicated option ([fbf9d95](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fbf9d95df6ee82f0e149624920f30746c4cd73c9)), closes [#189](https://github.com/RiDDiX/home-assistant-matter-hub/issues/189)
+* **#190:** cgroup-aware heap sizing for Docker/HA OS containers ([0dc84c7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0dc84c7bebd611f3e50d54321246b2a862ca7e0a)), closes [#190](https://github.com/RiDDiX/home-assistant-matter-hub/issues/190)
+* **#191:** restore subscription persistence disabled to prevent Apple Home Updating status ([f9588df](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f9588df66faa9eec9fb77f7a95133dd3a2e076d4)), closes [#191](https://github.com/RiDDiX/home-assistant-matter-hub/issues/191)
+* **#198:** dispatch all button presses for multi-room ServiceArea selection ([91a8c44](https://github.com/RiDDiX/home-assistant-matter-hub/commit/91a8c449e540f90c738cf6f827148ffb75882ff1)), closes [#198](https://github.com/RiDDiX/home-assistant-matter-hub/issues/198)
+* **#199:** use directional commands for cover open/close instead of position path ([176d840](https://github.com/RiDDiX/home-assistant-matter-hub/commit/176d84063931d95420b3e6d01844bd67482b3a77))
+* **#200:** pin Docker runtime to Node 22 to fix ERR_INVALID_PACKAGE_CONFIG ([49fa22c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/49fa22c632eb95fbff84f00d5c979bbf18c0be02))
+* **#202:** allow editing entity filter for server mode templates in wizard ([fcb3909](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fcb39098af57a4ff6ac75042546e1abd39fa89e3)), closes [#202](https://github.com/RiDDiX/home-assistant-matter-hub/issues/202)
+* **#202:** entity filter change on server-mode bridge now updates the endpoint ([cd24810](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cd24810c6fc3c2e025239b316679486031af9ef8)), closes [#202](https://github.com/RiDDiX/home-assistant-matter-hub/issues/202)
+* **#203:** show start/stop/restart buttons with single bridge ([f5abfff](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f5abfff4d84b8c3a90a2dedca6494f21817d8dcc)), closes [#203](https://github.com/RiDDiX/home-assistant-matter-hub/issues/203)
+* add missing pressureEntity to entity-mapping API, harden API error handling, use proper Logger in lock/water-heater, prune stale sync state, add cover inversion tests ([9565655](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9565655aa6457241def40a5224287e5373fa9eda))
+* add setpoint nudge for same-value auto-resume while thermostat is Off ([5fafd17](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5fafd17d2b3015b41d6c414ff1603c7f8c78733a)), closes [#176](https://github.com/RiDDiX/home-assistant-matter-hub/issues/176)
+* always auto-detect battery entity for server-mode vacuums ([#183](https://github.com/RiDDiX/home-assistant-matter-hub/issues/183)) ([16e42ed](https://github.com/RiDDiX/home-assistant-matter-hub/commit/16e42edcfd051fb6bb55965141d4c44472e3fe1b))
+* assign intensity tags to all matching fan speeds for Apple Home visibility ([e8d2378](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e8d23784d7423e258f72e65856f88b2736dfe0f4))
+* clarify that Alexa requires OnOff cluster for robotic vacuums ([#183](https://github.com/RiDDiX/home-assistant-matter-hub/issues/183)) ([a50314b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a50314be4079836bc2cfb433ae0aa0b732a906e6))
+* coverSwapOpenClose now also inverts position reporting ([b5653ff](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b5653ff42ed77fc21d5b1bf3e5c78f50ec062481)), closes [#195](https://github.com/RiDDiX/home-assistant-matter-hub/issues/195)
+* implement KeypadInputServer for BasicVideoPlayer media endpoint ([dc0c8ca](https://github.com/RiDDiX/home-assistant-matter-hub/commit/dc0c8ca853418363b2613b0b217dfb56c64c25c9))
+* live diagnostics text overflow and sync sorting with bridge status ([44837ac](https://github.com/RiDDiX/home-assistant-matter-hub/commit/44837ac83024ee70a586a4d83ded06bd6d611e4f))
+* prevent frontend crash when serializing disposed Matter.js containers ([#193](https://github.com/RiDDiX/home-assistant-matter-hub/issues/193)) ([5ce8c7d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5ce8c7d5a37b36d5706ece0711381717b4ec03f9))
+* reduce WindowCoveringServer log noise by moving position updates to DEBUG ([8b0381b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8b0381b64b7b35ba64b9d8140e5a467f2eda3fec))
+* remove auto-added PowerSource device type from descriptor ([#183](https://github.com/RiDDiX/home-assistant-matter-hub/issues/183)) ([31550cf](https://github.com/RiDDiX/home-assistant-matter-hub/commit/31550cf07b84a155a03ebcd89dd1bb6d728ba6a5))
+* remove PowerSource cluster from server-mode vacuum endpoint ([#183](https://github.com/RiDDiX/home-assistant-matter-hub/issues/183)) ([45be591](https://github.com/RiDDiX/home-assistant-matter-hub/commit/45be591e8c814861e004f5d5b980e719c401443e))
+* remove thermostat setpoint write interceptor causing 'Cannot redefine property' crash ([93d7ce6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/93d7ce603ad77c827301f154cea683cbf97db1fc)), closes [#176](https://github.com/RiDDiX/home-assistant-matter-hub/issues/176)
+* restore PowerSource device type on vacuum endpoint to match Matterbridge ([#183](https://github.com/RiDDiX/home-assistant-matter-hub/issues/183)) ([1789c73](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1789c73c9dac4e53e2531a1d8fd45ffcd038aca6))
+* use 1-based mode IDs for RVC clusters and restore PowerSource ([#183](https://github.com/RiDDiX/home-assistant-matter-hub/issues/183)) ([6a452a9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6a452a94bed5720dd5526dab95396448ff896a8b))
+* vacuum OnOff turnOff sends return_to_base instead of stop ([046d6cf](https://github.com/RiDDiX/home-assistant-matter-hub/commit/046d6cf389b8fcf0e347fc0d77fcd9ec35cda15b))
+* validate mode in changeToMode overrides (Matter spec compliance) ([400002d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/400002d0f13d839e6882ef0dc9bdf3181b65b6dc))
+
+
+### Features
+
+* **#197:** add authentication configuration from UI ([c84cf89](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c84cf89341a37a27ecf49be94cfd51db411c4e29)), closes [#197](https://github.com/RiDDiX/home-assistant-matter-hub/issues/197)
+* dynamic compatibility warnings in bridge config editor ([304d93c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/304d93cc9f5fd930f4d6eeb9de08d0cbfe58820b))
+* expandable cluster diagnostics in device cards ([0cdee8c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0cdee8c6ee85743425636196abff45679e01e72a))
+* support select and input_select entities via ModeSelectDevice ([396b663](https://github.com/RiDDiX/home-assistant-matter-hub/commit/396b663a544b117892793ff916323d1c8db24bd6))
+* update matter.js packages from 0.16.8 to 0.16.10 ([675713f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/675713f8ee8645454a0a5727ba2c662d38a031ad))
+* webhook event bridge  fire hamh_action HA events for controller commands ([08ebcb2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/08ebcb26c29d34a969a666bdb2bc198d99825939))
+
 ## [2.0.25](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.24...v2.0.25) (2026-02-21)
 
 
