@@ -1,8 +1,8 @@
-# v2.1.0-alpha.335
+# v2.1.0-alpha.336
 
 ## Changes
 
-- fix: assign intensity tags to all matching fan speeds for Apple Home visibility (e8d2378)
+- fix(#110): switch cleaning mode entity when Apple Home sends intensity mode (a393aa1)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
