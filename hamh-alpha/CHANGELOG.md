@@ -1,8 +1,8 @@
-# v2.1.0-alpha.339
+# v2.1.0-alpha.340
 
 ## Changes
 
-- fix: remove auto-added PowerSource device type from descriptor (#183) (31550cf)
+- fix: always auto-detect battery entity for server-mode vacuums (#183) (16e42ed)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
