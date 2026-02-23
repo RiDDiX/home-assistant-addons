@@ -1,8 +1,8 @@
-# v2.1.0-alpha.333
+# v2.1.0-alpha.334
 
 ## Changes
 
-- fix(#200): pin Docker runtime to Node 22 to fix ERR_INVALID_PACKAGE_CONFIG (49fa22c)
+- fix: vacuum OnOff turnOff sends return_to_base instead of stop (046d6cf)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
