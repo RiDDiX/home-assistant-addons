@@ -1,8 +1,8 @@
-# v2.1.0-alpha.336
+# v2.1.0-alpha.337
 
 ## Changes
 
-- fix(#110): switch cleaning mode entity when Apple Home sends intensity mode (a393aa1)
+- fix(#110): dispatch cleaning mode before intensity and remove stale state check (c56b9c7)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
