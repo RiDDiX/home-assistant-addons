@@ -1,8 +1,8 @@
-# v2.1.0-alpha.338
+# v2.1.0-alpha.339
 
 ## Changes
 
-- fix: validate mode in changeToMode overrides (Matter spec compliance) (400002d)
+- fix: remove auto-added PowerSource device type from descriptor (#183) (31550cf)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
