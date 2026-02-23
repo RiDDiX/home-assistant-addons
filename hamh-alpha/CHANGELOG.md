@@ -1,8 +1,8 @@
-# v2.1.0-alpha.343
+# v2.1.0-alpha.344
 
 ## Changes
 
-- fix(#202): allow editing entity filter for server mode templates in wizard (fcb3909)
+- fix(#203): show start/stop/restart buttons with single bridge (f5abfff)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
