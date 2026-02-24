@@ -1,9 +1,8 @@
-# v2.1.0-alpha.371
+# v2.1.0-alpha.372
 
 ## Changes
 
-- feat(#183): add vacuumMinimalClusters feature flag for Alexa troubleshooting (1a6641eb)
-- revert: undo ServiceArea and PowerSource removal (#183) (13e261d4)
+- feat: improve bridge config editor UI (623deb02)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
