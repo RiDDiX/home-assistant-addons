@@ -1,8 +1,8 @@
-# v2.1.0-alpha.361
+# v2.1.0-alpha.362
 
 ## Changes
 
-- fix(#183): remove vacuumOnOff schema default to fix server-mode OnOff inclusion (631500f6)
+- feat: add linux/arm/v7 platform for standalone Docker image (66210dcb)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
