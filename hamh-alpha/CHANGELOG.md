@@ -1,8 +1,10 @@
-# v2.1.0-alpha.351
+# v2.1.0-alpha.352
 
 ## Changes
 
-- fix(#205): re-enable room-specific RvcRunMode modes for Apple Home room cleaning (e1b7a562)
+- fix: lint errors in vacuum-identify-server and bridge-registry optional chaining (ce977335)
+- fix(#205): use mqtt.publish for Valetudo segment cleanup instead of vacuum.send_command (cabfc22c)
+- feat(#189): map Identify cluster to vacuum.locate for Apple Home 'Play Sound to Locate' (cd84cb50)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
