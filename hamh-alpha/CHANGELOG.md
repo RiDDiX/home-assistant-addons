@@ -1,8 +1,8 @@
-# v2.1.0-alpha.374
+# v2.1.0-alpha.375
 
 ## Changes
 
-- fix(#206): report IsAtFullCharge when battery is at 100% while docked (b8b41cd7)
+- fix(#183): use fieldPathId.path in FeatureFlagsField onChange to prevent wiping bridge config (4343602a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
