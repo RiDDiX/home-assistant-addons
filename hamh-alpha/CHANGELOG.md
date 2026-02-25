@@ -1,8 +1,8 @@
-# v2.1.0-alpha.380
+# v2.1.0-alpha.381
 
 ## Changes
 
-- feat: improve vendor identification and consolidate vendor name lookups (e388bec5)
+- fix(#105): add session lifecycle diagnostics for Alexa disconnection debugging (944d6f75)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
