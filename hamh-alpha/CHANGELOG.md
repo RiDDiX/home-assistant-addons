@@ -1,9 +1,8 @@
-# v2.1.0-alpha.378
+# v2.1.0-alpha.379
 
 ## Changes
 
-- fix: default vacuum OnOff to OFF in server mode  OnOff breaks Alexa (#185, #183) (51c5fd4c)
-- feat: expose alarm_control_panel as ModeSelect instead of OnOffPlugInUnit (#209) (cf87606e)
+- fix(#206): fallback to hardcoded cleaning modes when entity options unavailable (8f5c4676)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
