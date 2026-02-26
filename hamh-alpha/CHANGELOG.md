@@ -1,8 +1,8 @@
-# v2.1.0-alpha.391
+# v2.1.0-alpha.392
 
 ## Changes
 
-- perf: increase default registry refresh interval from 30s to 60s (d49342bf)
+- perf: skip registry refresh when structure unchanged (fingerprint-based change detection) (28536e3e)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
