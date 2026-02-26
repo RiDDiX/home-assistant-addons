@@ -1,8 +1,8 @@
-# v2.1.0-alpha.384
+# v2.1.0-alpha.385
 
 ## Changes
 
-- fix: prefer selectedAreas over room mode in changeToMode for Apple Home (7a5b5a7a)
+- fix: hide server mode banner when only Google Home is connected (e795de9e)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
