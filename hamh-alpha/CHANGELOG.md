@@ -1,8 +1,8 @@
-# v2.1.0-alpha.389
+# v2.1.0-alpha.390
 
 ## Changes
 
-- feat: show HAMH process memory (RSS + heap) in System Information (558ee085)
+- fix: change periodic registry load log from info to debug (281bc2c6)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
