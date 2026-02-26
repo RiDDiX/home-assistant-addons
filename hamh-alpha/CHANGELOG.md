@@ -1,8 +1,8 @@
-# v2.1.0-alpha.390
+# v2.1.0-alpha.391
 
 ## Changes
 
-- fix: change periodic registry load log from info to debug (281bc2c6)
+- perf: increase default registry refresh interval from 30s to 60s (d49342bf)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
