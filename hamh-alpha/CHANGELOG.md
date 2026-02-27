@@ -1,8 +1,8 @@
-# v2.1.0-alpha.394
+# v2.1.0-alpha.395
 
 ## Changes
 
-- fix(air-purifier): add missing Rocking (oscillation) and Wind feature support (4a12ac6a)
+- feat(frontend): add vendor brand icons for 18 new manufacturers (a5a4600f)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
