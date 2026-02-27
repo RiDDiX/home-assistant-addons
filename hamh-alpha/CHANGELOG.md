@@ -1,8 +1,8 @@
-# v2.1.0-alpha.402
+# v2.1.0-alpha.403
 
 ## Changes
 
-- fix(composed): add BridgedNode device type to air purifier parent endpoint (4ef77ffb)
+- fix(composed): revert to AirPurifierDevice base with dual deviceTypeList (34fcd45b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
