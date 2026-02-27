@@ -1,8 +1,8 @@
-# v2.1.0-alpha.395
+# v2.1.0-alpha.396
 
 ## Changes
 
-- feat(frontend): add vendor brand icons for 18 new manufacturers (a5a4600f)
+- feat(frontend): add Razer, Roborock, iRobot vendor brand icons (eeef101a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
