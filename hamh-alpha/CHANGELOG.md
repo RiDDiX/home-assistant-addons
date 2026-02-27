@@ -1,8 +1,8 @@
-# v2.1.0-alpha.401
+# v2.1.0-alpha.402
 
 ## Changes
 
-- fix(#185): align RvcCleanMode default mode IDs with 0-based convention (84f5f2b4)
+- fix(composed): add BridgedNode device type to air purifier parent endpoint (4ef77ffb)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
