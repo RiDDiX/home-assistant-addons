@@ -1,8 +1,8 @@
-# v2.1.0-alpha.393
+# v2.1.0-alpha.394
 
 ## Changes
 
-- feat(dashboard): header links to dashboard, add Settings nav entry, add bridge Start/Stop/Restart All controls (faabf2eb)
+- fix(air-purifier): add missing Rocking (oscillation) and Wind feature support (4a12ac6a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
