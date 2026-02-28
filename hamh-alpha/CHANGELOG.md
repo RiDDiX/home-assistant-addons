@@ -1,8 +1,8 @@
-# v2.1.0-alpha.407
+# v2.1.0-alpha.408
 
 ## Changes
 
-- fix(#207): update internal.controlSequenceOfOperation to bypass Matter.js reactor (16d257af)
+- fix(#28): use dynamic controlSequenceOfOperation for non-AutoMode thermostats (ce686fea)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
