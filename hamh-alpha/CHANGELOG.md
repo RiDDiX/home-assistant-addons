@@ -1,9 +1,8 @@
-# v2.1.0-alpha.411
+# v2.1.0-alpha.412
 
 ## Changes
 
-- fix: biome formatting for composed air purifier lint (1eef2dfd)
-- fix: flatten composed air purifier to single endpoint (#218) (feddb535)
+- feat: add device image support with z2m integration and custom uploads (#221) (f9412aff)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
