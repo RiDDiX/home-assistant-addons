@@ -1,8 +1,8 @@
-# v2.1.0-alpha.409
+# v2.1.0-alpha.410
 
 ## Changes
 
-- docs: update documentation for v2.0.27 stable release (c86332f5)
+- fix: disable semantic-release success comments to prevent CI failure on fork issue references (69b77378)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
