@@ -1,8 +1,8 @@
-# v2.1.0-alpha.408
+# v2.1.0-alpha.409
 
 ## Changes
 
-- fix(#28): use dynamic controlSequenceOfOperation for non-AutoMode thermostats (ce686fea)
+- docs: update documentation for v2.0.27 stable release (c86332f5)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
