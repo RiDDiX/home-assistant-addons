@@ -1,8 +1,8 @@
-# v2.1.0-alpha.420
+# v2.1.0-alpha.421
 
 ## Changes
 
-- feat: add --http-base-path option for reverse proxy subfolder support (#228) (00034e4d)
+- fix: add source selection (MediaInput) to VideoPlayerDevice for TVs (#231) (54416e75)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
