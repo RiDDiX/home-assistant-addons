@@ -1,3 +1,13 @@
+## [2.0.29](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.28...v2.0.29) (2026-03-05)
+
+
+### Bug Fixes
+
+* **#225:** retain light currentLevel when off to prevent Apple Home 100% brightness on turn-on ([8948764](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8948764b3a9a3c2b70ab0eb3496e24a90ad8f048)), closes [#225](https://github.com/RiDDiX/home-assistant-matter-hub/issues/225)
+* **#232:** decouple save button from RJSF schema validation errors ([e7c6ba4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e7c6ba43a72fea38701198178460482256445039)), closes [#232](https://github.com/RiDDiX/home-assistant-matter-hub/issues/232)
+* correct autoHumidityMapping schema default to match runtime behavior ([fb0b537](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fb0b5370705aea9afcfacefde0889c07e17c591f))
+* correct FanDeviceFeature TURN_ON/TURN_OFF enum values to match HA ([d5f654e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d5f654ea8dbe2bba529b0498c3be255f25f58bb6))
+
 ## [2.0.28](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.27...v2.0.28) (2026-03-04)
 
 
