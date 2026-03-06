@@ -1,8 +1,8 @@
-# v2.1.0-alpha.443
+# v2.1.0-alpha.444
 
 ## Changes
 
-- fix: make autoHumidityMapping default-enabled like autoPressureMapping (8a3eaa60)
+- feat: add controller profiles to wizard and area-based bridge setup (e84ab46d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
