@@ -1,8 +1,8 @@
-# v2.1.0-alpha.449
+# v2.1.0-alpha.450
 
 ## Changes
 
-- fix(#230): replace blanket cooldown with expected-value matching (5d09c2d1)
+- fix(#218): expose mappedEntityIds on composed endpoints for WebSocket subscription (be094318)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
