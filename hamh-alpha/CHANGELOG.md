@@ -1,8 +1,8 @@
-# v2.1.0-alpha.452
+# v2.1.0-alpha.453
 
 ## Changes
 
-- fix(#219): cross-cluster OnOff↔FanControl sync per Matter spec §4.4.6.6.1 (13b9abbe)
+- fix(#242): add deprecated 'label' type to matcher schema for backward compat (baa63b4b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
