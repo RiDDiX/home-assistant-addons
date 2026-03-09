@@ -1,8 +1,8 @@
-# v2.1.0-alpha.472
+# v2.1.0-alpha.473
 
 ## Changes
 
-- revert(#218): restore flat sensor clusters on composed air purifier (277efe33)
+- feat: add matter.js spec-based endpoint cluster validation (62b839a0)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
