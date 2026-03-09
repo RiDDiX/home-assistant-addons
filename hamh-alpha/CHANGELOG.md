@@ -1,8 +1,8 @@
-# v2.1.0-alpha.462
+# v2.1.0-alpha.463
 
 ## Changes
 
-- docs: add device-specific guides for Light, Climate, Cover, and Lock (a71007ec)
+- feat: add floating language switcher with flags (ee207859)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
