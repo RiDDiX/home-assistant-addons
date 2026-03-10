@@ -1,8 +1,8 @@
-# v2.1.0-alpha.483
+# v2.1.0-alpha.484
 
 ## Changes
 
-- fix: skip redundant tilt action on downOrClose/upOrOpen for KNX covers (#246) (6bd432e6)
+- feat: support binary_sensor battery entities in auto-mapping (d83eaff4)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
