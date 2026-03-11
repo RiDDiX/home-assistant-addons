@@ -1,3 +1,16 @@
+## [2.0.34](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.33...v2.0.34) (2026-03-11)
+
+
+### Bug Fixes
+
+* allow deprecated feature flags in stored bridge data to pass validation ([1fef401](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1fef40171dd1725d0cb33f903125b100b913a19b))
+* always auto-map battery entity for vacuum endpoints ([#237](https://github.com/RiDDiX/home-assistant-matter-hub/issues/237)) ([29b724a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/29b724a258d96926264176b844b7146d5eae10bf))
+
+
+### Features
+
+* add automatic backup with retention policy and snapshot management ([1af8330](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1af8330c93a218dbd99b1ce6ad08dafa94205a21))
+
 ## [2.0.33](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.32...v2.0.33) (2026-03-11)
 
 
