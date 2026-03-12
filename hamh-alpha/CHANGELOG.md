@@ -1,8 +1,8 @@
-# v2.1.0-alpha.492
+# v2.1.0-alpha.493
 
 ## Changes
 
-- fix: include entity labels and area_id in registry fingerprint (#243) (b51561e4)
+- fix: make scripts momentary and fix autoReset optimistic guard conflict (#253) (8cf7ede9)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
