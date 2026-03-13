@@ -1,8 +1,8 @@
-# v2.1.0-alpha.505
+# v2.1.0-alpha.506
 
 ## Changes
 
-- feat: add valetudoIdentifier mapping for MQTT topic case mismatch (b046307b)
+- feat: add valetudoIdentifier input to vacuum entity mapping dialog (bd6fcfa3)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
