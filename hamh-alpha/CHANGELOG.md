@@ -1,8 +1,8 @@
-# v2.1.0-alpha.504
+# v2.1.0-alpha.505
 
 ## Changes
 
-- fix: Valetudo segment cleaning sends all rooms instead of selected ones (9c42932c)
+- feat: add valetudoIdentifier mapping for MQTT topic case mismatch (b046307b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
