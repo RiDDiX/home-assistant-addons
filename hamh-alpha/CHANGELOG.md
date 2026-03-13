@@ -1,8 +1,8 @@
-# v2.1.0-alpha.503
+# v2.1.0-alpha.504
 
 ## Changes
 
-- fix: add missing factories for dimmable_plugin_unit, contact_sensor, occupancy_sensor and remove non-functional controller types (23b2d636)
+- fix: Valetudo segment cleaning sends all rooms instead of selected ones (9c42932c)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
