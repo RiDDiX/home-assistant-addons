@@ -1,8 +1,8 @@
-# v2.1.0-alpha.511
+# v2.1.0-alpha.512
 
 ## Changes
 
-- feat: per-entity coverSwapOpenClose for individual covers (#263) (48a06ed8)
+- fix: prevent HeatingOnly on cooling-only thermostat (#264) (9f520c4d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
