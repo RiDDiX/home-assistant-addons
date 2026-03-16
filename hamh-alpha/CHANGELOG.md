@@ -1,8 +1,8 @@
-# v2.1.0-alpha.510
+# v2.1.0-alpha.511
 
 ## Changes
 
-- fix: skip CLEAN_AREA entries with empty segment arrays (491928db)
+- feat: per-entity coverSwapOpenClose for individual covers (#263) (48a06ed8)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
