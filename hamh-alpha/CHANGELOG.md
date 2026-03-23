@@ -1,13 +1,11 @@
-# v2.1.0-alpha.528
+# v2.1.0-alpha.529
 
 ## Changes
 
-- fix(plugins): resolve biome lint errors in example plugins (47c59f72)
-- docs(plugins): document domain mappings, cloud provider plugins, and error handling improvements (e5a53cf8)
-- feat(plugins): add cloud-mock and broken example plugins (59fb0123)
-- fix(plugins): prevent process crash on unhandled rejections from plugins (9ea38e5f)
-- feat(plugins): wire domain mappings into endpoint creation pipeline (9553efab)
-- feat(plugins): add domain mapping support to plugin API (a773d944)
+- fix: resolve lint errors in composed endpoint tests and cover formatting (f63bd492)
+- test: add composed endpoint and server-mode vacuum device tests (d16993e8)
+- refactor: deduplicate PowerSourceServer battery callback into DefaultPowerSourceServer (ddc0020c)
+- fix: guard DiagnosticService against undefined aggregator in server-mode bridges (fa9b11ea)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
