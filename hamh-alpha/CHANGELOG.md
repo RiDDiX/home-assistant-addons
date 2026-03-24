@@ -1,8 +1,8 @@
-# v2.1.0-alpha.532
+# v2.1.0-alpha.533
 
 ## Changes
 
-- fix: swap import/export icons on bridges page (f610e7b0)
+- fix: consistent import/export icons across UI (Export=↑, Import=↓) (043c74ec)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
