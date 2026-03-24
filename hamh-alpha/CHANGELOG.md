@@ -1,8 +1,8 @@
-# v2.1.0-alpha.533
+# v2.1.0-alpha.534
 
 ## Changes
 
-- fix: consistent import/export icons across UI (Export=↑, Import=↓) (043c74ec)
+- feat: complete German translation and add Russian language (5167e1f7)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
