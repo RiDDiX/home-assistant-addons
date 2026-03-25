@@ -1,8 +1,8 @@
-# v2.1.0-alpha.535
+# v2.1.0-alpha.536
 
 ## Changes
 
-- docs: add IPv6 ULA guidance for VLAN setups (#39) (86c74eb0)
+- chore: remove old MyST docs (migrated to Docusaurus in docs-site/) (870b1b88)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
