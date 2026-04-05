@@ -1,8 +1,8 @@
-# v2.1.0-alpha.564
+# v2.1.0-alpha.565
 
 ## Changes
 
-- chore(alpha): add #287 diagnostic logs for vacuum keepalive path (ebdc6687)
+- fix(#273): auto-map HA moisture sensors to HumiditySensor (924fe4cd)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
