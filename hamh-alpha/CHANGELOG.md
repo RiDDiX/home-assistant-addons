@@ -1,9 +1,8 @@
-# v2.1.0-alpha.563
+# v2.1.0-alpha.564
 
 ## Changes
 
-- fix(alpha): surface silent currentRoom short-circuits and log legacy vacuum auto-assignments at INFO (#281) (3390e422)
-- ci: add paths-ignore to alpha release workflow for docs-only changes (e7bb5dbd)
+- chore(alpha): add #287 diagnostic logs for vacuum keepalive path (ebdc6687)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
