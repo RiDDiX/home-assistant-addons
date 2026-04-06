@@ -1,8 +1,8 @@
-# v2.1.0-alpha.566
+# v2.1.0-alpha.567
 
 ## Changes
 
-- test(#272): guard fan AirflowDirection feature exposure (f924e41f)
+- fix(#287): keepalive writes directly to RvcOperationalState cluster (cc60f50b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
