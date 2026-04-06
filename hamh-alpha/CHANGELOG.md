@@ -1,8 +1,8 @@
-# v2.1.0-alpha.568
+# v2.1.0-alpha.569
 
 ## Changes
 
-- fix(#287): use counter-based nonce and add keepalive diagnostics (01a781ab)
+- fix(#286): guard all behavior update() methods against missing attributes (47f58aee)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
