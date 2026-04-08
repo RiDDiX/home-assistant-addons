@@ -1,8 +1,8 @@
-# v2.1.0-alpha.577
+# v2.1.0-alpha.578
 
 ## Changes
 
-- fix(#281): use endpoint instead of agent as WeakMap key for cleaning session (65c2ed7a)
+- fix(#281): push operationalState and currentMode in keepalive (9d9fdec1)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
