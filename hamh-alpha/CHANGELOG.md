@@ -1,8 +1,8 @@
-# v2.1.0-alpha.574
+# v2.1.0-alpha.575
 
 ## Changes
 
-- fix(#287): use Date.now() instead of instance nonce for keepalive diff (5e8970b8)
+- fix(#281): persist cleaning session state across behavior proxy calls (fac2330c)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
