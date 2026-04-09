@@ -1,8 +1,8 @@
-# v2.1.0-alpha.578
+# v2.1.0-alpha.579
 
 ## Changes
 
-- fix(#281): push operationalState and currentMode in keepalive (9d9fdec1)
+- fix(#289): fix GenericSwitch event handling for Apple Home buttons (af66db3f)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
