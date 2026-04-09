@@ -1,8 +1,8 @@
-# v2.1.0-alpha.586
+# v2.1.0-alpha.587
 
 ## Changes
 
-- fix(#275): restore fan speed on turn-on and guard speed rounding (1895fb20)
+- fix(#286): guard endpoint-specific sensor update() against missing attributes (d5a6cfc0)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
