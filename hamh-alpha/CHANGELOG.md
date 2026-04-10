@@ -1,8 +1,8 @@
-# v2.1.0-alpha.587
+# v2.1.0-alpha.588
 
 ## Changes
 
-- fix(#286): guard endpoint-specific sensor update() against missing attributes (d5a6cfc0)
+- fix(#281): preserve progress across mid-session idle in multi-phase cleans (9a64cf50)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
