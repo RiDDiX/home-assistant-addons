@@ -1,8 +1,8 @@
-# v2.1.0-alpha.595
+# v2.1.0-alpha.596
 
 ## Changes
 
-- install tarball via wrapper so transitive overrides apply in docker (bbe8056b)
+- update swedish translation from razzietheman (0f2088ee)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
