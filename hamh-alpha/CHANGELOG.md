@@ -1,9 +1,9 @@
-# v2.1.0-alpha.597
+# v2.1.0-alpha.598
 
 ## Changes
 
-- fix: persist custom product/vendor/serial in entity mapping api (933b3c79)
-- fix: send area_id from area-based bridge wizard (6c02cde8)
+- test: lock in modeselect label propagation for #296 (a8b0c943)
+- docs: add ppttu to sponsors (baef8006)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
