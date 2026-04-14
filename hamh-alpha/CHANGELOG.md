@@ -1,8 +1,8 @@
-# v2.1.0-alpha.607
+# v2.1.0-alpha.608
 
 ## Changes
 
-- add preferEntityRegistryName flag for HA 2026.4 naming (#276) (47fa47b9)
+- fix input_select mode changes not syncing to HA (54ad6ae9)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
