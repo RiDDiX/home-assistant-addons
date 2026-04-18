@@ -1,10 +1,8 @@
-# v2.1.0-alpha.611
+# v2.1.0-alpha.612
 
 ## Changes
 
-- add protocol-log-level option to quiet matter.js logs (9c084f3d)
-- expose bridge hardware/software version strings (70eb2a1f)
-- export APP_VERSION fallback in addon entrypoint (0c96ab64)
+- fix(#306): put alexa brightness-reset workaround behind feature flag (6e3329d2)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
