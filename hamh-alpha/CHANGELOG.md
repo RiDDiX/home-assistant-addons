@@ -1,8 +1,8 @@
-# v2.1.0-alpha.620
+# v2.1.0-alpha.621
 
 ## Changes
 
-- fix(#309): expose matter auto mode for climate devices with ha auto (55e7ef6d)
+- fix(#305): patch matter.js to accept long operational cert serials (2a080332)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
