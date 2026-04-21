@@ -1,8 +1,8 @@
-# v2.1.0-alpha.621
+# v2.1.0-alpha.622
 
 ## Changes
 
-- fix(#305): patch matter.js to accept long operational cert serials (2a080332)
+- fix(#311): apply server-mode root identity via transactional set (4ed4dfd1)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
