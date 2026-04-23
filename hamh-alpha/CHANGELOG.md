@@ -1,9 +1,8 @@
-# v2.1.0-alpha.626
+# v2.1.0-alpha.627
 
 ## Changes
 
-- mirror enhancedColorMode when colorMode changes (862710ae)
-- docs: credit @Yllelder for spanish translation (#314) (097a703b)
+- add mandatory xy feature to extended color light (9e853b77)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
