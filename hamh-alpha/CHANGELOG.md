@@ -1,8 +1,8 @@
-# v2.1.0-alpha.631
+# v2.1.0-alpha.632
 
 ## Changes
 
-- add disableClimateFanControl mapping for #318 (f81b8100)
+- fix(#319): clamp climate auto to heat/cool on non-AutoMode bases (6dd4ded1)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
