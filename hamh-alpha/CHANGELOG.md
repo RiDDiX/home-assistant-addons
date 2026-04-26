@@ -1,9 +1,8 @@
-# v2.1.0-alpha.634
+# v2.1.0-alpha.635
 
 ## Changes
 
-- fix(#309): drop matter automode for ha-auto-only ac (66abbfca)
-- docs: bump stable to v2.0.42 with hotfix changelog (63fc52c5)
+- feat(#321): snap climate setpoints to entity step (e507c0d6)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
