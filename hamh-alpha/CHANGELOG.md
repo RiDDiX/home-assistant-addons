@@ -1,9 +1,8 @@
-# v2.1.0-alpha.640
+# v2.1.0-alpha.641
 
 ## Changes
 
-- refactor(#322): token-based cleaning mode classifier (d1ea2205)
-- docs(#287): note iPhone-only stuck-on-updating workaround (cf210fbd)
+- cleanup comments (11c6cd23)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
