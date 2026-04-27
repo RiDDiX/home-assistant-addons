@@ -1,8 +1,8 @@
-# v2.1.0-alpha.637
+# v2.1.0-alpha.638
 
 ## Changes
 
-- fix(#322): recognize UWANT/Xiaomi sweep/mop labels (050c45d2)
+- fix(#312): map cover device_class=window to Rollershade (adbddbd6)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
