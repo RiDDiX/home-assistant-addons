@@ -1,8 +1,8 @@
-# v2.1.0-alpha.644
+# v2.1.0-alpha.645
 
 ## Changes
 
-- feat(#325): add japanese translation from @kimera257 (5934f4e9)
+- feat: capture matter.js controller traffic in /api/logs (d8d28a2d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
