@@ -1,8 +1,8 @@
-# v2.1.0-alpha.646
+# v2.1.0-alpha.647
 
 ## Changes
 
-- fix(#327): make sensor reactors offline so updates reach controllers (ef65ff64)
+- complete japanese translation from @kimera257 (96fbad71)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
