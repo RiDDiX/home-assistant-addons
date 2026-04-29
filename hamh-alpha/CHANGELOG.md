@@ -1,8 +1,8 @@
-# v2.1.0-alpha.645
+# v2.1.0-alpha.646
 
 ## Changes
 
-- feat: capture matter.js controller traffic in /api/logs (d8d28a2d)
+- fix(#327): make sensor reactors offline so updates reach controllers (ef65ff64)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
