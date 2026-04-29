@@ -1,3 +1,24 @@
+## [2.0.43](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.42...v2.0.43) (2026-04-29)
+
+
+### Bug Fixes
+
+* **#281:** set currentArea on externally-started cleaning ([62b371a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/62b371a445aeb9c403891e237311641b925b97fb)), closes [#281](https://github.com/RiDDiX/home-assistant-matter-hub/issues/281)
+* **#309:** drop matter automode for ha-auto-only ac ([66abbfc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/66abbfcae6d3f357f30a89a2959d57dac27a382f)), closes [#309](https://github.com/RiDDiX/home-assistant-matter-hub/issues/309)
+* **#309:** keep ha-auto ac systemMode stable when hvac_action goes idle ([e35a052](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e35a05286c2d813c707f292b64c851d329457611)), closes [#309](https://github.com/RiDDiX/home-assistant-matter-hub/issues/309)
+* **#312:** map cover device_class=window to Rollershade ([adbddbd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/adbddbd602e6339f3cefb5672f4e7d8724d8ddde)), closes [#312](https://github.com/RiDDiX/home-assistant-matter-hub/issues/312)
+* **#320:** use sibling identify button when vacuum.locate unsupported ([f722ece](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f722ecec15b8f8b45a15be15e8f20681fde89a72)), closes [#320](https://github.com/RiDDiX/home-assistant-matter-hub/issues/320) [#208](https://github.com/RiDDiX/home-assistant-matter-hub/issues/208)
+* **#322:** recognize UWANT/Xiaomi sweep/mop labels ([050c45d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/050c45d2e2a1a7808e27cec10ed07c5ee37bea4a)), closes [#322](https://github.com/RiDDiX/home-assistant-matter-hub/issues/322)
+* **#323:** pick valid Type for lift+tilt window coverings ([2ed05af](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2ed05afa16b70d2f0a5ba5eb1e0e16a3887d4e3a)), closes [#323](https://github.com/RiDDiX/home-assistant-matter-hub/issues/323)
+* **#327:** make sensor reactors offline so updates reach controllers ([ef65ff6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ef65ff64cc49c67eb238c0ed81581d871232cf81)), closes [#327](https://github.com/RiDDiX/home-assistant-matter-hub/issues/327)
+
+
+### Features
+
+* **#321:** snap climate setpoints to entity step ([e507c0d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e507c0d6be409f149d88a60abf529df36878aac2)), closes [#321](https://github.com/RiDDiX/home-assistant-matter-hub/issues/321)
+* **#325:** add japanese translation from [@kimera257](https://github.com/kimera257) ([5934f4e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5934f4e910e5b01284d55068e35831d09756a8df)), closes [#325](https://github.com/RiDDiX/home-assistant-matter-hub/issues/325)
+* capture matter.js controller traffic in /api/logs ([d8d28a2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d8d28a2d69b3aac64097c733253f202d79c0f028))
+
 ## [2.0.42](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.41...v2.0.42) (2026-04-26)
 
 
