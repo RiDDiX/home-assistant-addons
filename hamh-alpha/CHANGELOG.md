@@ -1,8 +1,8 @@
-# v2.1.0-alpha.647
+# v2.1.0-alpha.648
 
 ## Changes
 
-- complete japanese translation from @kimera257 (96fbad71)
+- fix(#281): set currentArea on externally-started cleaning (62b371a4)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
