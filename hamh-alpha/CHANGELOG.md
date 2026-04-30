@@ -1,8 +1,9 @@
-# v2.1.0-alpha.654
+# v2.1.0-alpha.655
 
 ## Changes
 
-- feat(#331): per-bridge and per-entity cover slider debounce (b61670e4)
+- docs: credit MStankiewiczOfficial for pl.json update (#329) (24344e08)
+- Update pl.json (0e591b02)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
