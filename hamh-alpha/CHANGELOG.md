@@ -1,9 +1,8 @@
-# v2.1.0-alpha.652
+# v2.1.0-alpha.653
 
 ## Changes
 
-- fix(#330): load serialNumberSuffix when editing bridge (bfe068cf)
-- chore(deps): bump serialize-javascript to 7.0.5 in docs-site (436a491c)
+- fix(#331): widen cover slider debounce window to 300ms (71795e7a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
