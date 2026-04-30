@@ -1,8 +1,8 @@
-# v2.1.0-alpha.650
+# v2.1.0-alpha.651
 
 ## Changes
 
-- fix(#328): write target before current in cover updates (28626a14)
+- chore(deps): patch transitive deps flagged by dependabot (4d66260a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
