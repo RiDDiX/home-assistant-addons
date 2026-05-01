@@ -1,8 +1,8 @@
-# v2.1.0-alpha.657
+# v2.1.0-alpha.658
 
 ## Changes
 
-- fix(#330): preserve serialNumberSuffix when trimming to 32 chars (705ce075)
+- fix(#335): preserve customServiceAreas in dynamic RvcRunMode supportedModes (5c7b926b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
