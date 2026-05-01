@@ -1,9 +1,8 @@
-# v2.1.0-alpha.655
+# v2.1.0-alpha.656
 
 ## Changes
 
-- docs: credit MStankiewiczOfficial for pl.json update (#329) (24344e08)
-- Update pl.json (0e591b02)
+- fix(#334): stop reporting charging once docked vacuum is full (0b8b87f9)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
