@@ -1,8 +1,8 @@
-# v2.1.0-alpha.660
+# v2.1.0-alpha.661
 
 ## Changes
 
-- fix(#328): align cover cluster profile with certified Eve (6d569d5f)
+- fix(#335): clear currentArea when vacuum returns to dock (50e251d2)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
