@@ -1,8 +1,8 @@
-# v2.1.0-alpha.665
+# v2.1.0-alpha.666
 
 ## Changes
 
-- fix(#335): clear stale currentArea inherited across restarts (a29d5ab3)
+- fix(#328): write cover target before state in patch (4af65f65)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
