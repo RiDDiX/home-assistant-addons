@@ -1,8 +1,8 @@
-# v2.1.0-alpha.666
+# v2.1.0-alpha.667
 
 ## Changes
 
-- fix(#328): write cover target before state in patch (4af65f65)
+- feat(#340): per-entity climateKeepModeOnIdle for off+idle ACs (847120ee)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
