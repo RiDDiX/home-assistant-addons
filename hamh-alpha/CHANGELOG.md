@@ -1,8 +1,8 @@
-# v2.1.0-alpha.683
+# v2.1.0-alpha.684
 
 ## Changes
 
-- fix(#312): drop EndProductType.Unknown for window class (18390377)
+- fix(#336): swap bridge-icon HEAD probe for /exists (2ab38778)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
