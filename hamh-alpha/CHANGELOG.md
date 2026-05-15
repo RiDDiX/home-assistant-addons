@@ -1,8 +1,8 @@
-# v2.1.0-alpha.684
+# v2.1.0-alpha.685
 
 ## Changes
 
-- fix(#336): swap bridge-icon HEAD probe for /exists (2ab38778)
+- feat(#338): entity-id autocomplete in filter rules (183588a0)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
