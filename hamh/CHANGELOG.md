@@ -1,3 +1,49 @@
+## [2.0.44](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.43...v2.0.44) (2026-05-16)
+
+
+### Bug Fixes
+
+* **#287:** guard pushKeepalive on construction ([c3c69e4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c3c69e45275394b4fef20e939eb7a6fe02f9af90)), closes [#287](https://github.com/RiDDiX/home-assistant-matter-hub/issues/287)
+* **#287:** make rvc clean mode reactor offline ([9d6bf93](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9d6bf9395ac1ebb7ac06cb5a03fdff79e30ba05a)), closes [#287](https://github.com/RiDDiX/home-assistant-matter-hub/issues/287)
+* **#287:** rotate aged matter sessions ([6272875](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6272875f802d3df4e99797c3a036b78214019f6f)), closes [#287](https://github.com/RiDDiX/home-assistant-matter-hub/issues/287)
+* **#312:** drop EndProductType.Unknown for window class ([1839037](https://github.com/RiDDiX/home-assistant-matter-hub/commit/18390377242fc17d3a83f76067a5bb561040a864)), closes [#312](https://github.com/RiDDiX/home-assistant-matter-hub/issues/312)
+* **#328:** align cover cluster profile with certified Eve ([6d569d5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6d569d5f4872b4b990701b5a3c9c55f40a4e042f)), closes [#328](https://github.com/RiDDiX/home-assistant-matter-hub/issues/328)
+* **#328:** dedup deferred cover target writes ([6b3a020](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6b3a02079956f9303eeb3fb4c7e7d870cc700941)), closes [#328](https://github.com/RiDDiX/home-assistant-matter-hub/issues/328)
+* **#328:** drop deferred cover target split ([b53ba8a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b53ba8a283fdfc8451df08410ecd2fbc9bb40461)), closes [#328](https://github.com/RiDDiX/home-assistant-matter-hub/issues/328)
+* **#328:** drop legacy cover position attrs from updates ([6fd2935](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6fd2935a7366e18398de2cdeb18f913c9ed16368)), closes [#328](https://github.com/RiDDiX/home-assistant-matter-hub/issues/328)
+* **#328:** hold cover current update on motion start ([07d6095](https://github.com/RiDDiX/home-assistant-matter-hub/commit/07d609554b05f49f141b0a9449a49969befc4faf)), closes [#328](https://github.com/RiDDiX/home-assistant-matter-hub/issues/328)
+* **#328:** split cover state/target/current matter reports ([30fac32](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30fac3259922852aafe7344e8669eccbdbf28625)), closes [#328](https://github.com/RiDDiX/home-assistant-matter-hub/issues/328)
+* **#328:** write cover target before state in patch ([4af65f6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4af65f659edfab6737cad05eb48eae64bfeda27d)), closes [#328](https://github.com/RiDDiX/home-assistant-matter-hub/issues/328)
+* **#328:** write target before current in cover updates ([28626a1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/28626a1460110483c1fb3990405d97f2aa925e3a)), closes [#328](https://github.com/RiDDiX/home-assistant-matter-hub/issues/328)
+* **#330:** load serialNumberSuffix when editing bridge ([bfe068c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bfe068cffc0ff81e16e76fa310dfc6af8b834a96))
+* **#330:** preserve serialNumberSuffix when trimming to 32 chars ([705ce07](https://github.com/RiDDiX/home-assistant-matter-hub/commit/705ce075f38758bf8def469101c877ed74148dd2))
+* **#331:** widen cover slider debounce window to 300ms ([71795e7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/71795e7a9ae1360e9623cc914ad805c3cde667bf)), closes [#331](https://github.com/RiDDiX/home-assistant-matter-hub/issues/331)
+* **#334:** stop reporting charging once docked vacuum is full ([0b8b87f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0b8b87f96a1f9c82d349721973043c66eb25e565)), closes [#334](https://github.com/RiDDiX/home-assistant-matter-hub/issues/334)
+* **#335:** clear currentArea when vacuum returns to dock ([50e251d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/50e251d27bdec70cbcbec1f3cb1f83df6b2750b9)), closes [#335](https://github.com/RiDDiX/home-assistant-matter-hub/issues/335)
+* **#335:** clear stale currentArea inherited across restarts ([a29d5ab](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a29d5ab3bcafab86ce1ac61416f98588f4efdf9b)), closes [#335](https://github.com/RiDDiX/home-assistant-matter-hub/issues/335)
+* **#335:** dispatch custom service areas sequentially ([75b6a5f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/75b6a5f23ea35dc6536a781bd4e6beaf9cb51f66)), closes [#335](https://github.com/RiDDiX/home-assistant-matter-hub/issues/335)
+* **#335:** preserve customServiceAreas in dynamic RvcRunMode supportedModes ([5c7b926](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5c7b926b8e21cb1f9583076a1d606e7af423735e)), closes [#335](https://github.com/RiDDiX/home-assistant-matter-hub/issues/335)
+* **#335:** set observedCleaning on every cleaning event ([f9883b4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f9883b41c13024c68189edef3da49e3612333c81)), closes [#335](https://github.com/RiDDiX/home-assistant-matter-hub/issues/335)
+* **#336:** swap bridge-icon HEAD probe for /exists ([2ab3877](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2ab387787fe2ec17e7a3ec48026640de6ff8d3b6)), closes [#336](https://github.com/RiDDiX/home-assistant-matter-hub/issues/336)
+* **#340:** freeze immediately on off transition, clear on action=off ([4c80854](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4c808543898a63afe76aac56bbaa23fea42eb251)), closes [#340](https://github.com/RiDDiX/home-assistant-matter-hub/issues/340)
+* **#340:** keep mode through cool to off+idle ([8c2adf3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8c2adf3df72f9959293e87d3454b959290d07c2d)), closes [#340](https://github.com/RiDDiX/home-assistant-matter-hub/issues/340)
+* **#341:** make HA WS message timeout configurable, raise default to 60s ([b71cbfd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b71cbfd006313ce0650fe0f9f0f7d90323d67c10)), closes [#341](https://github.com/RiDDiX/home-assistant-matter-hub/issues/341)
+* **#343:** add PowerTopology + cumulativeEnergyImported default ([e860165](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e860165643d9b07674ba9587f5a577e875450987)), closes [#343](https://github.com/RiDDiX/home-assistant-matter-hub/issues/343)
+* **#343:** default activePower=0 on energy sensor endpoint ([8704cd6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8704cd6c62fb80913d33717f49745946e54e31f1)), closes [#343](https://github.com/RiDDiX/home-assistant-matter-hub/issues/343)
+* **#345:** dedupe @codemirror/state for json editor ([086b74f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/086b74f15a9d8e6b64bdebfc83f84a357a70145f)), closes [#345](https://github.com/RiDDiX/home-assistant-matter-hub/issues/345)
+* **#347:** heap headroom and force-sync pressure guard ([eefa259](https://github.com/RiDDiX/home-assistant-matter-hub/commit/eefa259b9cedbf9467e0a82f24b56775428dc640)), closes [#347](https://github.com/RiDDiX/home-assistant-matter-hub/issues/347)
+
+
+### Features
+
+* **#287:** bridge setting for session rotation ([2c595ad](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2c595adfa69c98ba355d5468a9903bcd3dd938de)), closes [#287](https://github.com/RiDDiX/home-assistant-matter-hub/issues/287)
+* **#290:** add per-entity customVendorId and HA-registry serial fallback ([8f252f6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8f252f6e3ff2c21fed408f3243dd28891e4bdb83)), closes [#290](https://github.com/RiDDiX/home-assistant-matter-hub/issues/290)
+* **#331:** per-bridge and per-entity cover slider debounce ([b61670e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b61670e45a6195b395190f89dcaccd22f53d4c2f)), closes [#331](https://github.com/RiDDiX/home-assistant-matter-hub/issues/331)
+* **#337:** any_field_regex matcher for grouped AND/OR filters ([0169ecf](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0169ecf671fe605c853079f66256fa36e3e9bac1)), closes [#337](https://github.com/RiDDiX/home-assistant-matter-hub/issues/337)
+* **#337:** regex filters for entity and device labels ([8138a07](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8138a07081380143f058c85db1df560ce218db00)), closes [#337](https://github.com/RiDDiX/home-assistant-matter-hub/issues/337)
+* **#338:** entity-id autocomplete in filter rules ([183588a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/183588a0a3e20c5ea4539ec646a04edb5485ebdd)), closes [#338](https://github.com/RiDDiX/home-assistant-matter-hub/issues/338)
+* **#340:** per-entity climateKeepModeOnIdle for off+idle ACs ([847120e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/847120ee44f9dea94682ddd63ad3f01e388baed5)), closes [#340](https://github.com/RiDDiX/home-assistant-matter-hub/issues/340)
+
 ## [2.0.43](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.42...v2.0.43) (2026-04-29)
 
 
