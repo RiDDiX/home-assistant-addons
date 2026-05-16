@@ -1,3 +1,10 @@
+## [2.0.45](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.44...v2.0.45) (2026-05-16)
+
+
+### Bug Fixes
+
+* **#348:** bind typed text in entity autocomplete ([5e6ef44](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5e6ef44647ae00b36b166e7ce91fd8872aad06cc)), closes [#348](https://github.com/RiDDiX/home-assistant-matter-hub/issues/348)
+
 ## [2.0.44](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.43...v2.0.44) (2026-05-16)
 
 
