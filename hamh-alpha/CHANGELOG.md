@@ -1,8 +1,8 @@
-# v2.1.0-alpha.686
+# v2.1.0-alpha.687
 
 ## Changes
 
-- fix(#350): tilt-only covers use tilt for lift cmds (9191ff74)
+- fix(#351): skip unchanged endpoints on HA updates (57c15931)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
