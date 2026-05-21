@@ -1,8 +1,8 @@
-# v2.1.0-alpha.687
+# v2.1.0-alpha.688
 
 ## Changes
 
-- fix(#351): skip unchanged endpoints on HA updates (57c15931)
+- fix(#352): keep registry resilient to ha connection drops (7723c22e)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
