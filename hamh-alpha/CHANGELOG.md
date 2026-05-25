@@ -1,9 +1,8 @@
-# v2.1.0-alpha.689
+# v2.1.0-alpha.690
 
 ## Changes
 
-- fix: stub bun:sqlite constants export for esbuild bundle (f7d591cd)
-- chore: bump matter.js to 0.17.0, drop lg patch (92f3a3d3)
+- fix batch room data (e0de05b2)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
