@@ -1,8 +1,8 @@
-# v2.1.0-alpha.693
+# v2.1.0-alpha.694
 
 ## Changes
 
-- fix(#287): refresh rvc sessions safely (78d156da)
+- fix(#358): keep addon heap flag (c3a8d223)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
