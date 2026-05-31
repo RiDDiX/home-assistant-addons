@@ -1,10 +1,8 @@
-# v2.1.0-alpha.702
+# v2.1.0-alpha.703
 
 ## Changes
 
-- docs(#309): note hvac_action needed for auto (ff8514e4)
-- test(#309): characterize running-mode mapping (f0394a25)
-- docs: document weather domain support (0892b028)
+- feat(#309): opt-in companion fan for climate ac (89b9866b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
