@@ -1,8 +1,8 @@
-# v2.1.0-alpha.704
+# v2.1.0-alpha.705
 
 ## Changes
 
-- test: cover ha-client connect retry path (dce5e0fd)
+- fix(#309): add companion fan toggle and persist (e7fa03c6)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
