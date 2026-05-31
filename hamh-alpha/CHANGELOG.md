@@ -1,8 +1,8 @@
-# v2.1.0-alpha.703
+# v2.1.0-alpha.704
 
 ## Changes
 
-- feat(#309): opt-in companion fan for climate ac (89b9866b)
+- test: cover ha-client connect retry path (dce5e0fd)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
