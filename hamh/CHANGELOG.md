@@ -1,3 +1,34 @@
+## [2.0.46](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.45...v2.0.46) (2026-06-03)
+
+
+### Bug Fixes
+
+* **#287:** refresh rvc sessions safely ([78d156d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/78d156dab03252438ad923fd3113c783cf33d3b3)), closes [#287](https://github.com/RiDDiX/home-assistant-matter-hub/issues/287)
+* **#309:** add companion fan toggle and persist ([e7fa03c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e7fa03c680df9d777884d28ed6168fd664b25780)), closes [#309](https://github.com/RiDDiX/home-assistant-matter-hub/issues/309)
+* **#309:** order fan speed presets ascending ([a2cd14a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a2cd14a350a9338a642fb863810fa82dc5c31af5)), closes [#309](https://github.com/RiDDiX/home-assistant-matter-hub/issues/309)
+* **#313:** cast lock fabric index ([e6f7f68](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e6f7f68fc8781f6fb784c015603e3d9346e50237)), closes [#313](https://github.com/RiDDiX/home-assistant-matter-hub/issues/313)
+* **#313:** handle lock access code ([4b534c6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4b534c6da4044d65b22bd40ee9447a63db635306)), closes [#313](https://github.com/RiDDiX/home-assistant-matter-hub/issues/313)
+* **#313:** harden lock credentials ([c5e957c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c5e957ce900eb2ff23d4c1602d01ee2001790a52)), closes [#313](https://github.com/RiDDiX/home-assistant-matter-hub/issues/313)
+* **#350:** tilt-only covers use tilt for lift cmds ([9191ff7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9191ff7464a397e5b19f851db62c77751b77a40a)), closes [#350](https://github.com/RiDDiX/home-assistant-matter-hub/issues/350)
+* **#351:** skip unchanged endpoints on HA updates ([57c1593](https://github.com/RiDDiX/home-assistant-matter-hub/commit/57c15931d396e4a4f1aee5c14e7b5deb78339275)), closes [#351](https://github.com/RiDDiX/home-assistant-matter-hub/issues/351)
+* **#352:** keep registry resilient to ha connection drops ([7723c22](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7723c22e3642121d42bca4705fdc2861d648615c)), closes [#352](https://github.com/RiDDiX/home-assistant-matter-hub/issues/352)
+* **#358:** keep addon heap flag ([c3a8d22](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c3a8d2234023c815e5b6fcce4121bdf249e9d433)), closes [#358](https://github.com/RiDDiX/home-assistant-matter-hub/issues/358)
+* **#359:** narrow battery auto-mapping ([ab6a2ea](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ab6a2ea67a6495bbb323e7b1589cc639eddcaa5a)), closes [#359](https://github.com/RiDDiX/home-assistant-matter-hub/issues/359)
+* format battery tests ([a793703](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a793703124a225fd4028830102f25b73b8dc3397))
+* make automation momentary ([#364](https://github.com/RiDDiX/home-assistant-matter-hub/issues/364)) ([0d46cff](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0d46cff9d1ab143c10cfc3448ac2ca715b25eb5d))
+* point empty-state docs link to own site ([ee01a35](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ee01a352302c1fcbdb14c0cad347a3dbd6e27e4d))
+* resolve dependency vulnerabilities ([e536288](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e5362883dc0eb42f63ea0d357e99184de50e711f))
+* stub bun:sqlite constants export for esbuild bundle ([f7d591c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f7d591cdeae5a12d8a6d1c79ae5652b0c5b2f52b))
+* support enum battery states ([fa65a69](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fa65a691bbe6ccf7279a4626e2dbf3dd4437837f))
+
+
+### Features
+
+* **#291:** edit vacuum area data and batch ([a9bfb25](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a9bfb252a7e9414260a76168c2e3eb5a446115e1)), closes [#291](https://github.com/RiDDiX/home-assistant-matter-hub/issues/291)
+* **#309:** opt-in companion fan for climate ac ([89b9866](https://github.com/RiDDiX/home-assistant-matter-hub/commit/89b9866bbc626675a4e1436c922f92b787e53508)), closes [#309](https://github.com/RiDDiX/home-assistant-matter-hub/issues/309)
+* add weather domain as matter sensor ([01176a9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/01176a92ed9947639cfb2bada97435b54101a512))
+* warn on non-5540 port for alexa bridge ([55247a0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/55247a059444bf8771e7776947ee5a4418203be2))
+
 ## [2.0.45](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.44...v2.0.45) (2026-05-16)
 
 
