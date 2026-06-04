@@ -1,9 +1,9 @@
-# v2.1.0-alpha.710
+# v2.1.0-alpha.711
 
 ## Changes
 
-- style: format #309 alpha fix (ef7d504c)
-- fix: stabilize HA auto climate direction (ff055517)
+- cleanup (aed3c79d)
+- fix vacuum keepalive leak (b29dbf92)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
