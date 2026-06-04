@@ -1,11 +1,9 @@
-# v2.1.0-alpha.712
+# v2.1.0-alpha.713
 
 ## Changes
 
-- document standalone devices (2a033b06)
-- align server mode pairing device type (95fd2ff9)
-- add standalone devices page (c0279d1b)
-- generalize server mode to any device type (757337e4)
+- add optional session rotation to standard bridges (f6951fc3)
+- hold endpoints through transient registry gaps (d840af5b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
