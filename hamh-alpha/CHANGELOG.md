@@ -1,8 +1,8 @@
-# v2.1.0-alpha.714
+# v2.1.0-alpha.715
 
 ## Changes
 
-- warn when matter mdns advertises on docker interfaces (7f7a9686)
+- add hungarian (hu) translation (140aba94)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
