@@ -21,7 +21,9 @@ options:
   app_log_level: info
   disable_log_colors: false
   mdns_network_interface: ""
+  mdns_strip_global_ipv6: false
 schema:
   app_log_level: list(silly|debug|info|notice|warn|error|fatal)
   disable_log_colors: bool
   mdns_network_interface: "str?"
+  mdns_strip_global_ipv6: bool
