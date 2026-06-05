@@ -1,8 +1,8 @@
-# v2.1.0-alpha.718
+# v2.1.0-alpha.719
 
 ## Changes
 
-- test global ipv6 mdns detection (6977257f)
+- log subscription changes at debug not info (ef4b900b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
