@@ -1,8 +1,8 @@
-# v2.1.0-alpha.721
+# v2.1.0-alpha.722
 
 ## Changes
 
-- fix(#367): don't drop rooms in batch area merge (678ef2c8)
+- fix(#309): companion fan off stops the AC (5b305249)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
