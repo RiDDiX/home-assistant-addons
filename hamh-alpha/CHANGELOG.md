@@ -1,8 +1,8 @@
-# v2.1.0-alpha.719
+# v2.1.0-alpha.720
 
 ## Changes
 
-- log subscription changes at debug not info (ef4b900b)
+- fix(#367): clear currentArea on new selection (414ea16d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
