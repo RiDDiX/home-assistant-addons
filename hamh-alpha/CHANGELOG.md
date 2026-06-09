@@ -1,9 +1,8 @@
-# v2.1.0-alpha.726
+# v2.1.0-alpha.727
 
 ## Changes
 
-- fix(#370): type test vendorId so build passes (cefb55cf)
-- fix(#370): clear stale hue on color-temp lights (bcf22394)
+- feat(#368): track current room by cleaned area (41265b7a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
