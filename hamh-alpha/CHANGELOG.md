@@ -1,8 +1,8 @@
-# v2.1.0-alpha.727
+# v2.1.0-alpha.728
 
 ## Changes
 
-- feat(#368): track current room by cleaned area (41265b7a)
+- fix(#367): skip unreached rooms on early stop (3bbb2cee)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
