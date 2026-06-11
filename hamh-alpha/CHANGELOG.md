@@ -1,8 +1,8 @@
-# v2.1.0-alpha.730
+# v2.1.0-alpha.731
 
 ## Changes
 
-- fix(#368): wake on m2 sensor, map in clean order (cfddbe91)
+- fix(#287): remove no-op keepalive, lower interval (6831e8d2)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
