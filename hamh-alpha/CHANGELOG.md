@@ -1,8 +1,8 @@
-# v2.1.0-alpha.731
+# v2.1.0-alpha.732
 
 ## Changes
 
-- fix(#287): remove no-op keepalive, lower interval (6831e8d2)
+- fix(#365): 1.3-safe type for leak/freeze/rain (c32ab9c1)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
