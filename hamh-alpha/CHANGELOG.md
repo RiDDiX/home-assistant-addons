@@ -1,8 +1,8 @@
-# v2.1.0-alpha.737
+# v2.1.0-alpha.738
 
 ## Changes
 
-- feat(#301): multi-entity standalone devices (22dd9a4b)
+- fix(#287): route keepalive to own session (6713f739)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
