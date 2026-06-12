@@ -1,9 +1,8 @@
-# v2.1.0-alpha.733
+# v2.1.0-alpha.734
 
 ## Changes
 
-- fix: set door lock alwaysSet per matter spec (63013050)
-- chore: bump matter.js to 0.17.2 (fc34c6e1)
+- chore(#368): log cleaned-area inference at debug (65f7364d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
