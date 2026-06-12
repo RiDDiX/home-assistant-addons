@@ -1,8 +1,8 @@
-# v2.1.0-alpha.734
+# v2.1.0-alpha.735
 
 ## Changes
 
-- chore(#368): log cleaned-area inference at debug (65f7364d)
+- feat(#367): opt-in to drop custom-area room modes (9dcd6b4f)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
