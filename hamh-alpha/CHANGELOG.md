@@ -1,9 +1,8 @@
-# v2.1.0-alpha.740
+# v2.1.0-alpha.741
 
 ## Changes
 
-- chore: drop non-standard rain binary_sensor device_class (ef4e0bd0)
-- docs(#365): correct water leak/freeze rows, note opt-in + bridge risk (37497004)
+- feat: warn when a bridge exposes types its controller does not support (1ea00db0)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
