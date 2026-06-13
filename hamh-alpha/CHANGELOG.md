@@ -1,9 +1,9 @@
-# v2.1.0-alpha.739
+# v2.1.0-alpha.740
 
 ## Changes
 
-- feat: controller support badges in device-type picker (ad7ce2d2)
-- feat(#301): wire lawn_mower as a robotic vacuum (681b3ee4)
+- chore: drop non-standard rain binary_sensor device_class (ef4e0bd0)
+- docs(#365): correct water leak/freeze rows, note opt-in + bridge risk (37497004)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
