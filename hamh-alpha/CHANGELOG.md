@@ -1,8 +1,8 @@
-# v2.1.0-alpha.743
+# v2.1.0-alpha.744
 
 ## Changes
 
-- feat(plugins): let plugins contribute custom matter.js endpoints (251440fd)
+- feat: experimental WebRTC camera plugin (SmartThings-only, untested media path) (fab23160)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
