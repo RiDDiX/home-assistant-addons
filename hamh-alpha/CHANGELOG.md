@@ -1,8 +1,8 @@
-# v2.1.0-alpha.747
+# v2.1.0-alpha.748
 
 ## Changes
 
-- feat: add Aqara controller support (6ca90de6)
+- feat(#372): cover as dimmable light for Alexa (d269420f)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
