@@ -1,9 +1,8 @@
-# v2.1.0-alpha.745
+# v2.1.0-alpha.746
 
 ## Changes
 
-- fix: add werift and @matter/types to app dependencies (match backend) (e7eacd45)
-- refactor: ship camera as a built-in plugin (shared matter.js instance) (7b0baae8)
+- fix(#374): don't auto-map power/energy to lights (13845eed)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
