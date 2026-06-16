@@ -1,8 +1,8 @@
-# v2.1.0-alpha.753
+# v2.1.0-alpha.754
 
 ## Changes
 
-- fix(#375): repair drifted thermostat limits (4995a7f5)
+- feat(#377): charging-state sensor mapping (0ea3657d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
