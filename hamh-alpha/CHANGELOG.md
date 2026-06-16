@@ -1,8 +1,8 @@
-# v2.1.0-alpha.754
+# v2.1.0-alpha.755
 
 ## Changes
 
-- feat(#377): charging-state sensor mapping (0ea3657d)
+- fix: close matter sessions cleanly on shutdown (66780886)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
