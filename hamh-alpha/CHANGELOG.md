@@ -1,8 +1,8 @@
-# v2.1.0-alpha.751
+# v2.1.0-alpha.752
 
 ## Changes
 
-- test(#375): assert converted thermostat limits (3420c6f9)
+- feat: per-entity device health diagnostics (b27607ad)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
