@@ -1,8 +1,8 @@
-# v2.1.0-alpha.752
+# v2.1.0-alpha.753
 
 ## Changes
 
-- feat: per-entity device health diagnostics (b27607ad)
+- fix(#375): repair drifted thermostat limits (4995a7f5)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
