@@ -1,8 +1,8 @@
-# v2.1.0-alpha.756
+# v2.1.0-alpha.757
 
 ## Changes
 
-- feat: show controller warnings on bridge page (985eda61)
+- feat: failure times and configurable auto recovery (ae7d6dba)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
