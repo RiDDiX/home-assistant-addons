@@ -1,10 +1,9 @@
-# v2.1.0-alpha.761
+# v2.1.0-alpha.762
 
 ## Changes
 
-- chore: resolve dependency vulnerabilities (3a5f7f89)
-- docs: credit @qbattersby for the LevelControl fix (04ed54b9)
-- fix: patch LevelControl transitionTime schema (#383) (661cb561)
+- fix: show the full update changelog (2a72cec0)
+- fix: cap the controller-warnings list height (072b95d6)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
