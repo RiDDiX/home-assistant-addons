@@ -1,8 +1,9 @@
-# v2.1.0-alpha.759
+# v2.1.0-alpha.760
 
 ## Changes
 
-- fix(#381): clamp systemMode, clear cover tilt (960f1a70)
+- feat(#382): filter entities by manufacturer (a394fe5c)
+- fix(#380): on/off switch override is now a switch (ad5b9589)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
