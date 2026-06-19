@@ -1,3 +1,11 @@
+## [2.0.48](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.47...v2.0.48) (2026-06-19)
+
+
+### Bug Fixes
+
+* **#381:** clear inactive setpoint limits ([ee99d04](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ee99d04db204c5432a868d9a5a10e0c17157a421)), closes [#381](https://github.com/RiDDiX/home-assistant-matter-hub/issues/381)
+* show full release notes in updates card ([bd471ae](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bd471ae089af312721800364608b2b5904e0f59e))
+
 ## [2.0.47](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.46...v2.0.47) (2026-06-19)
 
 
