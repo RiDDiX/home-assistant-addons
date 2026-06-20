@@ -1,9 +1,8 @@
-# v2.1.0-alpha.765
+# v2.1.0-alpha.766
 
 ## Changes
 
-- fix(#384): clear stale cooling and auto state (9b277744)
-- docs: note v2.0.48 in README (aeb58a61)
+- docs(#372): note cover-as-light Alexa caveats (46f2ea5f)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
