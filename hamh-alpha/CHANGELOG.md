@@ -1,9 +1,8 @@
-# v2.1.0-alpha.767
+# v2.1.0-alpha.768
 
 ## Changes
 
-- fix(#386): drop subscription jitter for Google (8285f983)
-- fix(#387): gate fan Auto on a real auto preset (2042e7f4)
+- feat(#387): map localized fan wind presets (8b7ae5d6)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
