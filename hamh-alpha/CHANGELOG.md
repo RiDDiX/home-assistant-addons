@@ -1,8 +1,8 @@
-# v2.1.0-alpha.769
+# v2.1.0-alpha.770
 
 ## Changes
 
-- fix(#373): camera reuses bridge HA connection (2f55498f)
+- chore: resolve dependabot alerts (4b99a311)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
