@@ -1,8 +1,8 @@
-# v2.1.0-alpha.768
+# v2.1.0-alpha.769
 
 ## Changes
 
-- feat(#387): map localized fan wind presets (8b7ae5d6)
+- fix(#373): camera reuses bridge HA connection (2f55498f)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
