@@ -1,8 +1,8 @@
-# v2.1.0-alpha.770
+# v2.1.0-alpha.771
 
 ## Changes
 
-- chore: resolve dependabot alerts (4b99a311)
+- feat(#387): opt-in restore fan speed on power-on (1fae3baa)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
