@@ -1,8 +1,8 @@
-# v2.1.0-alpha.773
+# v2.1.0-alpha.774
 
 ## Changes
 
-- fix(#387): restore speed patches matter state (002cb2a0)
+- feat(#380): experimental mounted on/off control type (1908d208)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
