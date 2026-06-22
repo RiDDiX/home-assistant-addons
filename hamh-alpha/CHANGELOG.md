@@ -1,8 +1,8 @@
-# v2.1.0-alpha.775
+# v2.1.0-alpha.776
 
 ## Changes
 
-- chore(#380): shorten mounted on/off comments (e2930195)
+- fix(#214): composed sensors list all device types (c90b7868)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
