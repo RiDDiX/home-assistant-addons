@@ -1,8 +1,8 @@
-# v2.1.0-alpha.772
+# v2.1.0-alpha.773
 
 ## Changes
 
-- feat(#386): opt-in fast session recovery (8d50a295)
+- fix(#387): restore speed patches matter state (002cb2a0)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
