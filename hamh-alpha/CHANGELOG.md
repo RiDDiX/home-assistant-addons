@@ -1,8 +1,8 @@
-# v2.1.0-alpha.774
+# v2.1.0-alpha.775
 
 ## Changes
 
-- feat(#380): experimental mounted on/off control type (1908d208)
+- chore(#380): shorten mounted on/off comments (e2930195)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
