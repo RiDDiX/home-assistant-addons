@@ -1,8 +1,8 @@
-# v2.1.0-alpha.778
+# v2.1.0-alpha.779
 
 ## Changes
 
-- fix(#385): neutralize basic info domain leak (44755388)
+- feat: per-fabric controller health card (6e3e43b3)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
