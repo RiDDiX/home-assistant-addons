@@ -1,8 +1,9 @@
-# v2.1.0-alpha.779
+# v2.1.0-alpha.780
 
 ## Changes
 
-- feat: per-fabric controller health card (6e3e43b3)
+- fix: server mode session info reports fabric (0c2f8012)
+- fix: fabric stale threshold to 2 keepalive cycles (9bd6b497)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
