@@ -1,8 +1,8 @@
-# v2.1.0-alpha.777
+# v2.1.0-alpha.778
 
 ## Changes
 
-- fix(#387): restore survives onOff race (2f842c32)
+- fix(#385): neutralize basic info domain leak (44755388)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
