@@ -1,8 +1,8 @@
-# v2.1.0-alpha.781
+# v2.1.0-alpha.782
 
 ## Changes
 
-- fix(#378): reassign clashing bridge port on load (6722932a)
+- feat(#388): warn on otbr thread mdns interface (3581aa95)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
