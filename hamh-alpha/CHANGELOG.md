@@ -1,9 +1,8 @@
-# v2.1.0-alpha.783
+# v2.1.0-alpha.784
 
 ## Changes
 
-- fix(#350): cover-as-light tilt-only covers use tilt (5399ca93)
-- docs: mdns interface binding for thread and dashboard (edb91dfa)
+- i18n: complete zh-tw, fix tr placeholders (f9a31d01)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
