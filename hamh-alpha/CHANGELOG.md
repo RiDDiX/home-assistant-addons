@@ -1,8 +1,8 @@
-# v2.1.0-alpha.786
+# v2.1.0-alpha.787
 
 ## Changes
 
-- fix(#182): drop Lighting on button (9b5c3285)
+- fix(#397): unbolt maps to lock.unlock not open (f10dc6b7)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
