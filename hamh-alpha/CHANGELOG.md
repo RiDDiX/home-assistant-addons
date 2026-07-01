@@ -1,8 +1,8 @@
-# v2.1.0-alpha.787
+# v2.1.0-alpha.788
 
 ## Changes
 
-- fix(#397): unbolt maps to lock.unlock not open (f10dc6b7)
+- feat(#387): log fan power-on restore decision (529f6030)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
