@@ -1,8 +1,8 @@
-# v2.1.0-alpha.789
+# v2.1.0-alpha.790
 
 ## Changes
 
-- fix(#398): close stale sessions only after real quiet period (8d4b25f3)
+- docs(#389): plain thermostat flag needs restart and re-pair (e0f8798c)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
