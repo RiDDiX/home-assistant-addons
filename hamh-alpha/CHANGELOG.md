@@ -1,8 +1,8 @@
-# v2.1.0-alpha.791
+# v2.1.0-alpha.792
 
 ## Changes
 
-- fix(#387): remember speed from controller writes too (e4dfc6d0)
+- fix(#380): make mounted on/off control spec conformant (d136790d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
