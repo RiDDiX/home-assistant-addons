@@ -1,8 +1,8 @@
-# v2.1.0-alpha.792
+# v2.1.0-alpha.793
 
 ## Changes
 
-- fix(#380): make mounted on/off control spec conformant (d136790d)
+- fix(#387): remember fan speed across transactions and restarts (a9d6bb0a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
