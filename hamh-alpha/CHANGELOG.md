@@ -1,8 +1,8 @@
-# v2.1.0-alpha.793
+# v2.1.0-alpha.794
 
 ## Changes
 
-- fix(#387): remember fan speed across transactions and restarts (a9d6bb0a)
+- feat(#385): unique id suffix to shed stale controller records (064354bd)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
