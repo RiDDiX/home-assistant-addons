@@ -1,8 +1,8 @@
-# v2.1.0-alpha.795
+# v2.1.0-alpha.796
 
 ## Changes
 
-- fix(#387): only treat 100% as the power-on default (0b7eb290)
+- feat(#356): expose select as on/off switch option (9ac1359b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
