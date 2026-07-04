@@ -1,8 +1,8 @@
-# v2.1.0-alpha.794
+# v2.1.0-alpha.795
 
 ## Changes
 
-- feat(#385): unique id suffix to shed stale controller records (064354bd)
+- fix(#387): only treat 100% as the power-on default (0b7eb290)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
