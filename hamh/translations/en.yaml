@@ -12,3 +12,7 @@ configuration:
     name: mDNS Network Interface
     description: |
       Limit mDNS to this network interface. Only change it if you know what you are doing. Default: empty
+  mdns_strip_global_ipv6:
+    name: Strip global IPv6 from mDNS
+    description: |
+      Drop public (global) IPv6 addresses from the Matter mDNS records so controllers use a locally reachable address. Turn this on if devices show No Response or Offline. Default: off
