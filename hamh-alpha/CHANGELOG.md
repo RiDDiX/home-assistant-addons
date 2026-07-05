@@ -1,8 +1,8 @@
-# v2.1.0-alpha.796
+# v2.1.0-alpha.797
 
 ## Changes
 
-- feat(#356): expose select as on/off switch option (9ac1359b)
+- fix(#400): sweep superseded sessions of a reconnecting peer (0c762ae5)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
