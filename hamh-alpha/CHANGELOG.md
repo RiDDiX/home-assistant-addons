@@ -1,8 +1,9 @@
-# v2.1.0-alpha.799
+# v2.1.0-alpha.800
 
 ## Changes
 
-- feat(#401): warn when alexa pairs a non-5540 bridge (74534233)
+- chore(#385): log uniqueId for alexa identity debugging (85117745)
+- docs(#401): alexa consolidation recipe and profile table fixes (70d33d16)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
