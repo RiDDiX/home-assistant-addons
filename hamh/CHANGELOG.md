@@ -1,3 +1,51 @@
+## [2.0.49](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.48...v2.0.49) (2026-07-11)
+
+
+### Bug Fixes
+
+* **#182:** drop Lighting on button ([9b5c328](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9b5c3285b9d834545aafd9e64e8c31daad0b2035)), closes [#182](https://github.com/RiDDiX/home-assistant-matter-hub/issues/182)
+* **#214:** composed sensors list all device types ([c90b786](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c90b78689310a3307a25b80fc880b56fde26b8ad)), closes [#214](https://github.com/RiDDiX/home-assistant-matter-hub/issues/214)
+* **#287:** drop keepalive for closed own session ([4bfeaaa](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4bfeaaa3fc448135ba7a961d638fe66af2104524))
+* **#287:** keep active 0-sub sessions for recovery ([6798099](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6798099426f45442bc325522b36a92b558a7df61)), closes [#287](https://github.com/RiDDiX/home-assistant-matter-hub/issues/287)
+* **#350:** cover-as-light tilt-only covers use tilt ([5399ca9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5399ca93192bbe562c48bfde57ff1abe14726371)), closes [#350](https://github.com/RiDDiX/home-assistant-matter-hub/issues/350)
+* **#373:** camera reuses bridge HA connection ([2f55498](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2f55498f9ffbbdeedcf9671a47cdcf067e5ecb54)), closes [#373](https://github.com/RiDDiX/home-assistant-matter-hub/issues/373)
+* **#373:** scope plugin config per bridge and clarify camera setup ([e9f3a23](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e9f3a23373137bdaf70d306b5b3874721467a3ed)), closes [#373](https://github.com/RiDDiX/home-assistant-matter-hub/issues/373)
+* **#378:** reassign clashing bridge port on load ([6722932](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6722932ae5c27c7c9f2c5302283146b15cd8141f)), closes [#378](https://github.com/RiDDiX/home-assistant-matter-hub/issues/378)
+* **#380:** make mounted on/off control spec conformant ([d136790](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d136790d95986640c285515ff29ec40bac0902c5)), closes [#380](https://github.com/RiDDiX/home-assistant-matter-hub/issues/380)
+* **#384:** clear stale cooling and auto state ([9b27774](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9b277744d47999921c9a8ad65970b7278164a90d)), closes [#384](https://github.com/RiDDiX/home-assistant-matter-hub/issues/384)
+* **#385:** neutralize basic info domain leak ([4475538](https://github.com/RiDDiX/home-assistant-matter-hub/commit/447553883855482a201c693c875267e48ffb1ee2)), closes [#385](https://github.com/RiDDiX/home-assistant-matter-hub/issues/385)
+* **#386:** drop subscription jitter for Google ([8285f98](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8285f98305007f0c4c49d243157ee874aaae24ed)), closes [#386](https://github.com/RiDDiX/home-assistant-matter-hub/issues/386)
+* **#386:** drop subscription jitter for server mode too ([d659605](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d659605d06f818319504dc7afdeba3b0e822ec7f)), closes [#386](https://github.com/RiDDiX/home-assistant-matter-hub/issues/386)
+* **#387:** gate fan Auto on a real auto preset ([2042e7f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2042e7f429d6dba191372099193ffaac92a77c7b)), closes [#387](https://github.com/RiDDiX/home-assistant-matter-hub/issues/387)
+* **#387:** only treat 100% as the power-on default ([0b7eb29](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0b7eb290317ced7fc2bedabd522e61e3b79b19f3)), closes [#387](https://github.com/RiDDiX/home-assistant-matter-hub/issues/387)
+* **#387:** remember fan speed across transactions and restarts ([a9d6bb0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a9d6bb0a41838c4b8f926ccb6827375d6da28e34)), closes [#387](https://github.com/RiDDiX/home-assistant-matter-hub/issues/387)
+* **#387:** remember speed from controller writes too ([e4dfc6d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e4dfc6d0199c114c5ddde3693dbdc576684f50f9)), closes [#387](https://github.com/RiDDiX/home-assistant-matter-hub/issues/387)
+* **#387:** restore speed patches matter state ([002cb2a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/002cb2a034e0fdec5766114cf12a535330ec8331)), closes [#387](https://github.com/RiDDiX/home-assistant-matter-hub/issues/387)
+* **#387:** restore survives onOff race ([2f842c3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2f842c3211cdc26086eee208259c988e98fbe171)), closes [#387](https://github.com/RiDDiX/home-assistant-matter-hub/issues/387)
+* **#397:** unbolt maps to lock.unlock not open ([f10dc6b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f10dc6b7c9f449002ec609efc41f5b2a4de89e8d)), closes [#397](https://github.com/RiDDiX/home-assistant-matter-hub/issues/397)
+* **#398:** close stale sessions only after real quiet period ([8d4b25f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8d4b25f3773035ad813603224fbd97fcec55760f))
+* **#400:** sweep superseded sessions of a reconnecting peer ([0c762ae](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0c762ae553551c700c61b588db02f2f2a7ea934f)), closes [#400](https://github.com/RiDDiX/home-assistant-matter-hub/issues/400)
+* **#402:** level to brightness conversion uses one scale ([49afc7e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/49afc7ed3b13c967c526d2b311fe0abeed98f07a)), closes [#402](https://github.com/RiDDiX/home-assistant-matter-hub/issues/402)
+* **#404:** keep endpoint number on mapping change to avoid alexa re-add ([09a2cd3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/09a2cd391cba5c330779ac2bed6180c92a576b46)), closes [#404](https://github.com/RiDDiX/home-assistant-matter-hub/issues/404)
+* **#405:** expose tilt for covers reporting only set_tilt_position ([11fc402](https://github.com/RiDDiX/home-assistant-matter-hub/commit/11fc402b9d36705b08b848d6eeb39c11c8695ae0)), closes [#405](https://github.com/RiDDiX/home-assistant-matter-hub/issues/405)
+* **#408:** compose sub-entities outside the bridge filter ([83c9427](https://github.com/RiDDiX/home-assistant-matter-hub/commit/83c94276c69bd17b89290e24d9379e0a5728ea96)), closes [#408](https://github.com/RiDDiX/home-assistant-matter-hub/issues/408)
+* fabric stale threshold to 2 keepalive cycles ([9bd6b49](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9bd6b49794f500cc09dad1f988a4c68bc0ae8cdf))
+* server mode session info reports fabric ([0c2f801](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0c2f8012321870b1c07ba0287b64a6fd11eca7ed))
+
+
+### Features
+
+* **#356:** expose select as on/off switch option ([9ac1359](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9ac1359baac6cb3bddf93d5fbdd8d818bdda4632)), closes [#356](https://github.com/RiDDiX/home-assistant-matter-hub/issues/356)
+* **#380:** experimental mounted on/off control type ([1908d20](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1908d208464ea7bd142a24ae4688bc7f0edee17f)), closes [#380](https://github.com/RiDDiX/home-assistant-matter-hub/issues/380)
+* **#385:** unique id suffix to shed stale controller records ([064354b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/064354bd9727bbd19b330323190a29a14090c659))
+* **#386:** opt-in fast session recovery ([8d50a29](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8d50a2955a6eaef546b540591e7233da15408628)), closes [#386](https://github.com/RiDDiX/home-assistant-matter-hub/issues/386)
+* **#387:** log fan power-on restore decision ([529f603](https://github.com/RiDDiX/home-assistant-matter-hub/commit/529f603001fe9feaf2a630b1dbb032cdcc0cadd7)), closes [#387](https://github.com/RiDDiX/home-assistant-matter-hub/issues/387)
+* **#387:** map localized fan wind presets ([8b7ae5d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8b7ae5d61af5087335317f10734970c9e5af3b5d)), closes [#387](https://github.com/RiDDiX/home-assistant-matter-hub/issues/387)
+* **#387:** opt-in restore fan speed on power-on ([1fae3ba](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1fae3baa866c79ee93684793813c34b6f36276b7)), closes [#387](https://github.com/RiDDiX/home-assistant-matter-hub/issues/387)
+* **#388:** warn on otbr thread mdns interface ([3581aa9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3581aa95036ac76be7dbdc7be8ff8bb17c61617b)), closes [#388](https://github.com/RiDDiX/home-assistant-matter-hub/issues/388)
+* **#401:** warn when alexa pairs a non-5540 bridge ([7453423](https://github.com/RiDDiX/home-assistant-matter-hub/commit/74534233896a891806cee2d2504059453baed097)), closes [#401](https://github.com/RiDDiX/home-assistant-matter-hub/issues/401)
+* per-fabric controller health card ([6e3e43b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6e3e43b3d5a41b1684d2224f0dce95f0cb2a9ad6))
+
 ## [2.0.48](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.47...v2.0.48) (2026-06-19)
 
 
