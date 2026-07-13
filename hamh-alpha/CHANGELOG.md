@@ -1,9 +1,9 @@
-# v2.1.0-alpha.810
+# v2.1.0-alpha.811
 
 ## Changes
 
-- fix(#408): show composed device battery in the web ui (c9b171bc)
-- docs(#413): why areas do not become rooms over matter (18e7402b)
+- chore: format color-control-server after #412 merge (a0321590)
+- feat: light level and color temperature step control (#412) (cbf99d91)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
