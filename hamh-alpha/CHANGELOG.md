@@ -1,9 +1,9 @@
-# v2.1.0-alpha.809
+# v2.1.0-alpha.810
 
 ## Changes
 
-- fix(#411): share cover debounce across matter transactions (1348e36c)
-- docs(#410): apple column sourced from the ios 26 protocol map (cfa8a623)
+- fix(#408): show composed device battery in the web ui (c9b171bc)
+- docs(#413): why areas do not become rooms over matter (18e7402b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
