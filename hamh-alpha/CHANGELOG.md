@@ -1,8 +1,8 @@
-# v2.1.0-alpha.814
+# v2.1.0-alpha.815
 
 ## Changes
 
-- chore: bump matter.js to 0.17.5 (b2a80cae)
+- feat(#408): smoke alarms report battery, fault and expressed state (84ec9944)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
