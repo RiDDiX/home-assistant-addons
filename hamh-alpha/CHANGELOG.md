@@ -1,8 +1,8 @@
-# v2.1.0-alpha.817
+# v2.1.0-alpha.818
 
 ## Changes
 
-- feat: mdns option to disable ipv4 (#417) (de6025b0)
+- fix(#417): diagnostics reflect the mdns ipv4 setting (a7922e76)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
