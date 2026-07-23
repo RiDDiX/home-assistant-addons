@@ -1,8 +1,8 @@
-# v2.1.0-alpha.824
+# v2.1.0-alpha.825
 
 ## Changes
 
-- fix: get_states shares the registry query timeout (3cbc2074)
+- fix(#423): session max age reloads into the edit form (d2e7c557)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
