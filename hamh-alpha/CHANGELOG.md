@@ -1,8 +1,8 @@
-# v2.1.0-alpha.822
+# v2.1.0-alpha.823
 
 ## Changes
 
-- fix(#411): discrete cover commands cancel the pending slider action (eb569974)
+- i18n: add brazilian portuguese from #420 (23d22e4e)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
