@@ -1,8 +1,8 @@
-# v2.1.0-alpha.825
+# v2.1.0-alpha.826
 
 ## Changes
 
-- fix(#423): session max age reloads into the edit form (d2e7c557)
+- fix(#426): composed sensors read sub-entities past the bridge filter (291921a3)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
