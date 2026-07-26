@@ -1,8 +1,8 @@
-# v2.1.0-alpha.826
+# v2.1.0-alpha.827
 
 ## Changes
 
-- fix(#426): composed sensors read sub-entities past the bridge filter (291921a3)
+- feat(#427): per-entity switch to disable battery mapping (5846df63)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
