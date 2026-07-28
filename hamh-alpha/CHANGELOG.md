@@ -1,8 +1,8 @@
-# v2.1.0-alpha.832
+# v2.1.0-alpha.833
 
 ## Changes
 
-- feat: energy stage 1, electrical meter, home battery and grouped measurements (7fc88061)
+- chore: matter.js 0.17.7 and dependency security updates (961a4405)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
