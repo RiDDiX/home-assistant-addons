@@ -1,8 +1,8 @@
-# v2.1.0-alpha.836
+# v2.1.0-alpha.837
 
 ## Changes
 
-- feat(#287): opt-in watchdog rotates sessions gone silent at the interaction layer (931d3a42)
+- feat: manual cleanup of orphaned identity and mapping records (a33e8637)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
