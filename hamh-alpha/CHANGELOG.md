@@ -1,8 +1,8 @@
-# v2.1.0-alpha.837
+# v2.1.0-alpha.838
 
 ## Changes
 
-- feat: manual cleanup of orphaned identity and mapping records (a33e8637)
+- feat: ev charger support on the energy evse device type (1164da6e)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
