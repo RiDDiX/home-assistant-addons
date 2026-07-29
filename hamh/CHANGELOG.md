@@ -1,3 +1,38 @@
+## [2.0.50](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.49...v2.0.50) (2026-07-29)
+
+
+### Bug Fixes
+
+* **#408:** composed devices carry the device battery and room label ([4d39b22](https://github.com/RiDDiX/home-assistant-matter-hub/commit/4d39b221bf02200a5def689046d68ef5f7771137)), closes [#408](https://github.com/RiDDiX/home-assistant-matter-hub/issues/408)
+* **#408:** show composed device battery in the web ui ([c9b171b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/c9b171bca6ca28654808917f7d4a803a7edc5ba9)), closes [#408](https://github.com/RiDDiX/home-assistant-matter-hub/issues/408)
+* **#411:** discrete cover commands cancel the pending slider action ([eb56997](https://github.com/RiDDiX/home-assistant-matter-hub/commit/eb5699743cd73b76b343ffdc4b5d9b20debb2a8d)), closes [#411](https://github.com/RiDDiX/home-assistant-matter-hub/issues/411)
+* **#411:** share cover debounce across matter transactions ([1348e36](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1348e36ce7ab9949206866341167e48d71060e04)), closes [#411](https://github.com/RiDDiX/home-assistant-matter-hub/issues/411)
+* **#412:** step base accumulates and rapid color undo works ([7ad113a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7ad113a091f3764be59cbb1c188c23d6a76e7704)), closes [#412](https://github.com/RiDDiX/home-assistant-matter-hub/issues/412)
+* **#415:** refresh mdns records when interface addresses change ([83e40a9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/83e40a9f94274f524a5f8952e5181443245440b7)), closes [#415](https://github.com/RiDDiX/home-assistant-matter-hub/issues/415)
+* **#417:** diagnostics reflect the mdns ipv4 setting ([a7922e7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a7922e76f84d9aa746b8c2e16d154f015c1bc0ff)), closes [#417](https://github.com/RiDDiX/home-assistant-matter-hub/issues/417)
+* **#419:** camera endpoints set the mandatory av stream attributes ([f3477ee](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f3477ee9ccecd444fc7b0eef5a20592a8755d1ab)), closes [#419](https://github.com/RiDDiX/home-assistant-matter-hub/issues/419)
+* **#423:** session max age reloads into the edit form ([d2e7c55](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d2e7c5575a47bd8608b95c1c41e8b9e17a4c4daa)), closes [#423](https://github.com/RiDDiX/home-assistant-matter-hub/issues/423)
+* **#426:** composed sensors read sub-entities past the bridge filter ([291921a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/291921a311e127b41661fe01d8ec8bfab2bf3fca)), closes [#426](https://github.com/RiDDiX/home-assistant-matter-hub/issues/426) [#408](https://github.com/RiDDiX/home-assistant-matter-hub/issues/408)
+* **#428:** server mode shares the dead session timeout and session diagnostics ([2f07259](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2f07259ab02167683c6802501c35f296eda438c9)), closes [#428](https://github.com/RiDDiX/home-assistant-matter-hub/issues/428)
+* **#429:** emit the moving-to-stopped edge for covers without transitional states ([2fefd46](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2fefd4611c260a470ca3a35b5bfcb25998a7854b)), closes [#429](https://github.com/RiDDiX/home-assistant-matter-hub/issues/429)
+* **#65:** valve and cover overrides route onoff to their services ([3d336ae](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3d336ae4559fb821648bea6ed64bd17b638c2218)), closes [#65](https://github.com/RiDDiX/home-assistant-matter-hub/issues/65)
+* get_states shares the registry query timeout ([3cbc207](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3cbc2074fb2c0a84725502864ed16864553da999)), closes [#422](https://github.com/RiDDiX/home-assistant-matter-hub/issues/422)
+
+
+### Features
+
+* **#404:** stable device identity keyed on the ha unique id ([d382bfd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d382bfd61c631573e9155fc2eb7a074b7f38a184)), closes [#404](https://github.com/RiDDiX/home-assistant-matter-hub/issues/404)
+* **#408:** smoke alarms report battery, fault and expressed state ([84ec994](https://github.com/RiDDiX/home-assistant-matter-hub/commit/84ec9944d45bf36991a6bb6c6ec044ada29dc257)), closes [#408](https://github.com/RiDDiX/home-assistant-matter-hub/issues/408)
+* **#418:** opt-in passthrough programs the physical lock usercode ([961cd3c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/961cd3cf3b922f2bda87a75a1145d53caf98d81d)), closes [#418](https://github.com/RiDDiX/home-assistant-matter-hub/issues/418)
+* **#418:** per-lock pin length overrides ([7f62df3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7f62df3146d3dfbebb99b330351104e113402e77)), closes [#418](https://github.com/RiDDiX/home-assistant-matter-hub/issues/418)
+* **#419:** enable matter-over-tcp on bridges with cameras ([30ba6ff](https://github.com/RiDDiX/home-assistant-matter-hub/commit/30ba6ff99c8e3e9111455574a41e4f02ef344468)), closes [#419](https://github.com/RiDDiX/home-assistant-matter-hub/issues/419)
+* **#423:** opt-in to suppress the momentary on/off flip ([ca9251e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ca9251e1b8a878c0052868b03420a7011024471b)), closes [#423](https://github.com/RiDDiX/home-assistant-matter-hub/issues/423)
+* **#427:** per-entity switch to disable battery mapping ([5846df6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5846df634ee3e3d0e41554fcb4dd00d1ca47ea98)), closes [#427](https://github.com/RiDDiX/home-assistant-matter-hub/issues/427)
+* commissioning preflight and label guard in the wizard ([2a3046c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2a3046cb78c110e3244b49a793e67f5a9b87fffb))
+* energy stage 1, electrical meter, home battery and grouped measurements ([7fc8806](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7fc88061b7cc12058ff619e120ccc62e80cc036d))
+* light level and color temperature step control ([#412](https://github.com/RiDDiX/home-assistant-matter-hub/issues/412)) ([cbf99d9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cbf99d91b5da62213f821b828f92298192261515))
+* mdns option to disable ipv4 ([#417](https://github.com/RiDDiX/home-assistant-matter-hub/issues/417)) ([de6025b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/de6025b084ab870e02eba8de5a3baacfa02747c6))
+
 ## [2.0.49](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.48...v2.0.49) (2026-07-11)
 
 
