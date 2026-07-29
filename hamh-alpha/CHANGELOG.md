@@ -1,8 +1,8 @@
-# v2.1.0-alpha.839
+# v2.1.0-alpha.840
 
 ## Changes
 
-- feat: subscription scope per fabric on the health card (40ed41af)
+- fix: camera webrtc path logs, signaling hardening and media fixes (a99eb3c2)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
