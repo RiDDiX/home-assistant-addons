@@ -1,9 +1,9 @@
-# v2.1.0-alpha.841
+# v2.1.0-alpha.842
 
 ## Changes
 
-- fix: ship @matter/protocol with the app package (595baf11)
-- feat: camera live view delivers the webrtc answer over the requestor cluster (aef509e8)
+- i18n: complete brazilian portuguese from #420 (09453bdb)
+- fix(#429): cover completion works in every position space (2fb033f4)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
