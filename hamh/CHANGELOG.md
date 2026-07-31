@@ -1,3 +1,22 @@
+## [2.0.51](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.50...v2.0.51) (2026-07-31)
+
+
+### Bug Fixes
+
+* **#428:** vacuum onoff derives from the entity, not the sibling run mode class ([9e2bb53](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9e2bb531d5d95c0e62c7579ee52df2fad0cfa5b8)), closes [#428](https://github.com/RiDDiX/home-assistant-matter-hub/issues/428)
+* **#429:** cover completion works in every position space ([2fb033f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2fb033f4597931278a49a7896e4f61c70fdb203e)), closes [#429](https://github.com/RiDDiX/home-assistant-matter-hub/issues/429)
+* camera webrtc path logs, signaling hardening and media fixes ([a99eb3c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a99eb3c2cac5823d6d1d1d4e190e69aabe791d50))
+* ship @matter/protocol with the app package ([595baf1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/595baf11020d6da35d406f9a27e5ea8fc9062fc1))
+
+
+### Features
+
+* **#287:** opt-in watchdog rotates sessions gone silent at the interaction layer ([931d3a4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/931d3a4255581aea60ccde2d103946d409eaba65)), closes [#287](https://github.com/RiDDiX/home-assistant-matter-hub/issues/287)
+* camera live view delivers the webrtc answer over the requestor cluster ([aef509e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/aef509e81d0fdfcf5ae1a4e70b7965cb03964a06))
+* ev charger support on the energy evse device type ([1164da6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1164da6ec6091a55e246eed798507726cb09e7bc))
+* manual cleanup of orphaned identity and mapping records ([a33e863](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a33e8637d0409e36357ee7b96bf625bf43357631))
+* subscription scope per fabric on the health card ([40ed41a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/40ed41af24002ee629c07aa2b77860b5b684e31f))
+
 ## [2.0.50](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.49...v2.0.50) (2026-07-29)
 
 
