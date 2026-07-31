@@ -1,3 +1,10 @@
+## [2.0.52](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.51...v2.0.52) (2026-07-31)
+
+
+### Bug Fixes
+
+* **#430:** plugins page tolerates server mode bridges ([eecb71d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/eecb71d9ef22abc733f1eed04aff69fb1bc94524)), closes [#430](https://github.com/RiDDiX/home-assistant-matter-hub/issues/430)
+
 ## [2.0.51](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.50...v2.0.51) (2026-07-31)
 
 
