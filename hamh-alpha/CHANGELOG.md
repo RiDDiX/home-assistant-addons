@@ -1,9 +1,9 @@
-# v2.1.0-alpha.842
+# v2.1.0-alpha.843
 
 ## Changes
 
-- i18n: complete brazilian portuguese from #420 (09453bdb)
-- fix(#429): cover completion works in every position space (2fb033f4)
+- fix(#430): plugins page tolerates server mode bridges (eecb71d9)
+- docs: release notes for v2.0.51 (47023821)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
