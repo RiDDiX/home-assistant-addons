@@ -1,9 +1,9 @@
-# v2.1.0-alpha.844
+# v2.1.0-alpha.845
 
 ## Changes
 
-- feat(#368): opt-in ascending room order for batch vacuums (6a2d5365)
-- docs: release notes for the v2.0.52 hotfix (f9e85829)
+- fix(#432): reject built-in plugin names on every install path (5c7ba4bd)
+- fix(#431): scope power measurements to the endpoint, not the whole node (1d7a8516)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
