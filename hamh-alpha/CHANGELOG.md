@@ -1,8 +1,8 @@
-# v2.1.0-alpha.851
+# v2.1.0-alpha.852
 
 ## Changes
 
-- chore: matter.js 0.17.9, keepalive patch re-ported (6b992890)
+- fix(#433): clear the stale sendPinOverTheAir a 2.0.16 store still carries (58fc150e)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
