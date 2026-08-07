@@ -1,9 +1,8 @@
-# v2.1.0-alpha.850
+# v2.1.0-alpha.851
 
 ## Changes
 
-- fix(#432): plugin config survives restarts and tokens stay out of the api (19e04280)
-- feat(#432): plugin settings dialog on the plugins page (d1015cc7)
+- chore: matter.js 0.17.9, keepalive patch re-ported (6b992890)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
