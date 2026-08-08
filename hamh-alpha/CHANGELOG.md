@@ -1,9 +1,8 @@
-# v2.1.0-alpha.854
+# v2.1.0-alpha.855
 
 ## Changes
 
-- docs: fork comparison page and search metadata (cd9761c9)
-- feat: doorbell and electrical utility meter overrides (9556c5ef)
+- feat(#365): shadow rule spots the wedge cycle the watchdog misses (3f388d4d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
