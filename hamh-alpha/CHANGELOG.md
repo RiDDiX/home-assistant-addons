@@ -1,9 +1,10 @@
-# v2.1.0-alpha.857
+# v2.1.0-alpha.858
 
 ## Changes
 
-- feat(#355): per-area switches routines can flip (6203d724)
-- fix: vacuum keeps its auto-resolved rooms after state updates (b06bce93)
+- fix: camera cleanup scoped per bridge, plugin state rides backups (e7d0b61d)
+- fix(#439): plugin disable sticks and unconfigured plugins expose nothing (5ad6d289)
+- docs: v2.0.53 release notes (f4a28509)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
