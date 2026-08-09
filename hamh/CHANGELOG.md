@@ -1,3 +1,11 @@
+## [2.0.54](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.53...v2.0.54) (2026-08-09)
+
+
+### Bug Fixes
+
+* **#439:** plugin disable sticks and unconfigured plugins expose nothing ([5ad6d28](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5ad6d289d8740e699cbb2211d5cfc63e6f2e590d)), closes [#439](https://github.com/RiDDiX/home-assistant-matter-hub/issues/439)
+* camera cleanup scoped per bridge, plugin state rides backups ([e7d0b61](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e7d0b61db032b2904e6929b5811062dc5267e7ef))
+
 ## [2.0.53](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.52...v2.0.53) (2026-08-09)
 
 
