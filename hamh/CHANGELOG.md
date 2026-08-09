@@ -1,3 +1,36 @@
+## [2.0.53](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.52...v2.0.53) (2026-08-09)
+
+
+### Bug Fixes
+
+* **#423:** surface rejected invokes and endpoint removals in the log ([809728d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/809728ddb2648a95486f133d766c605c43c143d7)), closes [#423](https://github.com/RiDDiX/home-assistant-matter-hub/issues/423)
+* **#429:** close the remaining stuck-moving paths and log resolved cover flags ([f737de1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f737de172dea252436d9074dbce46c8b35d62dfb))
+* **#431:** scope power measurements to the endpoint, not the whole node ([1d7a851](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1d7a85162e51557f5770c322897fce258ca6a27d)), closes [#431](https://github.com/RiDDiX/home-assistant-matter-hub/issues/431)
+* **#432:** plugin config survives restarts and tokens stay out of the api ([19e0428](https://github.com/RiDDiX/home-assistant-matter-hub/commit/19e042801562a2e4731ece0313b44d0fb754250c)), closes [#432](https://github.com/RiDDiX/home-assistant-matter-hub/issues/432)
+* **#432:** plugins page explains server mode instead of hinting at installs ([9c619b4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9c619b44e5b29e262f3de92a0f6da7b27b853f36)), closes [#432](https://github.com/RiDDiX/home-assistant-matter-hub/issues/432)
+* **#432:** reject built-in plugin names on every install path ([5c7ba4b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5c7ba4bdfc437b2d391d71d4080b0154da2c8f36)), closes [#432](https://github.com/RiDDiX/home-assistant-matter-hub/issues/432)
+* **#433:** clear the stale sendPinOverTheAir a 2.0.16 store still carries ([58fc150](https://github.com/RiDDiX/home-assistant-matter-hub/commit/58fc150ee82b213a1ee5e9a293c97dd1e4fc465b)), closes [#433](https://github.com/RiDDiX/home-assistant-matter-hub/issues/433)
+* **#434:** store the level google sends after a room off instead of relighting ([43b4432](https://github.com/RiDDiX/home-assistant-matter-hub/commit/43b4432d71ff17365fa89531f187a54ace12308d)), closes [#434](https://github.com/RiDDiX/home-assistant-matter-hub/issues/434)
+* **#435:** always zero the thermostat deadband on auto mode ([8aa4089](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8aa408997b68e6323eab354e37f2ab5ef5e78bbd)), closes [#435](https://github.com/RiDDiX/home-assistant-matter-hub/issues/435)
+* **#435:** contain aggregator construction failures instead of exiting ([785c19a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/785c19a467cfe99aafbd1350d48c64383da9aec8)), closes [#435](https://github.com/RiDDiX/home-assistant-matter-hub/issues/435)
+* **#435:** ignore the parked range when deriving single-mode setpoints ([fd771ca](https://github.com/RiDDiX/home-assistant-matter-hub/commit/fd771ca3ed428667f86655a2218324319d4ffc65)), closes [#435](https://github.com/RiDDiX/home-assistant-matter-hub/issues/435)
+* boost survives echoes, restarts and rejected retries ([3e6600b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3e6600b0392556453cb7be20ccffe1cdb571765a))
+* **fan:** advertise only the fan modes the HA entity actually has ([b609b86](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b609b861eec0d9b1f990dd101844f4276d9abdd0))
+* one auto predicate for every fan feature gate ([28015e3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/28015e30b808dedc7eb81baa45c310f68fc9427b))
+* plugin devices actually receive controller writes ([0e481e9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0e481e9828549ea53735c9509604060a2bd47beb))
+* vacuum keeps its auto-resolved rooms after state updates ([b06bce9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b06bce93066aca155410d97188ee4ce86ae52261))
+
+
+### Features
+
+* **#355:** per-area switches routines can flip ([6203d72](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6203d724db67a271860484787cbef06fd771eb24)), closes [#355](https://github.com/RiDDiX/home-assistant-matter-hub/issues/355)
+* **#365:** shadow rule spots the wedge cycle the watchdog misses ([3f388d4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3f388d4d2ba67d8afc758f2c7c3a50238fb56fdd)), closes [#365](https://github.com/RiDDiX/home-assistant-matter-hub/issues/365)
+* **#368:** opt-in ascending room order for batch vacuums ([6a2d536](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6a2d536572bd8a5d72a93d8ad8539cd4ad0cbcea)), closes [#368](https://github.com/RiDDiX/home-assistant-matter-hub/issues/368)
+* **#432:** plugin settings dialog on the plugins page ([d1015cc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d1015cc784b34d1a781cb99da65419d4f9b960c7)), closes [#432](https://github.com/RiDDiX/home-assistant-matter-hub/issues/432)
+* doorbell and electrical utility meter overrides ([9556c5e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9556c5ef41c23ae9a5c1f2ed70a4c40f29a47b2e))
+* security plugin arms the house from any controller ([583cf16](https://github.com/RiDDiX/home-assistant-matter-hub/commit/583cf1647aa931addf85c47bde195b897f536abb))
+* **water-heater:** add the Matter 1.4 WaterHeaterManagement device type ([58c810d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/58c810ddefe14159a8c954b6ded0ad5b1ce3eb79))
+
 ## [2.0.52](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.51...v2.0.52) (2026-07-31)
 
 
