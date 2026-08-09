@@ -1,8 +1,9 @@
-# v2.1.0-alpha.855
+# v2.1.0-alpha.856
 
 ## Changes
 
-- feat(#365): shadow rule spots the wedge cycle the watchdog misses (3f388d4d)
+- feat: security plugin arms the house from any controller (583cf164)
+- fix: plugin devices actually receive controller writes (0e481e98)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
