@@ -1,8 +1,8 @@
-# v2.1.0-alpha.860
+# v2.1.0-alpha.861
 
 ## Changes
 
-- fix(#445): plugin endpoints no longer stall or vanish from entity updates (a03a7a9d)
+- fix(#438): keep devices when HA briefly reports no entities (fff546e7)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
