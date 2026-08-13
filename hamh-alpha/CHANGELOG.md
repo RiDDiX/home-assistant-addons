@@ -1,10 +1,10 @@
-# v2.1.0-alpha.863
+# v2.1.0-alpha.864
 
 ## Changes
 
-- fix(#447): identify presses the identify button of the device (2d6be4c9)
-- fix(#446): a command that cannot reach Home Assistant fails instead of lying (ed67bf41)
-- fix(#438): a disabled device keeps its Matter number to itself (ae599d1b)
+- test(#328): pin that a starting movement withholds the current position (f50ed2d0)
+- fix(#155): plugin devices mount with bridged basic information (b25e4223)
+- fix: stop closing a controller session while it is still priming (4a7faa1e)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
