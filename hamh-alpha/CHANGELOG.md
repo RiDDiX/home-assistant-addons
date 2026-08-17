@@ -1,9 +1,9 @@
-# v2.1.0-alpha.865
+# v2.1.0-alpha.866
 
 ## Changes
 
-- fix: cover type and end product stay consistent with the feature map (b75b7bc1)
-- docs: v2.0.55 release notes (6c8e8403)
+- chore: sort imports in the spec version test (01275479)
+- feat(#449): flag to mask the Matter version identifiers as 1.5.1 (035afc07)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
