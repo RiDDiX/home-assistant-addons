@@ -1,10 +1,9 @@
-# v2.1.0-alpha.864
+# v2.1.0-alpha.865
 
 ## Changes
 
-- test(#328): pin that a starting movement withholds the current position (f50ed2d0)
-- fix(#155): plugin devices mount with bridged basic information (b25e4223)
-- fix: stop closing a controller session while it is still priming (4a7faa1e)
+- fix: cover type and end product stay consistent with the feature map (b75b7bc1)
+- docs: v2.0.55 release notes (6c8e8403)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
