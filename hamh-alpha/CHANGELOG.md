@@ -1,9 +1,8 @@
-# v2.1.0-alpha.872
+# v2.1.0-alpha.873
 
 ## Changes
 
-- feat: pm2.5, pm10 and co2 sensor overrides (31d89c29)
-- refactor: move session supervision out of both bridges (c47819f9)
+- refactor: share the mapping fingerprint and battery retry logic (90badce0)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
