@@ -1,8 +1,8 @@
-# v2.1.0-alpha.873
+# v2.1.0-alpha.874
 
 ## Changes
 
-- refactor: share the mapping fingerprint and battery retry logic (90badce0)
+- feat(i18n): add Korean (ko) translation (12c0bcde)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
