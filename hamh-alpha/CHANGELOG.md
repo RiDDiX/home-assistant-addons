@@ -1,8 +1,9 @@
-# v2.1.0-alpha.870
+# v2.1.0-alpha.872
 
 ## Changes
 
-- fix: preserve explicit actions during debounce (f66b771c)
+- feat: pm2.5, pm10 and co2 sensor overrides (31d89c29)
+- refactor: move session supervision out of both bridges (c47819f9)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
