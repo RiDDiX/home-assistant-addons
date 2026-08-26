@@ -1,3 +1,23 @@
+## [2.0.56](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.55...v2.0.56) (2026-08-26)
+
+
+### Bug Fixes
+
+* **#450:** keep late endpoint flushes and test teardown off the update chain ([ef7b5cd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ef7b5cde3e3bdd4f2385f6c9fe050132f9dfd677)), closes [#450](https://github.com/RiDDiX/home-assistant-matter-hub/issues/450)
+* **#450:** retry battery auto-mapping and report honest charge state ([a15466e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a15466e5d116145baa02470e0d6b0577f1addc4e)), closes [#450](https://github.com/RiDDiX/home-assistant-matter-hub/issues/450)
+* **#452:** advertise the full mandatory color feature set ([9182a71](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9182a71dbcf0b81975d19c61dce0b4bef6626f8c)), closes [#452](https://github.com/RiDDiX/home-assistant-matter-hub/issues/452)
+* cover type and end product stay consistent with the feature map ([b75b7bc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b75b7bc12a257a62fca75ba67cb6ce82e50bc2e2)), closes [#304](https://github.com/RiDDiX/home-assistant-matter-hub/issues/304)
+* preserve explicit actions during debounce ([f66b771](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f66b771c5e921e3a0f7d01e67f12d84683fee63e))
+
+
+### Features
+
+* **#449:** flag to accept the terms and conditions commissioning commands ([56db6af](https://github.com/RiDDiX/home-assistant-matter-hub/commit/56db6afdcc9253e44d53ed636b74953f19a6b18c)), closes [#449](https://github.com/RiDDiX/home-assistant-matter-hub/issues/449)
+* **#449:** flag to enable matter over tcp ([6c636a6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6c636a6eb3a129c34ceaed96bb859de797002809)), closes [#449](https://github.com/RiDDiX/home-assistant-matter-hub/issues/449)
+* **#449:** flag to mask the Matter version identifiers as 1.5.1 ([035afc0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/035afc07c5649a4e3423c27dca56bb90c51ee167)), closes [#449](https://github.com/RiDDiX/home-assistant-matter-hub/issues/449)
+* **i18n:** add Korean (ko) translation ([12c0bcd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/12c0bcde8432254537a5abfaff432669bcd49fc3))
+* pm2.5, pm10 and co2 sensor overrides ([31d89c2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/31d89c29304ed1f11e9476cf0f3570c4eb588609))
+
 ## [2.0.55](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.54...v2.0.55) (2026-08-13)
 
 
