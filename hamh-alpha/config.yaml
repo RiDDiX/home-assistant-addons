@@ -22,8 +22,10 @@ options:
   disable_log_colors: false
   mdns_network_interface: ""
   mdns_strip_global_ipv6: false
+  heap_size_mb: 0
 schema:
   app_log_level: list(silly|debug|info|notice|warn|error|fatal)
   disable_log_colors: bool
   mdns_network_interface: "str?"
   mdns_strip_global_ipv6: bool
+  heap_size_mb: int(0,8192)

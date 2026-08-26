@@ -16,3 +16,7 @@ configuration:
     name: Strip global IPv6 from mDNS
     description: |
       Drop public (global) IPv6 addresses from the Matter mDNS records so controllers use a locally reachable address. Turn this on if devices show No Response or Offline. Default: off
+  heap_size_mb:
+    name: Node.js heap limit (MB)
+    description: |
+      Maximum Node.js heap size. 0 sizes it automatically at half of the free memory, between 256 and 2048 MB. Raise it if a large bridge runs out of memory. Going far above the free memory needs swap to back it. Default: 0

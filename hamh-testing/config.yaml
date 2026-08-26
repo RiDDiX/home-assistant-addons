@@ -22,8 +22,10 @@ options:
   disable_log_colors: false
   mdns_network_interface: ""
   matter_js_testing: true
+  heap_size_mb: 0
 schema:
   app_log_level: list(silly|debug|info|notice|warn|error|fatal)
   disable_log_colors: bool
   mdns_network_interface: "str?"
   matter_js_testing: bool
+  heap_size_mb: int(0,8192)
