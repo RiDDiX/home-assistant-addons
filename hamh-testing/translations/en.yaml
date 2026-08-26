@@ -12,3 +12,7 @@ configuration:
     name: mDNS Network Interface
     description: |
       Limit mDNS to this network interface. Only change it if you know what you are doing. Default: empty
+  heap_size_mb:
+    name: Node.js heap limit (MB)
+    description: |
+      Maximum Node.js heap size. 0 sizes it automatically at half of the free memory, between 256 and 2048 MB. Raise it if a large bridge runs out of memory. Going far above the free memory needs swap to back it. Default: 0
