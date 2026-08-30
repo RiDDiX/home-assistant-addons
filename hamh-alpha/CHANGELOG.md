@@ -1,9 +1,9 @@
-# v2.1.0-alpha.881
+# v2.1.0-alpha.882
 
 ## Changes
 
-- docs: list the alpha.881 additions (e9e9438b)
-- fix(security): reject out of range PINs and hash them off the event loop (a7b16468)
+- docs: list the alpha.882 additions (982f14ba)
+- fix(lock): make PIN enforcement, ownership and programming honest (006fcc89)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
