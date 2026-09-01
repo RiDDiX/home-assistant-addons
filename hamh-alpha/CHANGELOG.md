@@ -1,8 +1,8 @@
-# v2.1.0-alpha.884
+# v2.1.0-alpha.885
 
 ## Changes
 
-- fix(#469): let a grouped device announce its own type (deebe575)
+- fix(#467): follow a Home Assistant rename after the endpoint is built (8ddbf9ef)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
