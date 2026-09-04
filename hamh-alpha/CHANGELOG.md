@@ -1,9 +1,8 @@
-# v2.1.0-alpha.891
+# v2.1.0-alpha.892
 
 ## Changes
 
-- chore: log the battery value the power source writes (5b8c4615)
-- chore: resolve dependabot alerts (e22e6c97)
+- chore: name the mapped entity that forced an update (e82fae61)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
