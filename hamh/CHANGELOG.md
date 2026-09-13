@@ -1,3 +1,52 @@
+## [2.0.57](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.56...v2.0.57) (2026-09-13)
+
+
+### Bug Fixes
+
+* **#155:** keep the camera token out of the devices api ([047fbf1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/047fbf118b452e502bb57dae8e7f4eb94b1b59e6)), closes [#155](https://github.com/RiDDiX/home-assistant-matter-hub/issues/155)
+* **#276:** apply the registry name in server mode ([77d94ab](https://github.com/RiDDiX/home-assistant-matter-hub/commit/77d94abfe31bdb588539fcb88d891bbe79bed06d)), closes [#276](https://github.com/RiDDiX/home-assistant-matter-hub/issues/276)
+* **#365:** mark the water leak detector unsupported on alexa ([6586947](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6586947fe143c8e7ab40a8c3c61be3d2f500e3b3)), closes [#365](https://github.com/RiDDiX/home-assistant-matter-hub/issues/365)
+* **#450:** keep the battery while its source blips ([f03e2f4](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f03e2f42b6ff5cddccc7e7da73237dc31308d6e4)), closes [#450](https://github.com/RiDDiX/home-assistant-matter-hub/issues/450)
+* **#450:** map a vacuum's charging sensor by itself ([1f827f7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1f827f77cca8d5d41581f7b96d4852fe9e8bcfaa)), closes [#450](https://github.com/RiDDiX/home-assistant-matter-hub/issues/450)
+* **#450:** report the battery percentage with the write ([ee57ebf](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ee57ebf53df10eb0d7c58a27dec221b007317f40)), closes [#450](https://github.com/RiDDiX/home-assistant-matter-hub/issues/450)
+* **#456:** keep the cover attribute list stable ([6a868dd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6a868dd47f84f0175fcd87696c7b766c693091fe)), closes [#456](https://github.com/RiDDiX/home-assistant-matter-hub/issues/456)
+* **#459:** make the add-on heap limit configurable ([d7ef4d0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d7ef4d0f76d0c28f6f032a1869dada3141b5b5bb)), closes [#459](https://github.com/RiDDiX/home-assistant-matter-hub/issues/459)
+* **#460:** scope the Alexa brightness workaround to its fabric ([931101d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/931101d5528f31257d3aea9b046ac3d36d788553)), closes [#460](https://github.com/RiDDiX/home-assistant-matter-hub/issues/460)
+* **#461:** drop a queued update when a composed endpoint closes ([ab500d6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ab500d696492b52a2ab8bd246fa5caabe48b7ce2)), closes [#461](https://github.com/RiDDiX/home-assistant-matter-hub/issues/461)
+* **#461:** stop composed devices from rebuilding themselves ([8f36ecd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8f36ecddb7312d94ab826db4ce1b05b54e3b2a7b)), closes [#461](https://github.com/RiDDiX/home-assistant-matter-hub/issues/461)
+* **#464:** let state writes wait for the endpoint lock ([b23005a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b23005a54968143bfdb909a7ae7047840a9816ea)), closes [#464](https://github.com/RiDDiX/home-assistant-matter-hub/issues/464)
+* **#464:** serialize endpoint state updates ([cd86587](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cd865874702c58f8765ee6b6601401a1f8f05d62)), closes [#464](https://github.com/RiDDiX/home-assistant-matter-hub/issues/464)
+* **#465:** say when a controller refuses the attestation ([ea2f789](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ea2f7890afcd167a95827286ba8e78e2f731a4e5)), closes [#465](https://github.com/RiDDiX/home-assistant-matter-hub/issues/465)
+* **#467:** follow a Home Assistant rename after the endpoint is built ([8ddbf9e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8ddbf9ef85f50370406d109c7191d32ccec27bf7)), closes [#467](https://github.com/RiDDiX/home-assistant-matter-hub/issues/467)
+* **#468:** apply a filter edit without the removal grace ([8038951](https://github.com/RiDDiX/home-assistant-matter-hub/commit/803895122deb57a2070304c01f396df108973049)), closes [#468](https://github.com/RiDDiX/home-assistant-matter-hub/issues/468)
+* **#468:** take a filtered vacuum's room switches along ([6b9aae5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6b9aae59d032252aead71b0b79e5797b3c1749dd)), closes [#468](https://github.com/RiDDiX/home-assistant-matter-hub/issues/468)
+* **#469:** let a grouped device announce its own type ([deebe57](https://github.com/RiDDiX/home-assistant-matter-hub/commit/deebe575ece2597c5ff84c52866307d743268d25)), closes [#469](https://github.com/RiDDiX/home-assistant-matter-hub/issues/469) [#218](https://github.com/RiDDiX/home-assistant-matter-hub/issues/218)
+* **#470:** keep thermostat registration values inside int16 ([2d5e933](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2d5e9335820b62fd0960f2fe723fdb7cb357fddb)), closes [#470](https://github.com/RiDDiX/home-assistant-matter-hub/issues/470)
+* **#471:** warn when a subscription is about to be dropped ([cd7c4e5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cd7c4e585d44f60093ab7245b4a13551bbd4ab51)), closes [#471](https://github.com/RiDDiX/home-assistant-matter-hub/issues/471)
+* **#472:** show temperatures in Home Assistant's unit ([7965e13](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7965e13da93cba14edcc065d66c5c43c8ef867b6)), closes [#472](https://github.com/RiDDiX/home-assistant-matter-hub/issues/472)
+* **#474:** say what Auto Composed Devices does ([04c6258](https://github.com/RiDDiX/home-assistant-matter-hub/commit/04c6258040928483aaf41e20fa766e9618c043d3)), closes [#474](https://github.com/RiDDiX/home-assistant-matter-hub/issues/474)
+* **#475:** number the EVSE mode from zero ([408936f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/408936fb69a1ad3885acc745c6386287a58c9a57)), closes [#475](https://github.com/RiDDiX/home-assistant-matter-hub/issues/475)
+* **#477:** keep a stored color temperature inside the range at start ([0114f40](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0114f408dfd007d1ec679d4e5dd399025c7fd1e2)), closes [#477](https://github.com/RiDDiX/home-assistant-matter-hub/issues/477)
+* **#477:** show the connection attempts in the diagnostic export ([6b74802](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6b7480239588ca3a08780c481bfa973e2f085072)), closes [#477](https://github.com/RiDDiX/home-assistant-matter-hub/issues/477)
+* **#478:** run the factory reset through the stop path ([20639ce](https://github.com/RiDDiX/home-assistant-matter-hub/commit/20639ce104b91ffeb12c2fe0631507e166e85f9f)), closes [#478](https://github.com/RiDDiX/home-assistant-matter-hub/issues/478)
+* **#482:** name the lan interface in the mdns warning ([406008a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/406008ac3e433128bad8ceb672ae8d34efb07586)), closes [#482](https://github.com/RiDDiX/home-assistant-matter-hub/issues/482)
+* keep a temperature sensor updating outside the usual range ([9010036](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9010036071ae5b30d005cf7f773a78cfd69bf6a9))
+* **lock:** make PIN enforcement, ownership and programming honest ([006fcc8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/006fcc8910c8b2807b50b8f94fd0127b64c5746a))
+* match the mutex closed message when stopping a bridge ([d291407](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d2914075c9be0c19f43e06d5e3f379adbfa2e8aa))
+* **matter:** announce dynamic plugin topology changes ([a32fcf8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a32fcf8fa9f08f2265db71b4e2d7f5db3c149550))
+* **matter:** expose plugin device display names ([605f995](https://github.com/RiDDiX/home-assistant-matter-hub/commit/605f9953146db6f3b200bd93f9548978004d5734))
+* **plugins:** harden the plugin runtime changes ([785c6af](https://github.com/RiDDiX/home-assistant-matter-hub/commit/785c6af43c16552f7077eb198743114dc6c53287))
+* **plugins:** load manifest entry point ([a174acf](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a174acfa3f4b0e84b5b11a977804b440e8b05f54))
+* **security:** harden the alarm panel mirror ([5f11172](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5f11172bef3010e247a116d7239614e6c1466fb5))
+* **security:** reject out of range PINs and hash them off the event loop ([a7b1646](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a7b164686d2299a4eb6d412dc70c449e44db50dc))
+
+
+### Features
+
+* **#424:** add omitEventsInPriming for silent Google subscriptions ([e7fa90d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e7fa90dd05377693a579f110a5950347dcd2d440)), closes [#424](https://github.com/RiDDiX/home-assistant-matter-hub/issues/424) [#424](https://github.com/RiDDiX/home-assistant-matter-hub/issues/424)
+* **#462:** add climateForceTurnOn per entity ([11257dc](https://github.com/RiDDiX/home-assistant-matter-hub/commit/11257dc2c7679c08bc240ddac73ca788aa03e67f)), closes [#462](https://github.com/RiDDiX/home-assistant-matter-hub/issues/462)
+* **security:** mirror Home Assistant alarm panels ([37d1e38](https://github.com/RiDDiX/home-assistant-matter-hub/commit/37d1e382746623b1b569c4909cf00cff31447d31))
+
 ## [2.0.56](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.55...v2.0.56) (2026-08-26)
 
 
