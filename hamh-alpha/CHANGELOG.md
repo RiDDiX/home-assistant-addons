@@ -1,9 +1,10 @@
-# v2.1.0-alpha.901
+# v2.1.0-alpha.902
 
 ## Changes
 
-- fix(#488): pair outlet sensors on the part of the id that differs (46c9e661)
-- fix: pair per-outlet power/energy sensors by index (#488) (df6e4523)
+- docs: list the alpha.901 and alpha.902 additions (b0514964)
+- fix(#486): understand the dishwasher states real integrations report (8e5ce846)
+- fix(#487): reap a session whose subscription never established (7adffe53)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
