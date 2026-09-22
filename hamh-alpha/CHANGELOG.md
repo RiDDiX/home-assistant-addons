@@ -1,11 +1,9 @@
-# v2.1.0-alpha.900
+# v2.1.0-alpha.901
 
 ## Changes
 
-- docs: list the alpha.900 additions (27876182)
-- feat(#484): offer the outlet type for metered lights (95c18a98)
-- feat(#478): flag a busy port 80 in the network check (271f0c8e)
-- docs(#478): drop the fresh bridge advice (19f3567a)
+- fix(#488): pair outlet sensors on the part of the id that differs (46c9e661)
+- fix: pair per-outlet power/energy sensors by index (#488) (df6e4523)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
