@@ -1,9 +1,8 @@
-# v2.1.0-alpha.907
+# v2.1.0-alpha.908
 
 ## Changes
 
-- test: poll for reactor results instead of fixed sleeps (697cb35b)
-- ci: build PR images on the pinned Node 22 like the release (8c0f0b0a)
+- fix(fan): HA state updates never reached the FanControl cluster (#494) (deb437da)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
