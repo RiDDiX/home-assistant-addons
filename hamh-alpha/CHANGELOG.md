@@ -1,9 +1,9 @@
-# v2.1.0-alpha.905
+# v2.1.0-alpha.906
 
 ## Changes
 
-- chore: resolve dependabot alerts (c754625c)
-- docs: list the alpha.904 additions (142abd25)
+- test: widen flaky debounce windows, close leaked test nodes (212213a1)
+- docs: correct the supported device types (d356c48a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
