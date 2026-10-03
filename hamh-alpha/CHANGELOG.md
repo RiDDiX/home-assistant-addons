@@ -1,8 +1,9 @@
-# v2.1.0-alpha.915
+# v2.1.0-alpha.916
 
 ## Changes
 
-- i18n: complete the French translation (#504) (5bf8d7b2)
+- docs: list the alpha.913 to 915 additions (b41ede2d)
+- chore: raise the undici 7 floor to 7.29.1 (5da1cb15)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
