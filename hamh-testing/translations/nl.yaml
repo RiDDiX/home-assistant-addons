@@ -1,0 +1,18 @@
+---
+configuration:
+  app_log_level:
+    name: Logniveau
+    description: |
+      Het logniveau van deze app. Een van: silly, debug, info, warn, error
+  disable_log_colors:
+    name: Logkleuren uitschakelen
+    description: |
+      Schrijf het log als platte tekst zonder kleuren.
+  mdns_network_interface:
+    name: mDNS-netwerkinterface
+    description: |
+      Beperk mDNS tot deze netwerkinterface. Wijzig dit alleen als je weet wat je doet. Standaard: leeg
+  heap_size_mb:
+    name: Node.js-heaplimiet (MB)
+    description: |
+      Maximale grootte van de Node.js-heap. Bij 0 wordt deze automatisch ingesteld op de helft van het vrije geheugen, tussen 256 en 2048 MB. Verhoog dit als een grote bridge onvoldoende geheugen heeft. Ver boven het vrije geheugen gaan vereist swap als buffer. Standaard: 0
