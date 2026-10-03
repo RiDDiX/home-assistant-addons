@@ -1,8 +1,8 @@
-# v2.1.0-alpha.914
+# v2.1.0-alpha.915
 
 ## Changes
 
-- feat(i18n): add Dutch (nl) translation (#503) (8de0bec7)
+- i18n: complete the French translation (#504) (5bf8d7b2)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
