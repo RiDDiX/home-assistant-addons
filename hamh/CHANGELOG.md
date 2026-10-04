@@ -1,3 +1,38 @@
+## [2.0.58](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.57...v2.0.58) (2026-10-04)
+
+
+### Bug Fixes
+
+* **#446:** put the entity back on its HA state when a call fails after the pre-check ([1f0c2a8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1f0c2a8808dbb0455fb68e51035b9eac86a4b058)), closes [#446](https://github.com/RiDDiX/home-assistant-matter-hub/issues/446)
+* **#483:** prune backups on startup, write archives under a temp name ([a83be3e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a83be3e29cf15532d5e3df8f5b91bf859ce0fcb4)), closes [#483](https://github.com/RiDDiX/home-assistant-matter-hub/issues/483)
+* **#483:** validate backup settings, handle archive write errors ([bb6a58c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bb6a58c5407ddaa1d852861ec490d50971f48283)), closes [#483](https://github.com/RiDDiX/home-assistant-matter-hub/issues/483)
+* **#486:** read a dishwasher's state from its state sensor ([3bcbbc2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/3bcbbc257037a3865603a3a311b5aa673fa3bd02)), closes [#486](https://github.com/RiDDiX/home-assistant-matter-hub/issues/486)
+* **#486:** understand the dishwasher states real integrations report ([8e5ce84](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8e5ce8460a7523e07a7c4b160c270c5829748a7c)), closes [#486](https://github.com/RiDDiX/home-assistant-matter-hub/issues/486)
+* **#487:** reap a session whose subscription never established ([7adffe5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7adffe53eb06f2e5787db91c9e51cb8ad679d86d)), closes [#487](https://github.com/RiDDiX/home-assistant-matter-hub/issues/487)
+* **#488:** pair outlet sensors on the part of the id that differs ([46c9e66](https://github.com/RiDDiX/home-assistant-matter-hub/commit/46c9e661bcc5c1026e4b30151e983ef97bb42e23)), closes [#488](https://github.com/RiDDiX/home-assistant-matter-hub/issues/488) [#488](https://github.com/RiDDiX/home-assistant-matter-hub/issues/488)
+* **#490:** clear a vacuum job once every room is done ([9cc0fde](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9cc0fde6e5d862423462842d168dd381b52cd4df)), closes [#490](https://github.com/RiDDiX/home-assistant-matter-hub/issues/490)
+* **#491:** send one call when Alexa turns a light on at a level ([0b949d8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0b949d85c9a6ce68098f9f8568e6a05acf43c833)), closes [#491](https://github.com/RiDDiX/home-assistant-matter-hub/issues/491) [#453](https://github.com/RiDDiX/home-assistant-matter-hub/issues/453)
+* **#492:** hide the last job's rooms while an outside clean runs ([26ffebe](https://github.com/RiDDiX/home-assistant-matter-hub/commit/26ffebecf5cb56f9cf9ed1376a06c31a11fe1469)), closes [#492](https://github.com/RiDDiX/home-assistant-matter-hub/issues/492) [#317](https://github.com/RiDDiX/home-assistant-matter-hub/issues/317)
+* **#495:** cover chip showed percent closed as open ([b6fa73f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b6fa73f9467375bbf855559361f063597e1ddfbe))
+* **#496:** report Running as soon as a controller starts the vacuum ([ed79a79](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ed79a793350b2eae86e2097678b8aeddbab9449a)), closes [#496](https://github.com/RiDDiX/home-assistant-matter-hub/issues/496)
+* **#497:** keep resolved rooms in the vacuum run modes ([a4b8f3c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a4b8f3c5916a779e3bc37abb22347900fe5bdc61))
+* **#498:** drop a battery endpoint its device already carries, retry battery mapping for sensors ([35c4ebf](https://github.com/RiDDiX/home-assistant-matter-hub/commit/35c4ebf8a31c1d12f6839c7868633b4e2cb7b578)), closes [#498](https://github.com/RiDDiX/home-assistant-matter-hub/issues/498)
+* **#501:** current area follows the vacuum through unselected rooms, room renames reach the area list ([2228461](https://github.com/RiDDiX/home-assistant-matter-hub/commit/2228461e4091108c6accfa6f28e302a50b9e2a36)), closes [#501](https://github.com/RiDDiX/home-assistant-matter-hub/issues/501)
+* **fan:** HA state updates never reached the FanControl cluster ([#494](https://github.com/RiDDiX/home-assistant-matter-hub/issues/494)) ([deb437d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/deb437dae63667b82676005a4473383a7e68305d))
+* **i18n:** backup strings no longer promise a schedule ([91d55b3](https://github.com/RiDDiX/home-assistant-matter-hub/commit/91d55b398d70a7f090053d1e485efb2858ca9054))
+* pair per-outlet power/energy sensors by index ([#488](https://github.com/RiDDiX/home-assistant-matter-hub/issues/488)) ([df6e452](https://github.com/RiDDiX/home-assistant-matter-hub/commit/df6e452300080ad770f67271c39c36e0614d7e96))
+* **plugins:** keep the stored config of a built-in that boots disabled ([f3c9161](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f3c916162bb5235a5746e377f7e3dc7f98f85fca))
+* show every paired controller, correct vendor names ([07875bb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/07875bb6e3d3abd3171a6c5c7a189f42b3459593)), closes [#305](https://github.com/RiDDiX/home-assistant-matter-hub/issues/305)
+
+
+### Features
+
+* **#478:** flag a busy port 80 in the network check ([271f0c8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/271f0c8e30f51d096fb47bb860c416b9583fb5fa)), closes [#478](https://github.com/RiDDiX/home-assistant-matter-hub/issues/478)
+* **#484:** offer the outlet type for metered lights ([95c18a9](https://github.com/RiDDiX/home-assistant-matter-hub/commit/95c18a98fc4882bfea15f8e04b43d4b4a4e16e92)), closes [#484](https://github.com/RiDDiX/home-assistant-matter-hub/issues/484)
+* **i18n:** add Dutch (nl) translation ([#503](https://github.com/RiDDiX/home-assistant-matter-hub/issues/503)) ([8de0bec](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8de0bec746373cd20dbd152ecdf01c828113b519))
+* laundry washer and dryer types, SmartThings in the support data ([70f0016](https://github.com/RiDDiX/home-assistant-matter-hub/commit/70f00164be0ea0066841ab4f69457285cf1168b9))
+* **plugins:** add a VeSync plugin for Levoit, Cosori and Etekcity devices ([0b50cd7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0b50cd7d3ffd4d1e6dc07c68183acbfc2e06a132))
+
 ## [2.0.57](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.56...v2.0.57) (2026-09-13)
 
 
