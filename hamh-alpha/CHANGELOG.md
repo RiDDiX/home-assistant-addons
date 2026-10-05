@@ -1,10 +1,9 @@
-# v2.1.0-alpha.917
+# v2.1.0-alpha.918
 
 ## Changes
 
-- docs: list the alpha.917 additions (7f9fd7da)
-- feat(plugins): add a VeSync plugin for Levoit, Cosori and Etekcity devices (0b50cd7d)
-- fix(plugins): keep the stored config of a built-in that boots disabled (f3c91616)
+- fix(#392): name the strip option in the mdns ipv6 warning (d607b2b1)
+- docs: v2.0.58 release notes (ecb7556a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
