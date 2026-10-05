@@ -1,9 +1,10 @@
-# v2.1.0-alpha.918
+# v2.1.0-alpha.919
 
 ## Changes
 
-- fix(#392): name the strip option in the mdns ipv6 warning (d607b2b1)
-- docs: v2.0.58 release notes (ecb7556a)
+- fix(#500): drop the no-op mdns re-announcement after session cleanup (36df09a2)
+- fix(#500): keep last known labels when the label query fails (e16dede0)
+- docs: list the alpha.918 mdns warning fix (2e561b8a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
