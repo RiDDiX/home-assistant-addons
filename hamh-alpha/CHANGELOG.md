@@ -1,10 +1,10 @@
-# v2.1.0-alpha.919
+# v2.1.0-alpha.920
 
 ## Changes
 
-- fix(#500): drop the no-op mdns re-announcement after session cleanup (36df09a2)
-- fix(#500): keep last known labels when the label query fails (e16dede0)
-- docs: list the alpha.918 mdns warning fix (2e561b8a)
+- feat(#505): log mounted device list changes after refresh (a90734cc)
+- fix(#505): drop the false 60s from session cleanup logs (71a7e495)
+- docs: list the alpha.919 label and mdns fixes (b5b6ce0e)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
