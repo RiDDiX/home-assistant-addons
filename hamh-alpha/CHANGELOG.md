@@ -1,10 +1,9 @@
-# v2.1.0-alpha.920
+# v2.1.0-alpha.921
 
 ## Changes
 
-- feat(#505): log mounted device list changes after refresh (a90734cc)
-- fix(#505): drop the false 60s from session cleanup logs (71a7e495)
-- docs: list the alpha.919 label and mdns fixes (b5b6ce0e)
+- feat(#506): add map name and floor number to vacuum custom service areas (65a0b159)
+- docs: list the alpha.920 device list log and session cleanup wording (6eeba605)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
