@@ -1,9 +1,9 @@
-# v2.1.0-alpha.921
+# v2.1.0-alpha.922
 
 ## Changes
 
-- feat(#506): add map name and floor number to vacuum custom service areas (65a0b159)
-- docs: list the alpha.920 device list log and session cleanup wording (6eeba605)
+- fix(#373): camera live view reaches SmartThings (b0bba80b)
+- docs: list the alpha.921 vacuum maps and floor numbers (b4921d2a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
