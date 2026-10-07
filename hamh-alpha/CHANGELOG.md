@@ -1,9 +1,9 @@
-# v2.1.0-alpha.922
+# v2.1.0-alpha.923
 
 ## Changes
 
-- fix(#373): camera live view reaches SmartThings (b0bba80b)
-- docs: list the alpha.921 vacuum maps and floor numbers (b4921d2a)
+- fix(#373): log HA errors and skip bad camera ids (cbfcebd5)
+- docs: list the alpha.922 camera live view fix (9f015dcd)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
