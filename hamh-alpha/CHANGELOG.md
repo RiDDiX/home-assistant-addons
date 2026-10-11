@@ -1,10 +1,9 @@
-# v2.1.0-alpha.932
+# v2.1.0-alpha.933
 
 ## Changes
 
-- test: flush the mapping storage before its temp dir is removed (bd2426d6)
-- fix: drop the stored omit events in priming flag (321c5b18)
-- docs: list the alpha.931 patch removal, rotation and evse targets (26e7d74f)
+- feat(#512): option to send cover open/close as a position (0d2ef948)
+- docs: list the alpha.932 stored flag cleanup (5bbad3e8)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
