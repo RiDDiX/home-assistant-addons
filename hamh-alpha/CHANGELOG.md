@@ -1,9 +1,11 @@
-# v2.1.0-alpha.936
+# v2.1.0-alpha.937
 
 ## Changes
 
-- chore: bump matter.js to the 20261014 nightly (bad7bf9c)
-- docs: list the alpha.935 matter conformance fixes (62e3a859)
+- fix: stop the timed off countdown when a light turns off (61d076ab)
+- fix: drop a camera session when its answer can't be delivered (bba68bd3)
+- fix: give cameras the mandatory audio feature (6c53cf04)
+- docs: list the alpha.936 matter.js nightly (58618e21)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
