@@ -1,11 +1,10 @@
-# v2.1.0-alpha.937
+# v2.1.0-alpha.938
 
 ## Changes
 
-- fix: stop the timed off countdown when a light turns off (61d076ab)
-- fix: drop a camera session when its answer can't be delivered (bba68bd3)
-- fix: give cameras the mandatory audio feature (6c53cf04)
-- docs: list the alpha.936 matter.js nightly (58618e21)
+- feat: pass the add-on protocol_log_level option (e894effe)
+- fix(#518): cut matter strings by utf-8 bytes (e2f4d11b)
+- docs: list the alpha.937 camera audio and timed off fixes (7a3882b2)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
