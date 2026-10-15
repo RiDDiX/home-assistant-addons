@@ -4,6 +4,10 @@ configuration:
     name: Log Level
     description: |
       The log level used for this addon. One of: silly, debug, info, warn, error
+  protocol_log_level:
+    name: Protocol Log Level
+    description: |
+      Log level for the matter.js packet logs (MessageChannel, MessageExchange). Only set it to debug when asked for a protocol log, it is very verbose. Default: info
   disable_log_colors:
     name: Disable log colors
     description: |
