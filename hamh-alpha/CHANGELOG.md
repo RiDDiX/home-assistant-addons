@@ -1,10 +1,9 @@
-# v2.1.0-alpha.940
+# v2.1.0-alpha.941
 
 ## Changes
 
-- docs(#514, #516): no unlatch button in apple home, room switches for google (df460d35)
-- fix(#515): read the fan direction from the direction attribute (a17c70b9)
-- docs: list the alpha.938 and alpha.939 matter string length fixes (dcc41757)
+- chore: bump matter.js to the 20261017 nightly (4fb64fe7)
+- docs: list the alpha.940 fan direction fix (4ead9eac)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
