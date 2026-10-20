@@ -1,9 +1,11 @@
-# v2.1.0-alpha.941
+# v2.1.0-alpha.942
 
 ## Changes
 
-- chore: bump matter.js to the 20261017 nightly (4fb64fe7)
-- docs: list the alpha.940 fan direction fix (4ead9eac)
+- docs: list the alpha.942 matter.js 0.18.0 release (b490dfb6)
+- chore: bump matter.js to 0.18.0 (eafc601a)
+- docs: add xerj contributor badge (0314857a)
+- docs: list the alpha.941 matter.js nightly (988b33ea)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
