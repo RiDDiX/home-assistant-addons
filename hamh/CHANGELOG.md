@@ -1,3 +1,54 @@
+## [2.0.59](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.58...v2.0.59) (2026-10-21)
+
+
+### Bug Fixes
+
+* **#287:** make session rotation opt-in and close subscriptions before rotating ([f832857](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f8328570d75156e0a3dbfd22b381c8d13ed54266))
+* **#301:** give same type server mode devices a numbered TagList ([ba274f8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ba274f8494183d6edb0c2a29cbd508822867b67f)), closes [#301](https://github.com/RiDDiX/home-assistant-matter-hub/issues/301)
+* **#373:** camera live view reaches SmartThings ([b0bba80](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b0bba80bd214d6b99fb0b56aae542c39abf93c0a)), closes [#373](https://github.com/RiDDiX/home-assistant-matter-hub/issues/373)
+* **#373:** log HA errors and skip bad camera ids ([cbfcebd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/cbfcebd5b2e2d669b51ec7f15f237dfe7d099346)), closes [#373](https://github.com/RiDDiX/home-assistant-matter-hub/issues/373)
+* **#373:** raise HA WebRTC UDP receive buffer to 4 MB ([1508671](https://github.com/RiDDiX/home-assistant-matter-hub/commit/150867189b1f3a01c6350ed6c3593b2d4d645f36)), closes [#373](https://github.com/RiDDiX/home-assistant-matter-hub/issues/373)
+* **#392:** name the strip option in the mdns ipv6 warning ([d607b2b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d607b2b1177e47a8c851bc3d48cd603f14a3062b)), closes [#392](https://github.com/RiDDiX/home-assistant-matter-hub/issues/392)
+* **#408:** give same type composed parts a numbered TagList ([d1da261](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d1da26184560b4b86a9171701dc7eb8a16834c0e)), closes [#408](https://github.com/RiDDiX/home-assistant-matter-hub/issues/408)
+* **#500:** drop the no-op mdns re-announcement after session cleanup ([36df09a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/36df09a200b0bc56842718b6e61d83f577698e78)), closes [#500](https://github.com/RiDDiX/home-assistant-matter-hub/issues/500)
+* **#500:** keep last known labels when the label query fails ([e16dede](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e16dede07dcd771ed14c5f9b5ad88e192217ea9a)), closes [#500](https://github.com/RiDDiX/home-assistant-matter-hub/issues/500)
+* **#505:** drop the false 60s from session cleanup logs ([71a7e49](https://github.com/RiDDiX/home-assistant-matter-hub/commit/71a7e495324a75ba847c266d7268b1fe6394a473)), closes [#505](https://github.com/RiDDiX/home-assistant-matter-hub/issues/505)
+* **#505:** keep fan SpeedMax while unavailable ([b292db7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b292db7044827d7aa757d1d47e6ef8a3c466eeeb)), closes [#505](https://github.com/RiDDiX/home-assistant-matter-hub/issues/505)
+* **#510:** color right after On reaches HA ([43b6939](https://github.com/RiDDiX/home-assistant-matter-hub/commit/43b6939acd28a8db157ea46ec0f8f1db7e5dbd9a)), closes [#510](https://github.com/RiDDiX/home-assistant-matter-hub/issues/510)
+* **#511:** room mode opt-in covers CLEAN_AREA and attribute rooms ([ee18758](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ee187582556b3eb455e397cffcc4ec3aa804e1b1)), closes [#511](https://github.com/RiDDiX/home-assistant-matter-hub/issues/511)
+* **#513:** use set topology so SmartThings attaches the meter ([b8c19f2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b8c19f23b5b628189a5d6e0603b9be468d4e9bdd)), closes [#513](https://github.com/RiDDiX/home-assistant-matter-hub/issues/513)
+* **#515:** read the fan direction from the direction attribute ([a17c70b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a17c70b9bd9b0053bfca9432653e44b9d65f7e07)), closes [#515](https://github.com/RiDDiX/home-assistant-matter-hub/issues/515)
+* **#518:** cut matter strings by utf-8 bytes ([e2f4d11](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e2f4d11b152dce0d27a7f8c6595f36e0c28c2e74)), closes [#518](https://github.com/RiDDiX/home-assistant-matter-hub/issues/518)
+* **#518:** cut room labels by utf-8 bytes ([a5932ee](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a5932eefedb06c00e336236f9f265bd2fa1c3c7c)), closes [#518](https://github.com/RiDDiX/home-assistant-matter-hub/issues/518)
+* add a refused second clean mode to single-mode vacuums ([0a68259](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0a682598c3a7591399db2d9b0b5f4813364d4bfb))
+* add a refused time of use mode to the evse ([56051a6](https://github.com/RiDDiX/home-assistant-matter-hub/commit/56051a6b0e8e1eb4cb4ea4e86a564f5dcc323a16))
+* advertise OnOff Lighting on plugs and cover as light ([46708d8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/46708d83efafc621d9f34659227c679b95fda754))
+* answer the evse charging target commands ([94582eb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/94582ebe8ecd192f5d9171d2501ef23513e3c70f))
+* drop a camera session when its answer can't be delivered ([bba68bd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bba68bd3b56d35ec940fd85d249bbb6c9e608697))
+* drop the stored omit events in priming flag ([321c5b1](https://github.com/RiDDiX/home-assistant-matter-hub/commit/321c5b18852a5ae0d50fbcf24648f7e0306259f4))
+* give cameras the mandatory audio feature ([6c53cf0](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6c53cf04ecd227cca56b96fa0cfa80c5f3c319bb))
+* give smoke/CO alarms and solar a wired power source ([faa0551](https://github.com/RiDDiX/home-assistant-matter-hub/commit/faa055196430a0d500b4091dafa36db8958aceb4))
+* give the evse its device energy management component ([269ad87](https://github.com/RiDDiX/home-assistant-matter-hub/commit/269ad87b08e253e502ef1bdccde002c18954f167))
+* list ColorControl RemainingTime on color lights ([1c8680c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1c8680ccddd7cd08cdd86f45d360af51ef336372))
+* long press event ends released and fires once ([9d8339f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9d8339f2d93e96cddab8714afed7f6a8bfcd20d2))
+* map a tilting shutter to an exterior venetian blind ([8954a97](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8954a97c820355aa244eed6fa86926ed9c4444b7))
+* match the matter.js 0.18 timer interval error ([a8de282](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a8de2823df24fcb73b68b855467ff423086020c9))
+* mount the pump mapping with the ConstantSpeed feature ([845fd41](https://github.com/RiDDiX/home-assistant-matter-hub/commit/845fd413c39045ec4de8d404c5b839eb7902593f))
+* mount tv media players without play or pause ([e4463e2](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e4463e20e92d01f32b98d5c54bceb97d706ae56e))
+* set a valid cover end product type before the first update ([b6783fb](https://github.com/RiDDiX/home-assistant-matter-hub/commit/b6783fb1789bf2065cfce9203770fd8d773d2499))
+* skip matter.js device type validation at runtime ([6a31ab8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/6a31ab86f19b985dd2579b8749a7377a5f357080))
+* stop the timed off countdown when a light turns off ([61d076a](https://github.com/RiDDiX/home-assistant-matter-hub/commit/61d076ab7dca52230a9d6d083a7b9bc4d67db6a7))
+* unlock with timeout reaches home assistant and relocks ([810f788](https://github.com/RiDDiX/home-assistant-matter-hub/commit/810f788ab1ac99b5bc216b34beda9a2a31357147))
+
+
+### Features
+
+* **#418:** option to expose a lock without PIN codes ([aa93143](https://github.com/RiDDiX/home-assistant-matter-hub/commit/aa93143215f253826dd9b0afc393e48ad1028ae8)), closes [#418](https://github.com/RiDDiX/home-assistant-matter-hub/issues/418)
+* **#505:** log mounted device list changes after refresh ([a90734c](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a90734cc293e1e112f4976d1ef4254f598f94398)), closes [#505](https://github.com/RiDDiX/home-assistant-matter-hub/issues/505)
+* **#506:** add map name and floor number to vacuum custom service areas ([65a0b15](https://github.com/RiDDiX/home-assistant-matter-hub/commit/65a0b159950101c638478bece51a61a58100586e)), closes [#506](https://github.com/RiDDiX/home-assistant-matter-hub/issues/506)
+* **#512:** option to send cover open/close as a position ([0d2ef94](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0d2ef948ea2946c6dfb5dfede3c4c42d9c1f8af7))
+* pass the add-on protocol_log_level option ([e894eff](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e894effe83c245a44d73f93e522e48ef2ef686c0))
+
 ## [2.0.58](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.57...v2.0.58) (2026-10-04)
 
 
