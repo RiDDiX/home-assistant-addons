@@ -1,9 +1,9 @@
-# v2.1.0-alpha.943
+# v2.1.0-alpha.944
 
 ## Changes
 
-- chore: resolve dependabot alerts (2ae5018b)
-- docs: v2.0.59 release notes (dbe7e15c)
+- fix(#515): rebuild fan endpoints when capabilities change (4daad8e9)
+- fix(#519): resume thermostat from Off on cooling setpoint writes (a87ba0f0)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
