@@ -1,8 +1,8 @@
-# v2.1.0-alpha.946
+# v2.1.0-alpha.947
 
 ## Changes
 
-- feat(#507): add productNameFromModel bridge feature flag (a2b8b183)
+- test(#528): add loopback proof for occupancy motion wiring (8b1769c6)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
