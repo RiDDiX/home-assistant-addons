@@ -1,11 +1,13 @@
-# v2.1.0-alpha.950
+# v2.1.0-alpha.951
 
 ## Changes
 
-- test: fix vesync and camera test locking races (8ec7c01f)
-- fix: keep last areas on failed HA registry query (3c192904)
-- fix: spread mapping config in backup restore to keep all fields (f0b5e2d4)
-- docs(#523): add Express Forwarding row to connectivity guide (e56e3e70)
+- feat: translate remaining hard-coded bridge UI strings (516b7dbc)
+- ci: smoke test packed tarball in PR and alpha runs (7972b1ab)
+- ci: limit release workflows to default repository (6380116f)
+- fix: compare update versions numerically, skip older stables (0558733d)
+- fix: apply bridge port edits to the ServerNode (4408c4a0)
+- fix: bundle bootstrap.ts so it configures the bundled matter.js config (2838247d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
