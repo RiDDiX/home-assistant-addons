@@ -1,10 +1,11 @@
-# v2.1.0-alpha.949
+# v2.1.0-alpha.950
 
 ## Changes
 
-- docs(#530): note GS014 after leaving server mode, factory reset gives bridge node new id (4b2cf54e)
-- fix(#530): raise attestation CSR warning grace from 10s to 30s (82b865f9)
-- fix(#530): renew root UniqueID on factory reset, bridge id survived erase (20364ca6)
+- test: fix vesync and camera test locking races (8ec7c01f)
+- fix: keep last areas on failed HA registry query (3c192904)
+- fix: spread mapping config in backup restore to keep all fields (f0b5e2d4)
+- docs(#523): add Express Forwarding row to connectivity guide (e56e3e70)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
