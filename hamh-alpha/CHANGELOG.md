@@ -1,9 +1,9 @@
-# v2.1.0-alpha.960
+# v2.1.0-alpha.961
 
 ## Changes
 
-- feat(frontend): replace top bar nav with side drawer and flat UI (d408c7a6)
-- fix(frontend): stabilize hooks, close sockets, reset errors (e0d59923)
+- fix(frontend): address audit findings and cleanup (edbbbfbf)
+- fix(backend): live bridge import, clear optional PUT, guard reset (3082e38a)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
