@@ -1,9 +1,9 @@
-# v2.1.0-alpha.959
+# v2.1.0-alpha.960
 
 ## Changes
 
-- chore: update qs, follow-redirects, and joi overrides (28265539)
-- docs: list alpha.953 to alpha.958 in the alpha notes (fe79ffaf)
+- feat(frontend): replace top bar nav with side drawer and flat UI (d408c7a6)
+- fix(frontend): stabilize hooks, close sockets, reset errors (e0d59923)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
