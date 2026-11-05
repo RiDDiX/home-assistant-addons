@@ -1,9 +1,8 @@
-# v2.1.0-alpha.964
+# v2.1.0-alpha.965
 
 ## Changes
 
-- fix: close armed failsafe before factory reset erase (#541) (3b684d6e)
-- feat: add custom CSS, branding, appearance options (17ad2b93)
+- docs: clarify unique ID suffix requires app restart (f048b273)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
