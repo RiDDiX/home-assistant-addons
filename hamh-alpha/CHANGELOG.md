@@ -1,8 +1,8 @@
-# v2.1.0-alpha.970
+# v2.1.0-alpha.971
 
 ## Changes
 
-- fix: fan on with no percentage, label rename, area fetch warn, mdns diff (64fdc989)
+- fix: thermostat setpoint lost on resume, raise/lower resume, wizard device labels, mdns retry (94cc3ce9)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
