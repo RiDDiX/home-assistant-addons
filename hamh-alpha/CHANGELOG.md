@@ -1,8 +1,8 @@
-# v2.1.0-alpha.969
+# v2.1.0-alpha.970
 
 ## Changes
 
-- fix: host and origin guard, ws auth, plugin name, backup cap, base href (f1ba6c09)
+- fix: fan on with no percentage, label rename, area fetch warn, mdns diff (64fdc989)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
