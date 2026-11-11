@@ -1,8 +1,9 @@
-# v2.1.0-alpha.975
+# v2.1.0-alpha.976
 
 ## Changes
 
-- fix: add-on panel 403, slow test timeouts, camera deallocate retry (0d824c70)
+- docs: list alpha.976 in README (42815341)
+- fix: host origin, backup size, json, icons, images, plugin spec (882b989b)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
