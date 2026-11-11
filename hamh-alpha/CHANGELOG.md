@@ -1,9 +1,8 @@
-# v2.1.0-alpha.976
+# v2.1.0-alpha.977
 
 ## Changes
 
-- docs: list alpha.976 in README (42815341)
-- fix: host origin, backup size, json, icons, images, plugin spec (882b989b)
+- fix: pairing window, config version, mdns container links, ipv6 check (8d6e9476)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
