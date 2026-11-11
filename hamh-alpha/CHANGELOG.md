@@ -1,9 +1,9 @@
-# v2.1.0-alpha.973
+# v2.1.0-alpha.974
 
 ## Changes
 
-- test: mock process.kill for backup api tests (9bc0d776)
-- docs: list alpha.972 in README (1bf9b18d)
+- docs: list alpha.974 in README (3b2da329)
+- feat: add-on option access_token to act as its own user (3f7a6312)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
