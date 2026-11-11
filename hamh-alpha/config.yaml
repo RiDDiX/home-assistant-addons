@@ -24,6 +24,8 @@ options:
   mdns_network_interface: ""
   mdns_strip_global_ipv6: false
   heap_size_mb: 0
+  access_token: ""
+  home_assistant_url: "http://127.0.0.1:8123"
 schema:
   app_log_level: list(silly|debug|info|notice|warn|error|fatal)
   protocol_log_level: list(silly|debug|info|notice|warn|error|fatal)
@@ -31,3 +33,5 @@ schema:
   mdns_network_interface: "str?"
   mdns_strip_global_ipv6: bool
   heap_size_mb: int(0,8192)
+  access_token: "password?"
+  home_assistant_url: "url?"
