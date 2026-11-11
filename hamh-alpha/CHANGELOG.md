@@ -1,10 +1,9 @@
-# v2.1.0-alpha.972
+# v2.1.0-alpha.973
 
 ## Changes
 
-- test: use temp dir for web api storage (8c434c32)
-- docs: add alpha.970 and alpha.971 to README (50adb602)
-- fix: vacuum dock, offline reset, lock pin, config, HA, bridge (cc7db13f)
+- test: mock process.kill for backup api tests (9bc0d776)
+- docs: list alpha.972 in README (1bf9b18d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
