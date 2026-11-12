@@ -1,8 +1,8 @@
-# v2.1.0-alpha.978
+# v2.1.0-alpha.979
 
 ## Changes
 
-- fix: session, watchdog, reset, topology, mutex, identity (4f71a43d)
+- fix: refresh retry, slow bridge, config version, mdns, controller log (f76d0298)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
