@@ -1,8 +1,8 @@
-# v2.1.0-alpha.977
+# v2.1.0-alpha.978
 
 ## Changes
 
-- fix: pairing window, config version, mdns container links, ipv6 check (8d6e9476)
+- fix: session, watchdog, reset, topology, mutex, identity (4f71a43d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
