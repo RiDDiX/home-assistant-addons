@@ -1,8 +1,9 @@
-# v2.1.0-alpha.990
+# v2.1.0-alpha.991
 
 ## Changes
 
-- feat: add-on option local_api_password for local API access (#551) (bffed78a)
+- feat: add local_access switch with optional password (#551) (5fd0049d)
+- docs: list alpha.990 in README and docs (498348aa)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
