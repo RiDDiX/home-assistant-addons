@@ -1,9 +1,9 @@
-# v2.1.0-alpha.987
+# v2.1.0-alpha.988
 
 ## Changes
 
-- fix: level with on-off, thermostat drift, blank sensors, serial 32 bytes, fabric log, device class, race, reload, bridge rollback (14600a06)
-- docs: list alpha.985 and alpha.986 in README and docs (cd301746)
+- fix: vacuum room switches in removal grace, long custom name id, stable identity anchor (1af828b2)
+- docs: v2.0.60 release notes (9f22fb21)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
