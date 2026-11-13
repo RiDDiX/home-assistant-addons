@@ -1,9 +1,9 @@
-# v2.1.0-alpha.991
+# v2.1.0-alpha.992
 
 ## Changes
 
-- feat: add local_access switch with optional password (#551) (5fd0049d)
-- docs: list alpha.990 in README and docs (498348aa)
+- fix: unavailable and unknown selects count as no value (#552) (f0310314)
+- docs: list alpha.991 in README and docs (536a4a34)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
