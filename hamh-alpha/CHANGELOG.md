@@ -1,9 +1,8 @@
-# v2.1.0-alpha.985
+# v2.1.0-alpha.986
 
 ## Changes
 
-- fix: bridge waits for HA, battery, identity re-key, session supervisor (bebebe14)
-- docs: list alpha.984 in README and docs (727fdfd2)
+- fix: bridge icon check returns false on a failed fetch (d2658ed5)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
