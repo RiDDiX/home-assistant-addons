@@ -26,6 +26,7 @@ options:
   heap_size_mb: 0
   access_token: ""
   home_assistant_url: "http://127.0.0.1:8123"
+  local_api_password: ""
 schema:
   app_log_level: list(silly|debug|info|notice|warn|error|fatal)
   protocol_log_level: list(silly|debug|info|notice|warn|error|fatal)
@@ -35,3 +36,4 @@ schema:
   heap_size_mb: int(0,8192)
   access_token: "password?"
   home_assistant_url: "url?"
+  local_api_password: "password?"
