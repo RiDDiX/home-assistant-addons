@@ -32,7 +32,11 @@ configuration:
     name: Home Assistant URL
     description: |
       Address of Home Assistant, only used when an access token is set. Default: http://127.0.0.1:8123
+  allow_local_access:
+    name: Allow local access
+    description: |
+      Lets programs on the Home Assistant host reach the HAMH API at http://127.0.0.1 and the port shown in the add-on log. Without a local API password every process on the host gets full control of HAMH. Default: off
   local_api_password:
     name: Local API password
     description: |
-      Lets programs on the Home Assistant host reach the HAMH API at http://127.0.0.1 and the port shown in the add-on log, with user name hamh and this password. The password gives full control of HAMH, so give it only to software you trust. Every process on the host can reach it, so pick a strong password. While set it replaces the password from the HAMH settings. The sidebar panel works without it. Default: empty
+      Optional, only used while local access is allowed. Local clients then log in with user name hamh and this password. The password gives full control of HAMH, so give it only to software you trust. While set it replaces the password from the HAMH settings. The sidebar panel works without it. Default: empty
