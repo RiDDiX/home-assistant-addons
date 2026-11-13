@@ -1,9 +1,9 @@
-# v2.1.0-alpha.984
+# v2.1.0-alpha.985
 
 ## Changes
 
-- fix: stable identity endpoint id clash, file overwrite, refresh retry budget (f11843c5)
-- docs: list alpha.983 in README and docs (24ff34a5)
+- fix: bridge waits for HA, battery, identity re-key, session supervisor (bebebe14)
+- docs: list alpha.984 in README and docs (727fdfd2)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
