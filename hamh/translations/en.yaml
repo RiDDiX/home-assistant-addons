@@ -24,3 +24,11 @@ configuration:
     name: Node.js heap limit (MB)
     description: |
       Maximum Node.js heap size. 0 sizes it automatically at half of the free memory, between 256 and 2048 MB. Raise it if a large bridge runs out of memory. Going far above the free memory needs swap to back it. Default: 0
+  access_token:
+    name: Access token
+    description: |
+      Long-lived access token of the Home Assistant user the bridge should act as. Empty keeps the Supervisor connection, where actions show up as the user Supervisor. An administrator keeps everything working, a normal user loses the hamh_action event and the vacuum room segment lookup. A wrong token counts as a failed login in Home Assistant. Default: empty
+  home_assistant_url:
+    name: Home Assistant URL
+    description: |
+      Address of Home Assistant, only used when an access token is set. Default: http://127.0.0.1:8123
