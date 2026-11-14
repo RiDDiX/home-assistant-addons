@@ -1,9 +1,9 @@
-# v2.1.0-alpha.992
+# v2.1.0-alpha.993
 
 ## Changes
 
-- fix: unavailable and unknown selects count as no value (#552) (f0310314)
-- docs: list alpha.991 in README and docs (536a4a34)
+- fix: fan speed and HEPA state persist across restarts (#505) (d5cbccd4)
+- docs: list alpha.992 in README and docs (c66bd77d)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
