@@ -1,8 +1,9 @@
-# v2.1.0-alpha.996
+# v2.1.0-alpha.997
 
 ## Changes
 
-- fix: retry delete failure in identity file, cover 10 min HA wait, add bound and close fallback tests (bc897e85)
+- fix: factory reset survives port issues, handles runtime crashes, and fixes mDNS and OTBR warnings (#549, #543) (9fbe00b1)
+- docs: list alpha.995 and alpha.996 in README and docs (77c6aee3)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
