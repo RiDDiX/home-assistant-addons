@@ -1,9 +1,9 @@
-# v2.1.0-alpha.997
+# v2.1.0-alpha.998
 
 ## Changes
 
-- fix: factory reset survives port issues, handles runtime crashes, and fixes mDNS and OTBR warnings (#549, #543) (9fbe00b1)
-- docs: list alpha.995 and alpha.996 in README and docs (77c6aee3)
+- fix: add-on refuses to start when /config is not mapped (Supervisor <2026.07.1, #553); mDNS address updates on retry (ff5ef41d)
+- docs: list alpha.997 in README and docs (11225b6e)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
