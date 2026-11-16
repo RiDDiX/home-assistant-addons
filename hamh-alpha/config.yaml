@@ -16,7 +16,7 @@ arch:
 ingress: true
 ingress_port: 0
 map:
-  - addon_config:rw
+  - app_config:rw
 options:
   app_log_level: info
   protocol_log_level: info
