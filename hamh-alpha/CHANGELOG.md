@@ -1,8 +1,9 @@
-# v2.1.0-alpha.999
+# v2.1.0-alpha.1000
 
 ## Changes
 
-- fix: room air conditioner OnOff follows HA when climate has no full on/off support or opt-out, humidity/pressure auto merge claims match the create path, isolated endpoint gets one remount, HA subscription kept while entity ids are unchanged, shared temperature and battery sensor config, dead climate wind/airflow callbacks removed, battery PowerSource order 0 (#549) (50d67b7f)
+- feat: new opt-in bridge flag preferEntityAlias uses first Home Assistant entity alias as Matter device name (#555) (8777d1fa)
+- docs: list alpha.998 and alpha.999 in README and docs (e884bd06)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
