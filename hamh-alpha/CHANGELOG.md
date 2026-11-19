@@ -1,9 +1,9 @@
-# v2.1.0-alpha.1000
+# v2.1.0-alpha.1001
 
 ## Changes
 
-- feat: new opt-in bridge flag preferEntityAlias uses first Home Assistant entity alias as Matter device name (#555) (8777d1fa)
-- docs: list alpha.998 and alpha.999 in README and docs (e884bd06)
+- fix: security plugin replays trip alerts, locks clear PINs, API redacts tokens, filter patterns run under 2s, vacuum rebuilds, and dead code removed (955610d3)
+- docs: list alpha.1000 in README and docs (8ec602e0)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
