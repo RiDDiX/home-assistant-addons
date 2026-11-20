@@ -1,9 +1,9 @@
-# v2.1.0-alpha.1001
+# v2.1.0-alpha.1002
 
 ## Changes
 
-- fix: security plugin replays trip alerts, locks clear PINs, API redacts tokens, filter patterns run under 2s, vacuum rebuilds, and dead code removed (955610d3)
-- docs: list alpha.1000 in README and docs (8ec602e0)
+- fix: staged backup restore with rollback, app-wide data, local web UI, masked logs, debug trace, retry (#549) (67915c59)
+- docs: list alpha.1001 in README and docs (c42d8846)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
