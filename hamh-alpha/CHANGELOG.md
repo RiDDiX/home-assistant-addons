@@ -1,9 +1,8 @@
-# v2.1.0-alpha.1007
+# v2.1.0-alpha.1008
 
 ## Changes
 
-- fix(api): prefer `X-Forwarded-Prefix` over `X-Ingress-Path` (#557) (a4e7583c)
-- docs: list alpha.1006 in README and docs (c34a7373)
+- fix: proxy prefix as plain path, root redirect keeps prefix (#557) (7cda5adb)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
