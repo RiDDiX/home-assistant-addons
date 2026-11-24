@@ -1,9 +1,9 @@
-# v2.1.0-alpha.1006
+# v2.1.0-alpha.1007
 
 ## Changes
 
-- fix: humidity and pressure use separate endpoints, battery stays on parent (8f3d6288)
-- docs: list alpha.1004 and alpha.1005 in README and docs (691f1548)
+- fix(api): prefer `X-Forwarded-Prefix` over `X-Ingress-Path` (#557) (a4e7583c)
+- docs: list alpha.1006 in README and docs (c34a7373)
 
 ---
 ⚠️ **This is an alpha release** - use at your own risk!
