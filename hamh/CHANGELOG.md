@@ -1,3 +1,35 @@
+# [2.1.0](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.60...v2.1.0) (2026-11-25)
+
+
+### Bug Fixes
+
+* add-on refuses to start when /config is not mapped (Supervisor <2026.07.1, [#553](https://github.com/RiDDiX/home-assistant-matter-hub/issues/553)); mDNS address updates on retry ([ff5ef41](https://github.com/RiDDiX/home-assistant-matter-hub/commit/ff5ef41d78460f54316a74b825ab6e24bddd9636))
+* **api:** prefer `X-Forwarded-Prefix` over `X-Ingress-Path` ([#557](https://github.com/RiDDiX/home-assistant-matter-hub/issues/557)) ([a4e7583](https://github.com/RiDDiX/home-assistant-matter-hub/commit/a4e7583c1b17c6a6af3f6a9672e28d92fbccfab0))
+* bridge waits 30s for failing endpoints, filters device classes, and retries errors ([#543](https://github.com/RiDDiX/home-assistant-matter-hub/issues/543)) ([e5f170b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/e5f170b23b746d62698d12e9f2faa6f88dad576d))
+* climate RAC OnOff test waits for state update instead of fixed delay ([0144942](https://github.com/RiDDiX/home-assistant-matter-hub/commit/0144942c88ef25fdd9983644e174d4e7bffc72da))
+* factory reset survives port issues, handles runtime crashes, and fixes mDNS and OTBR warnings ([#549](https://github.com/RiDDiX/home-assistant-matter-hub/issues/549), [#543](https://github.com/RiDDiX/home-assistant-matter-hub/issues/543)) ([9fbe00b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/9fbe00b16a087a05cb596b448eadd407a30396f1))
+* fan speed and HEPA state persist across restarts ([#505](https://github.com/RiDDiX/home-assistant-matter-hub/issues/505)) ([d5cbccd](https://github.com/RiDDiX/home-assistant-matter-hub/commit/d5cbccd4d678698dd99836d50e62fc03b2b76922))
+* flags apply on save, UI chip follows, tilt fallback, rounded percent ([#448](https://github.com/RiDDiX/home-assistant-matter-hub/issues/448)) ([badcca8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/badcca818ac71ce36ed27ab254bd3a4701c50d0f))
+* humidity and pressure use separate endpoints, battery stays on parent ([8f3d628](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8f3d62888d72d570a7f19352205fcd67fa461df7))
+* light mounted unavailable upgrades device type, one color key per turn_on, HA refusal resets entity block, null event_types, xy optimistic state ([#549](https://github.com/RiDDiX/home-assistant-matter-hub/issues/549)) ([f0afec7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f0afec7027592ed2c1cb8190db4129b750181cf1))
+* numbered endpoints, late start, identity flush, config version, session cleanup, flaky tests ([#543](https://github.com/RiDDiX/home-assistant-matter-hub/issues/543)) ([f516a8e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f516a8e177e4cb5181df22f7a5bdd8bb4debd58b))
+* paired bridge waits 10 min for HA, logs session close, retries labels, renames hint ([547353e](https://github.com/RiDDiX/home-assistant-matter-hub/commit/547353eb87180438a6f038e867ab2c7a3bc922d4))
+* proxy prefix as plain path, root redirect keeps prefix ([#557](https://github.com/RiDDiX/home-assistant-matter-hub/issues/557)) ([7cda5ad](https://github.com/RiDDiX/home-assistant-matter-hub/commit/7cda5adb3f60dba30945fd396382add84bf0a7c5))
+* retry delete failure in identity file, cover 10 min HA wait, add bound and close fallback tests ([bc897e8](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bc897e851a5afd114d4a9cd206e8c482365bb647))
+* room air conditioner OnOff follows HA when climate has no full on/off support or opt-out, humidity/pressure auto merge claims match the create path, isolated endpoint gets one remount, HA subscription kept while entity ids are unchanged, shared temperature and battery sensor config, dead climate wind/airflow callbacks removed, battery PowerSource order 0 ([#549](https://github.com/RiDDiX/home-assistant-matter-hub/issues/549)) ([50d67b7](https://github.com/RiDDiX/home-assistant-matter-hub/commit/50d67b7f03dd909f1e57c21dd048c27e240eaea0))
+* security plugin replays trip alerts, locks clear PINs, API redacts tokens, filter patterns run under 2s, vacuum rebuilds, and dead code removed ([955610d](https://github.com/RiDDiX/home-assistant-matter-hub/commit/955610d3e75cb81d3d6fbbec999329ed79f4ddb5))
+* staged backup restore with rollback, app-wide data, local web UI, masked logs, debug trace, retry ([#549](https://github.com/RiDDiX/home-assistant-matter-hub/issues/549)) ([67915c5](https://github.com/RiDDiX/home-assistant-matter-hub/commit/67915c5906d5de27fbfaa0365d66a2a97511545a))
+* unavailable and unknown selects count as no value ([#552](https://github.com/RiDDiX/home-assistant-matter-hub/issues/552)) ([f031031](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f03103142943987f77d17c29027508bdaf208242))
+* vacuum mode stays in list, guards at restart, filters rooms ([f2fec86](https://github.com/RiDDiX/home-assistant-matter-hub/commit/f2fec8626a96a0f797aced763004e9f024f8594e))
+* vacuum room switches in removal grace, long custom name id, stable identity anchor ([1af828b](https://github.com/RiDDiX/home-assistant-matter-hub/commit/1af828b205a382791a6562360fdc01b931e481a6))
+
+
+### Features
+
+* add local_access switch with optional password ([#551](https://github.com/RiDDiX/home-assistant-matter-hub/issues/551)) ([5fd0049](https://github.com/RiDDiX/home-assistant-matter-hub/commit/5fd0049d42d3fa25b9d30ac3607f365269d79011))
+* add-on option local_api_password for local API access ([#551](https://github.com/RiDDiX/home-assistant-matter-hub/issues/551)) ([bffed78](https://github.com/RiDDiX/home-assistant-matter-hub/commit/bffed78a96982b18f8127e10962b67d4e0be5e69))
+* new opt-in bridge flag preferEntityAlias uses first Home Assistant entity alias as Matter device name ([#555](https://github.com/RiDDiX/home-assistant-matter-hub/issues/555)) ([8777d1f](https://github.com/RiDDiX/home-assistant-matter-hub/commit/8777d1fab869b3884a537074a2c0b6b683d8407c))
+
 ## [2.0.60](https://github.com/RiDDiX/home-assistant-matter-hub/compare/v2.0.59...v2.0.60) (2026-11-13)
 
 
